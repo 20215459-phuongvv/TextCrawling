@@ -18,6 +18,6 @@ public class PostRequestDTO {
     int size = 10;
     String title;
     List<String> tagList;
-    Long from;
-    Long to;
+    LocalDateTime from;
+    LocalDateTime to;
 }

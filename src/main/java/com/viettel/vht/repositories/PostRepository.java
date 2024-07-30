@@ -60,11 +60,10 @@ public class PostRepository {
         Bson query = filters.isEmpty() ? new Document() : Filters.and(filters);
 
         List<Document> documents = postCollection.find(query)
-                .sort(Sorts.ascending("time"))
+                .sort(Sorts.descending("time"))
                 .skip(postRequestDTO.getPage() * postRequestDTO.getSize())
                 .limit(postRequestDTO.getSize())
                 .into(new ArrayList<>());
-        System.out.println(documents.get(0));
         List<PostEntity> postEntities = new ArrayList<>();
         if (!documents.isEmpty()) {
             for (Document document : documents) {
