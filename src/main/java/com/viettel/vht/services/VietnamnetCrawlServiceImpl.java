@@ -23,14 +23,19 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 @Service
 public class VietnamnetCrawlServiceImpl implements VietnamnetCrawlService {
     @Autowired
     private PostRepository postRepository;
+    private final AtomicBoolean running = new AtomicBoolean(false);
     @Override
     public List<PostEntity> crawlVietnamnet(boolean isScheduled) throws IOException {
         List<PostEntity> postEntityList = new ArrayList<>();
+        if (isScheduled && !running.get()) {
+            return postEntityList;
+        }
         Document document = Jsoup.connect(Constants.Vietnamnet.BASE_URL).get();
         Elements li = document.getElementsByClass(Constants.Vietnamnet.UL_CLASS).first().getElementsByTag(Constants.Tag.LI);
         for (Element element : li) {
@@ -40,11 +45,17 @@ public class VietnamnetCrawlServiceImpl implements VietnamnetCrawlService {
                         .first()
                         .getElementsByTag(Constants.Tag.LI);
                 for (Element liElem : liList) {
+                    if (isScheduled && !running.get()) {
+                        return postEntityList;
+                    }
                     String pageUrl = liElem.getElementsByTag(Constants.Tag.A).first().absUrl(Constants.Attribute.HREF);
                     System.out.println(pageUrl);
                     List<String> pagePostUrlList = crawlVietnamnetPostUrlByTag(pageUrl, isScheduled);
                     if (pagePostUrlList != null && !pagePostUrlList.isEmpty()) {
                         for (String postUrl : pagePostUrlList) {
+                            if (isScheduled && !running.get()) {
+                                return postEntityList;
+                            }
                             System.out.println(postUrl);
                             org.bson.Document doc = postRepository.postCollection.find(Filters.eq("url", postUrl)).first();
                             if (doc == null) {
@@ -66,8 +77,20 @@ public class VietnamnetCrawlServiceImpl implements VietnamnetCrawlService {
     @Override
     @Async
     public CompletableFuture<List<PostEntity>> crawlVietnamnetAsync() throws IOException {
-        List<PostEntity> postEntityList = crawlVietnamnet(true);
-        return CompletableFuture.completedFuture(postEntityList);
+        return CompletableFuture.supplyAsync(() -> {
+            running.set(true);
+            List<PostEntity> posts = new ArrayList<>();
+            try {
+                while (running.get()) {
+                    posts = crawlVietnamnet(true);
+                }
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            } finally {
+                running.set(false);
+            }
+            return posts;
+        });
     }
 
     @Override
@@ -79,9 +102,14 @@ public class VietnamnetCrawlServiceImpl implements VietnamnetCrawlService {
         return postEntity;
     }
 
+    @Override
+    public void stopCrawling() {
+        running.set(false);
+    }
+
     private List<String> crawlVietnamnetPostUrlByTag(String url, boolean isScheduled) throws IOException {
         List<String> pagePostUrlList = new ArrayList<>();
-        int max = isScheduled ? 5 : Constants.Vietnamnet.MAX_PAGE;
+        int max = isScheduled ? 2 : Constants.Vietnamnet.MAX_PAGE;
         if (Constants.Vietnamnet.DEAD_PAGE.contains(url)) {
             return null;
         }

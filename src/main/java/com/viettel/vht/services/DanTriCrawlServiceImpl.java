@@ -24,15 +24,20 @@ import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 @Service
 public class DanTriCrawlServiceImpl implements DanTriCrawlService {
     @Autowired
     private PostRepository postRepository;
+    private final AtomicBoolean running = new AtomicBoolean(false);
     private static final String CHROME_DRIVER_PATH = "C:\\Users\\Admin\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe";
     @Override
     public List<PostEntity> crawlDanTri(boolean isScheduled) throws IOException {
         List<PostEntity> postEntityList = new ArrayList<>();
+        if (isScheduled && !running.get()) {
+            return postEntityList;
+        }
         Document document = Jsoup.connect(Constants.DanTri.BASE_URL).get();
         Elements li = document.getElementsByClass(Constants.DanTri.LI_CLASS);
         for (Element element : li) {
@@ -41,6 +46,9 @@ public class DanTriCrawlServiceImpl implements DanTriCrawlService {
                     .first()
                     .getElementsByTag(Constants.Tag.LI);
             for (Element liElem : liList) {
+                if (isScheduled && !running.get()) {
+                    return postEntityList;
+                }
                 String pageUrl = liElem.getElementsByTag(Constants.Tag.A).first().absUrl(Constants.Attribute.HREF);
                 System.out.println(pageUrl);
                 if (pageUrl.startsWith(Constants.DanTri.BASE_URL)
@@ -52,6 +60,9 @@ public class DanTriCrawlServiceImpl implements DanTriCrawlService {
                     List<String> pagePostUrlList = crawlDanTriPostUrlByTag(pageUrl, isScheduled);
                     if (!pagePostUrlList.isEmpty()) {
                         for (String postUrl : pagePostUrlList) {
+                            if (isScheduled && !running.get()) {
+                                return postEntityList;
+                            }
                             System.out.println(postUrl);
                             org.bson.Document doc = postRepository.postCollection.find(Filters.eq("url", postUrl)).first();
                             if (doc == null && postUrl != null && !"".equals(postUrl)) {
@@ -73,8 +84,20 @@ public class DanTriCrawlServiceImpl implements DanTriCrawlService {
     @Override
     @Async
     public CompletableFuture<List<PostEntity>> crawlDanTriAsync() throws IOException {
-        List<PostEntity> postEntityList = crawlDanTri(true);
-        return CompletableFuture.completedFuture(postEntityList);
+        return CompletableFuture.supplyAsync(() -> {
+            running.set(true);
+            List<PostEntity> posts = new ArrayList<>();
+            try {
+                while (running.get()) {
+                    posts = crawlDanTri(true);
+                }
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            } finally {
+                running.set(false);
+            }
+            return posts;
+        });
     }
 
     @Override
@@ -86,9 +109,14 @@ public class DanTriCrawlServiceImpl implements DanTriCrawlService {
         return postEntity;
     }
 
+    @Override
+    public void stopCrawling() {
+        running.set(false);
+    }
+
     private List<String> crawlDanTriPostUrlByTag(String url, boolean isScheduled) throws IOException {
         List<String> pagePostUrlList = new ArrayList<>();
-        int max = isScheduled ? 5 : Constants.DanTri.MAX_PAGE;
+        int max = isScheduled ? 2 : Constants.DanTri.MAX_PAGE;
         for (int page = 1 ; page <= max; page++) {
             String newUrl = url.replace(".htm", String.format(Constants.DanTri.PAGE, page));
             System.out.println(newUrl);

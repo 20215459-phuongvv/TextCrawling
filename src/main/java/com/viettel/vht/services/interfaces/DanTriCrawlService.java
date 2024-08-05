@@ -10,4 +10,5 @@ public interface DanTriCrawlService {
     List<PostEntity> crawlDanTri(boolean isScheduled) throws IOException;
     CompletableFuture<List<PostEntity>> crawlDanTriAsync() throws IOException;
     PostEntity crawlOneDanTriPost(String url) throws IOException;
+    void stopCrawling();
 }

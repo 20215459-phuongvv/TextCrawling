@@ -11,4 +11,5 @@ public interface VietnamnetCrawlService {
     CompletableFuture<List<PostEntity>> crawlVietnamnetAsync() throws IOException;
 
     PostEntity crawlOneVietnamnetPost(String url) throws IOException;
+    void stopCrawling();
 }
