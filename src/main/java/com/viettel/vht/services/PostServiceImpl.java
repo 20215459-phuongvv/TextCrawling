@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Set;
+
 @Service
 public class PostServiceImpl implements PostService {
     @Autowired
@@ -16,5 +18,10 @@ public class PostServiceImpl implements PostService {
     @Override
     public PostResponseDTO getPostsByProperties(PostRequestDTO dto) {
         return postRepository.findPosts(dto);
+    }
+
+    @Override
+    public Set<String> getAllTags() {
+        return postRepository.getAllTags();
     }
 }

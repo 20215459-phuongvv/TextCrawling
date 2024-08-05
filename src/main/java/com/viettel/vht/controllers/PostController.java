@@ -7,10 +7,10 @@ import com.viettel.vht.services.interfaces.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Set;
 
 @RestController
 @RequestMapping("api/v1/posts")
@@ -20,5 +20,9 @@ public class PostController {
     @GetMapping("")
     public PostResponseDTO getPost(PostRequestDTO dto) {
         return postService.getPostsByProperties(dto);
+    }
+    @GetMapping("/tags")
+    public Set<String> getAllTags() {
+        return postService.getAllTags();
     }
 }

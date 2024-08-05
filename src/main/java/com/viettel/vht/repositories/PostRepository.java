@@ -1,5 +1,6 @@
 package com.viettel.vht.repositories;
 
+import com.mongodb.client.AggregateIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Filters;
@@ -13,8 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.time.ZoneOffset;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 @Repository
 public class PostRepository {
@@ -85,5 +85,23 @@ public class PostRepository {
                 .postEntityList(postEntities)
                 .total(total)
                 .build();
+    }
+
+    public Set<String> getAllTags() {
+        List<Document> pipeline = Arrays.asList(
+                new Document("$unwind", "$tagList"),
+                new Document("$group", new Document("_id", null)
+                        .append("uniqueTags", new Document("$addToSet", "$tagList"))
+                )
+        );
+        AggregateIterable<Document> result = postCollection.aggregate(pipeline);
+        Set<String> uniqueTags = new HashSet<>();
+        if (result.first() != null) {
+            List<String> tags = (List<String>) result.first().get("uniqueTags");
+            if (tags != null) {
+                uniqueTags.addAll(tags);
+            }
+        }
+        return uniqueTags;
     }
 }
