@@ -5,6 +5,7 @@ import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Filters;
 import com.mongodb.client.model.Sorts;
 import com.viettel.vht.dtos.PostRequestDTO;
+import com.viettel.vht.dtos.PostResponseDTO;
 import com.viettel.vht.entities.PostEntity;
 import org.bson.Document;
 import org.bson.conversions.Bson;
@@ -38,7 +39,7 @@ public class PostRepository {
             postCollection.insertOne(document);
         }
     }
-    public List<PostEntity> findPosts(PostRequestDTO postRequestDTO) {
+    public PostResponseDTO findPosts(PostRequestDTO postRequestDTO) {
         List<Bson> filters = new ArrayList<>();
 
         if (postRequestDTO.getTitle() != null && !postRequestDTO.getTitle().isEmpty()) {
@@ -58,7 +59,7 @@ public class PostRepository {
         }
 
         Bson query = filters.isEmpty() ? new Document() : Filters.and(filters);
-
+        long total = postCollection.countDocuments(query);
         List<Document> documents = postCollection.find(query)
                 .sort(Sorts.descending("time"))
                 .skip(postRequestDTO.getPage() * postRequestDTO.getSize())
@@ -80,6 +81,9 @@ public class PostRepository {
                 postEntities.add(postEntity);
             }
         }
-        return postEntities;
+        return PostResponseDTO.builder()
+                .postEntityList(postEntities)
+                .total(total)
+                .build();
     }
 }

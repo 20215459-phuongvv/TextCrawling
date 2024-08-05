@@ -1,6 +1,7 @@
 package com.viettel.vht.services;
 
 import com.viettel.vht.dtos.PostRequestDTO;
+import com.viettel.vht.dtos.PostResponseDTO;
 import com.viettel.vht.entities.PostEntity;
 import com.viettel.vht.repositories.PostRepository;
 import com.viettel.vht.services.interfaces.PostService;
@@ -13,7 +14,7 @@ public class PostServiceImpl implements PostService {
     @Autowired
     private PostRepository postRepository;
     @Override
-    public List<PostEntity> getPostsByProperties(PostRequestDTO dto) {
+    public PostResponseDTO getPostsByProperties(PostRequestDTO dto) {
         return postRepository.findPosts(dto);
     }
 }
