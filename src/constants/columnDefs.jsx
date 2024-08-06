@@ -3,23 +3,26 @@ import SubmenuTrigger from '../ui/SubmenuTrigger';
 import TruncatedText from '../components/TruncatedText';
 import { NavLink } from 'react-router-dom';
 
-export const DASHBOARD_COLUMN_DEFS = [
+export const DASHBOARD_COLUMN_DEFS = (onClck) => [
     {
+        key: 1,
         title: 'Date & Time',
         dataIndex: 'time',
         width: '10%',
         render: timestamp => <Timestamp date={timestamp}/>,
     },
     {
+        key: 2,
         title: 'Title',
         dataIndex: 'title',
         // responsive: ['lg'],  
         width: '20%',
-        render: title => <TruncatedText className="font-heading font-bold" lines={1} text={title} />
+        render: title => <TruncatedText className="font-heading font-bold" lines={3} text={title} />
     },
     {
-        title: 'Sumary',
-        dataIndex: 'sumary',
+        key: 3,
+        title: 'Summary',
+        dataIndex: 'summary',
         responsive: ['xl'],
         width: '40%',
         render: sumary => <div className="flex flex-1 gap-5 bg-input-bg border border-input-border h-20 rounded-md
@@ -30,6 +33,7 @@ export const DASHBOARD_COLUMN_DEFS = [
                         </div>
     },
     {
+        key: 4,
         title: 'Source',
         dataIndex: 'source',
         responsive: ['xxl'],
@@ -37,19 +41,21 @@ export const DASHBOARD_COLUMN_DEFS = [
         render: source => <span className='text-accent capitalize'>{source}</span>
     },
     {
+        key: 5,
         title: 'tags',
         dataIndex: 'tagList',
         responsive: ['xl'],
         width: '10%',
-        render: tagList => tagList?.map(tag => <span className="capitalize">{tag}, </span>)
+        render: tagList => tagList?.map(tag => <span key={tag} className="capitalize">{tag}, </span>)
     },
     {
+        key: 6,
         title: 'Actions',
         dataIndex: 'actions',
         width: '5%',
-        render: () =>
+        render: (_, record) =>
             <div className="flex items-center justify-end gap-11">
-                <NavLink aria-label="Edit">
+                <NavLink aria-label="Edit" onClick={() => onClck(record)}>
                     <i className="icon icon-pen-to-square-regular text-lg leading-none"/>
                 </NavLink>
                 <SubmenuTrigger/>

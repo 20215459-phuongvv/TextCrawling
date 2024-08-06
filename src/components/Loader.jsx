@@ -1,7 +1,6 @@
 import Ring from '../assets/oval.svg';
 
 const Loader = () => {
-    console.log(Ring);
     return (
         <div className="flex flex-1 justify-center items-center">
             <div className="w-[150px] h-[150px] text-accent">
