@@ -58,7 +58,23 @@ export const DASHBOARD_COLUMN_DEFS = (onClck) => [
                 <NavLink aria-label="Edit" onClick={() => onClck(record)}>
                     <i className="icon icon-pen-to-square-regular text-lg leading-none"/>
                 </NavLink>
-                <SubmenuTrigger/>
+                {/* <SubmenuTrigger/> */}
             </div>
     }
+];
+
+export const CLUSTER_COLUMN_DEFS = [
+    {
+        key: 1,
+        title: 'Date & Time',
+        dataIndex: 'time',
+        width: '10%',
+        render: time => <Timestamp date={time}/>,
+    },
+    {
+        key: 2,
+        title: 'Title',
+        dataIndex: 'text',
+        render: text => <TruncatedText className="font-heading font-bold" lines={3} text={text} />
+    },
 ];

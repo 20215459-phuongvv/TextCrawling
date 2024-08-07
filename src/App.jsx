@@ -21,10 +21,10 @@ import axios from 'axios';
 
 
 const Dashboard = lazy(() => import('./pages/Dashboard'))
+const Cluster = lazy(() => import('./pages/Cluster'))
 
 function App() {
   const { width } = useWindowSize();
-  const appRef = useRef(null);
   const { theme } = useTheme();
   const path = useLocation().pathname;
   const withSidebar = path !== '/login' && path !== '/404';
@@ -46,6 +46,7 @@ function App() {
               <div className="main">
                 <Routes>
                   <Route path="" element={<Dashboard />} />
+                  <Route path="/cluster" element={<Cluster />} />
                 </Routes>
               </div>
             </Suspense>

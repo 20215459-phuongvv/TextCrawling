@@ -6,10 +6,8 @@ import { ThemeProvider } from './contexts/themeContext.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    {/* <React.StrictMode> */}
     <ThemeProvider>
       <App />
     </ThemeProvider>
-    {/* </React.StrictMode>, */}
   </BrowserRouter>
 )

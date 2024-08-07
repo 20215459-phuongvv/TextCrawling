@@ -1,0 +1,2859 @@
+{
+    "num_clusters": 78,
+    "num_clustered_documents": 307,
+    "num_noise_documents": 308,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "documents": [
+          {
+            "time": "2024-08-06T19:30:00",
+            "text": "Thị trường chứng khoán ấm lại theo thế giới sau cú lao dốc khoảng 3% trước đó khiến vốn hóa bốc hơi 8 tỷ USD. Nhiều dự báo bớt bi quan. Tuy nhiên, nỗi lo có lẽ vẫn còn. Một số cổ phiếu tiếp tục xu hướng đi xuống như QCG của nhà ông Cường Đôla."
+          },
+          {
+            "time": "2024-08-06T18:08:00",
+            "text": "Trong khi VNG bị phạt 157,5 triệu đồng do vi phạm công bố thông tin thì Chứng khoán Nhất Việt lãnh phạt nặng vì vi phạm quy định hạn chế cho vay, cho khách hàng rút tiền vượt quá sức mua."
+          },
+          {
+            "time": "2024-08-06T16:26:41",
+            "text": "Sự suy thoái của thị trường chứng khoán mở đầu tuần mới khiến huyền thoại đầu tư Warren Buffett cùng các nhà sáng lập và giám đốc điều hành tỷ phú tại thung lũng Silicon phải chứng kiến tài sản ròng bốc hơi hàng tỷ USD."
+          },
+          {
+            "time": "2024-08-06T12:47:00",
+            "text": "Hưng phấn đầu phiên, tuy vậy, chứng khoán sáng nay vẫn chật vật đòi lại 1.200 điểm do lượng tiền đổ vào thị trường chưa thực sự quyết liệt. Trong khi HBC suýt tăng trần thì QCG giảm về sát giá sàn."
+          },
+          {
+            "time": "2024-08-06T08:17:00",
+            "text": "Làn sóng bán tháo dữ dội lan rộng trên thị trường chứng khoán toàn cầu. Tiền số cũng lao dốc và chìm trong sắc đỏ. Tuy nhiên, huyền thoại đầu tư Warren Buffett đã kịp chốt lời ngay trước cú sập này."
+          },
+          {
+            "time": "2024-08-06T08:10:00",
+            "text": "Giá vàng thường có xu hướng tăng khi các tài sản rủi ro như chứng khoán, tiền số… giảm. Nhưng lần này, khi các thị trường tài chính chao đảo, kim loại quý vẫn lao dốc mạnh."
+          },
+          {
+            "time": "2024-08-06T06:00:00",
+            "text": "Giá vàng hôm nay 6/8/2024 trên thị trường quốc tế tiếp tục lao dốc, bất chấp kinh tế Mỹ có dấu hiệu suy thoái. Tuy vậy, vàng vẫn được nhận định sẽ sớm quay đầu tăng giá."
+          },
+          {
+            "time": "2024-08-06T05:30:00",
+            "text": "Thị trường đang chứng kiến một hiện tượng hiếm gặp khi hầu hết các loại tài sản đều lao dốc, các sàn chứng khoán sụp đổ, USD giảm mạnh, giá vàng rơi tự do... Diễn biến này trái với quy luật thường thấy: Đồng USD tăng thì vàng giảm và ngược lại."
+          },
+          {
+            "time": "2024-08-06T05:20:00",
+            "text": "Giá xăng dầu hôm nay 6/8/2024 trên thị trường quốc tế tiếp đà đi xuống do lo ngại về nguy cơ suy thoái kinh tế tại Mỹ. Giá dầu đã xuống mức thấp nhất từ tháng 1."
+          },
+          {
+            "time": "2024-08-06T01:17:29",
+            "text": "Chánh Thanh tra Bộ TN-MT Lê Vũ Tuấn Anh đã có quyết định xử phạt Bệnh viện Đa khoa bình Dương số tiền 370 triệu đồng cho 4 hành vi vi phạm về bảo vệ môi trường."
+          },
+          {
+            "time": "2024-08-06T01:03:51",
+            "text": "Lo ngại về nguy cơ suy thoái kinh tế ở Mỹ do tỉ lệ thất nghiệp tăng cao đã làm rung chuyển thị trường chứng khoán toàn cầu trong phiên giao dịch đầu tuần."
+          },
+          {
+            "time": "2024-08-06T01:00:00",
+            "text": "Thị trường chứng khoán Việt Nam khởi đầu tuần 5/8 với việc VN-Index đánh mất mốc 1.200 điểm. Một số chuyên gia cho rằng nhà đầu tư không nên bán tháo vào lúc này, cần chờ xem diễn biến các phiên tới như thế nào, cũng như đánh giá các yếu tố về vĩ mô, tăng trưởng kinh tế."
+          },
+          {
+            "time": "2024-08-06T00:59:00",
+            "text": "Chứng khoán Mỹ giảm mạnh vào thứ Hai (05/08), khi nhà đầu tư lo ngại về sức khỏe nền kinh tế Mỹ dẫn đến làn sóng bán tháo trên thị trường toàn cầu. Các hợp đồng dầu WTI tương lai giảm xuống mức thấp nhất trong 6 tháng, do lo ngại nền kinh tế có thể đang bấp bênh trên bờ vực suy thoái."
+          },
+          {
+            "time": "2024-08-06T00:57:00",
+            "text": "Thị trường chứng khoán Việt Nam ghi nhận diễn biến trồi sụt mạnh khiến thị trường trở nên khó nắm bắt. Đỉnh điểm với việc để mất mốc quan trọng 1.200 điểm, VN-Index đang rơi tình trạng 'báo động đỏ'."
+          },
+          {
+            "time": "2024-08-06T00:54:00",
+            "text": "Vi phạm hàng loạt quy định về bảo vệ môi trường trong quá trình hoạt động, Bệnh viện đa khoa tỉnh Bình Dương bị cơ quan chức năng phạt 370 triệu đồng."
+          },
+          {
+            "time": "2024-08-06T00:52:00",
+            "text": "Ngày 5/8, thị trường chứng khoán Nhật Bản chứng kiến một phiên bán tháo mạnh mẽ trong 'ngày tồi tệ nhất từ trước đến nay'."
+          },
+          {
+            "time": "2024-08-06T00:52:00",
+            "text": "Các thị trường chứng khoán lớn trên thế giới vừa trải qua đợt lao dốc và rung lắc mạnh vào phiên 5/8 trong bối cảnh giới đầu tư lo ngại nền kinh tế Mỹ sẽ chậm lại đột ngột hơn nhiều so với dự kiến. Sự lo ngại càng gia tăng bởi thanh khoản thị trường thấp trong tháng Tám."
+          },
+          {
+            "time": "2024-08-06T00:50:00",
+            "text": "Giá vàng đã thu hẹp phần nào đà giảm vào cuối phiên 5/8 do lo ngại về nguy cơ kinh tế Mỹ suy thoái đã gây ra đợt bán tháo toàn cầu."
+          },
+          {
+            "time": "2024-08-06T00:49:00",
+            "text": "VCBS và Chứng khoán Asean dự báo khả năng chỉ số VN-Index tiếp tục lao dốc vẫn cao, còn SHS nhận định chỉ số có thể phục hồi lên vùng kháng cự 1.200 điểm. Chứng khoán Asean"
+          },
+          {
+            "time": "2024-08-06T00:39:00",
+            "text": "Các thị trường chứng khoán lớn trên thế giới vừa trải qua đợt lao dốc và rung lắc mạnh vào phiên 5/8 trong bối cảnh giới đầu tư lo ngại nền kinh tế Mỹ sẽ chậm lại đột ngột hơn nhiều so với dự kiến."
+          },
+          {
+            "time": "2024-08-06T00:35:00",
+            "text": "Giá dầu giảm trong phiên giao dịch đầy biến động 5/8, do đợt bán tháo kéo dài trên thị trường chứng khoán toàn cầu cùng nỗi lo về triển vọng nhu cầu năng lượng."
+          },
+          {
+            "time": "2024-08-06T00:32:32",
+            "text": "UBCKNN đã ban hành quyết định xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán đối với Công ty cổ phần Chứng khoán Nhất Việt (mã VFS-HNX) với tổng số tiền là 325 triệu đồng."
+          },
+          {
+            "time": "2024-08-06T00:32:00",
+            "text": "Thị trường chứng khoán ngày 5/8 đã có một phiên giao dịch đen tối khi VN-Index mất gần 50 điểm điểm. Đáng ngạc nhiên, giữa giông bão thị trường, một cổ phiếu khoáng sản vẫn ngược dòng tăng trần nhiều phiên liên tiếp."
+          },
+          {
+            "time": "2024-08-06T00:30:00",
+            "text": "Vàng đã giảm hơn 1%, bị cuốn vào dòng chảy của đợt bán tháo trên thị trường toàn cầu, rộng hơn do lo ngại về kinh tế gia tăng, mặc dù các nhà phân tích cho biết đây sẽ là đợt điều chỉnh tạm thời đối với tài sản trú ẩn an toàn."
+          },
+          {
+            "time": "2024-08-06T00:13:00",
+            "text": "Trong ngày thị trường chứng khoán Việt Nam thủng mốc 1.200 điểm, nhiều đại gia trên sàn chứng khoán bị mất cả trăm đến nghìn tỷ đồng."
+          },
+          {
+            "time": "2024-08-06T00:11:44",
+            "text": "Ủy ban Chứng khoán Nhà nước có quyết định xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán đối với Công ty cổ phần Chứng khoán Nhất Việt (mã VFS - sàn HNX)."
+          }
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "documents": [
+          {
+            "time": "2024-08-06T20:34:00",
+            "text": "Từng là nạn nhân của việc lạm dụng tình dục ở đội thể dục dụng cụ (TDDC) Mỹ, vươn lên từ nghịch cảnh, giành lấy vinh quang, Simone Biles đang trải qua những ngày tháng đỉnh cao cuối cùng ở Olympic."
+          },
+          {
+            "time": "2024-08-06T20:10:00",
+            "text": "Vận động viên (VĐV) Xu Zhuoyi gây sốt với vẻ ngoài độc lạ, giống như thư sinh mọt sách nhưng anh lại có đôi chân chạy rất nhanh."
+          },
+          {
+            "time": "2024-08-06T19:34:00",
+            "text": "Trong những ngày qua, có nhiều vận động viên (VĐV) đã nhiễm bệnh khi bơi qua sông Seine ở nội dung 3 môn phối hợp."
+          },
+          {
+            "time": "2024-08-06T18:04:00",
+            "text": "Với quyết tâm giành huy chương ở nội dung dưới 61kg nam môn cử tạ tại Olympic Paris 2024, lực sĩ Việt Nam Trịnh Văn Vinh đăng ký mức tạ gây bất ngờ."
+          },
+          {
+            "time": "2024-08-06T17:33:00",
+            "text": "Beatrice Chebet đã giành được huy chương vàng (HCV) đầu tiên cho đoàn thể thao Kenya tại Olympic Paris 2024, sau khi cô chiến thắng ở nội dung chạy 5.000m nữ ."
+          },
+          {
+            "time": "2024-08-06T17:00:00",
+            "text": "Về đến Hà Nội vào chiều nay (6/8), xạ thủ Trịnh Thu Vinh chia sẻ về những ngày cô thi đấu ở Olympic và khoảng cách trình độ giữa vận động viên (VĐV) Việt Nam với đấu trường Thế vận hội."
+          },
+          {
+            "time": "2024-08-06T15:10:00",
+            "text": "Vận động viên (VĐV) người Philippines EJ Obiena mất huy chương danh giá trong môn điền kinh hết sức đáng tiếc, vì thua chỉ số phụ."
+          },
+          {
+            "time": "2024-08-06T13:40:38",
+            "text": "Lịch thi đấu bóng đá nam Olympic 2024 hôm nay 6/8/2024 - Cung cấp lịch thi đấu bóng đá nam vòng bán kết Olympic Paris 2024 mới nhất."
+          },
+          {
+            "time": "2024-08-06T13:31:28",
+            "text": "Bảng tổng sắp huy chương Olympic 2024 - Cập nhật liên tục, chính xác và sớm nhất bảng tổng sắp huy chương Olympic Paris 2024."
+          },
+          {
+            "time": "2024-08-06T10:41:00",
+            "text": "Vận động viên (VĐV) bóng bàn người Brazil, Bruna Alexandre ghi dấu ấn lịch sử khi thi đấu chỉ bằng một tay ở Olympic Paris 2024 trước những đối thủ lành lặn và rất mạnh của thế giới."
+          },
+          {
+            "time": "2024-08-06T10:35:00",
+            "text": "Ngay sau khi giành HCV Olympic 2024, tay vợt cầu lông người Hàn Quốc An Se Young đã bóng gió về việc giải nghệ khỏi đội tuyển quốc gia vì cách xử lý không tốt chấn thương đầu gối của cô."
+          },
+          {
+            "time": "2024-08-06T09:59:00",
+            "text": "Nữ kình ngư người Paraguay, Luana Alonso, đã buộc phải rời khỏi làng Olympic, vì ăn mặc quá hở hang, gây ảnh hưởng tới các vận động viên (VĐV)."
+          },
+          {
+            "time": "2024-08-06T09:46:00",
+            "text": "Nam thần vô địch Olympic, Thomas Ceccon, người giành huy chương vàng nội dung 100m bơi ngửa nam, đã mang khăn ra trải ở công viên để ngủ vì cơ sở vật chất ở làng Olympic quá tệ."
+          },
+          {
+            "time": "2024-08-06T07:10:00",
+            "text": "Trong ngày thi đấu thứ 10, đoàn thể thao Trung Quốc đã giành thêm 2 tấm HCV đến từ môn bắn súng và thể dục dụng cụ để giành lại vị trí dẫn đầu bảng tổng sắp huy chương Olympic 2024 từ Mỹ."
+          },
+          {
+            "time": "2024-08-06T06:59:00",
+            "text": "Sau khi giành HCV đơn nam quần vợt Olympic Paris 2024, Novak Djokovic hé lộ về khả năng có thể tham dự Olympic 2028."
+          },
+          {
+            "time": "2024-08-06T06:03:00",
+            "text": "Thái Lan vẫn chưa thể có HCV đầu tiên ở Olympic Paris 2024, nhưng vẫn xếp trên Việt Nam và nhiều quốc gia Đông Nam Á khác nhờ tấm HCB ở môn cầu lông."
+          },
+          {
+            "time": "2024-08-06T04:49:00",
+            "text": "Thắng Olympic Ai Cập 3-1 sau 120 phút căng thẳng, Olympic Pháp sẽ tranh huy chương vàng môn bóng đá nam Olympic Paris 2024 với Tây Ban Nha."
+          },
+          {
+            "time": "2024-08-06T01:11:00",
+            "text": "Xuất sắc lội ngược dòng đánh bại Maroc 2-1, Olympic Tây Ban Nha giành tấm vé đầu tiên vào chơi trận chung kết môn bóng đá nam Olympic Paris 2024."
+          },
+          {
+            "time": "2024-08-06T00:36:54",
+            "text": "Để các vận động viên có thể trạng tốt nhất khi thi đấu, đội tuyển Hàn Quốc điều động 15 đầu bếp riêng, mang theo hàng tấn nguyên liệu nấu nướng đến Paris phục vụ."
+          }
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "documents": [
+          {
+            "time": "2024-08-06T11:00:00",
+            "text": "Bạn đọc Đinh Ngọc Hiếu (ngụ tại TP. Thuận An, tỉnh Bình Dương) gửi đơn phản ánh đến VietNamNet về việc hơn 1 năm nay, trên hồ Dầu Tiếng xuất hiện tình trạng sà lan hút cát gây sạt lở đất ven hồ."
+          },
+          {
+            "time": "2024-08-06T01:28:32",
+            "text": "Những năm gần đây, tình trạng sạt lở đất hai bên bờ sông Thương chảy qua địa phận thị trấn Đồng Mỏ, huyện Chi Lăng đang diễn ra ngày càng nghiêm trọng, khiến người dân nơi đây luôn sống trong cảnh thấp thỏm, bất an."
+          },
+          {
+            "time": "2024-08-06T01:22:47",
+            "text": "Theo Đài Khí tượng thủy văn tỉnh Hòa Bình, trưa 5/8, khu vực tỉnh Hòa Bình đã có cục bộ nắng nóng. Nhiệt độ lúc 13 giờ ngày 5/8 phổ biến từ 34 - 35 độ C, riêng thị trấn Chi Nê (Lạc Thủy) 35,4 độ C. Dự báo, do ảnh hưởng của vùng áp thấp phía Tây phát triển và mở rộng dần về phía Đông Nam, ngày 6 - 7/8, tỉnh Hòa Bình có nắng nóng, có nơi nắng nóng gay gắt. Nhiệt độ cao nhất phổ biến 35 - 37 độ C, có nơi cao hơn. Độ ẩm tương đối thấp nhất phổ biến 50 - 60%. Chiều tối 6/8 khả năng có mưa rào và dông."
+          },
+          {
+            "time": "2024-08-06T01:08:54",
+            "text": "Dự báo thời tiết TP.HCM hôm nay 6/8, từ sáng đến trưa trời nắng gián đoạn, nền nhiệt cao nhất 33 độ C, về chiều tối tiếp tục có mưa rào và dông vài nơi."
+          },
+          {
+            "time": "2024-08-06T01:07:00",
+            "text": "Hôm nay, thời tiết ở TP HCM và Nam Bộ tiếp tục có mưa dông, gió Tây Nam hoạt động cấp 2-3, khả năng mưa sẽ kéo dài trong nhiều ngày tới."
+          },
+          {
+            "time": "2024-08-06T01:06:00",
+            "text": "Ngày và đêm 6/8, ở khu vực Tây Bắc, Việt Bắc của Bắc Bộ có mưa rào và dông rải rác, cục bộ có nơi mưa to đến rất to với lượng mưa từ 20-40 mm, cục bộ có nơi trên 90 mm (mưa tập trung vào chiều tối và đêm)."
+          },
+          {
+            "time": "2024-08-06T00:48:00",
+            "text": "Trung tâm Dự báo khí tượng thủy văn quốc gia phát đi bản tin dự báo thời tiết cảnh báo nắng nóng gay gắt trong nhiều ngày ở Bắc Bộ và Trung Bộ."
+          },
+          {
+            "time": "2024-08-06T00:37:00",
+            "text": "Dự báo, ngày 6/8, ở khu vực Bắc bộ và Trung bộ nắng nóng, có nơi nắng nóng gay gắt với nhiệt độ cao nhất hơn 37 độ C. Do ảnh hưởng của nắng nóng kết hợp với độ ẩm trong không khí giảm thấp, cảnh báo cháy nổ, hỏa hoạn ở khu vực dân cư do nhu cầu sử dụng điện tăng cao."
+          },
+          {
+            "time": "2024-08-06T00:21:00",
+            "text": "Dự báo, ngày 6/8, ở khu vực vùng núi Bắc Bộ, Tây Nguyên và Nam Bộ có mưa rào và dông, cục bộ có nơi mưa to đến rất to. Cảnh báo, mưa lớn cục bộ có thể gây ra lũ quét trên các sông, suối nhỏ, sạt lở đất trên sườn dốc và ngập úng tại các vùng trũng, thấp."
+          },
+          {
+            "time": "2024-08-06T00:20:00",
+            "text": "Dự báo thời tiết hôm nay (6/8) Bắc Bộ, Trung Bộ nắng nóng, có nơi nóng gắt, chiều tối mưa rào; Nam Bộ nắng gián đoạn, chiều tối mưa rào, mưa to"
+          },
+          {
+            "time": "2024-08-06T00:19:06",
+            "text": "Trận mưa to trên diện rộng vào đêm 4 và ngày 5-8, đang gây sạt lở đất nhiều nơi tại hai huyện Hoàng Su Phì và huyện Quang Bình, Hà Giang."
+          },
+          {
+            "time": "2024-08-06T00:07:39",
+            "text": "Dự báo thời tiết 10 ngày tới, Bắc Bộ và Trung Bộ nắng nóng kéo dài nhiều ngày nhưng cần đề phòng mưa rào và dông lúc chiều tối."
+          },
+          {
+            "time": "2024-08-06T00:07:00",
+            "text": "Theo dự báo thời tiết, Bắc Bộ, trong đó có Thủ đô Hà Nội, ban ngày nắng nóng với mức nhiệt khá cao. Chiều tối mưa dông xuất hiện nhiều nơi, cục bộ có nơi mưa rất to."
+          },
+          {
+            "time": "2024-08-06T00:05:00",
+            "text": "Tháng Bảy, trời bắt đầu trở mình bằng những cơn mưa rào chợt đến, chợt đi. Mới nắng đó thoắt cái đã mưa, rồi mưa còn chưa dứt thì đã thấy nắng vươn mình qua đám mây bàng bạc, đổ ập xuống những con phố chưa kịp tạnh ráo."
+          }
+        ]
+      },
+      {
+        "cluster_id": 3,
+        "documents": [
+          {
+            "time": "2024-08-06T18:08:00",
+            "text": "Bé trai cùng mẹ đi bộ sang đường thì bị nam thanh niên lái xe máy phóng nhanh vượt ẩu đâm trúng. Tuy nhiên, nam thanh niên đã lái xe rồ ga bỏ chạy sau tai nạn. Vụ việc xảy ra ở Hải Phòng."
+          },
+          {
+            "time": "2024-08-06T13:59:00",
+            "text": "Các xe đều đang di chuyển chậm, dù đường đông nhưng giao thông không quá căng thẳng, nên việc xảy ra va chạm khá khó hiểu."
+          },
+          {
+            "time": "2024-08-06T10:37:00",
+            "text": "Chiếc xe khách lưu thông trên đường Hồ Chí Minh đoạn qua tỉnh Đắk Nông đã va chạm với một xe tải lưu thông chiều ngược lại khiến 3 người bị thương."
+          },
+          {
+            "time": "2024-08-06T08:52:33",
+            "text": "Thấy hai mẹ con, cậu tài xế xe ôm khó chịu ra mặt. Tôi không vui nhưng vẫn phải ngồi lên xe."
+          },
+          {
+            "time": "2024-08-06T08:45:00",
+            "text": "Cơ quan công an đã triệu tập tài xế xe khách để làm rõ hành vi không chấp hành hiệu lệnh cho xe húc CSGT, rồi tăng ga bỏ chạy ở Hải Dương."
+          },
+          {
+            "time": "2024-08-06T08:27:00",
+            "text": "Một phụ nữ điều khiển xe máy qua đường bất cẩn, bị xe đầu kéo tông trúng. Sau va chạm, chiếc xe đầu kéo tiếp tục lao vào hàng loạt ki ốt bên đường."
+          },
+          {
+            "time": "2024-08-06T00:59:00",
+            "text": "Một xe đầu kéo sau khi va chạm với người phụ nữ đi xe máy qua đường, tiếp tục lao vào các ki ốt, vụ tai nạn khiến 1 người chết, 3 người bị thương."
+          },
+          {
+            "time": "2024-08-06T00:47:59",
+            "text": "Tối 5/8, lãnh đạo UBND thị trấn Quỳ Hợp (huyện Quỳ Hợp, tỉnh Nghệ An) cho biết trên địa bàn vừa xảy ra một vụ tai nạn giao thông nghiêm trọng, khiến một người tử vong tại chỗ."
+          },
+          {
+            "time": "2024-08-06T00:29:50",
+            "text": "Không chấp hành hiệu lệnh dừng phương tiện kiểm tra, tài xế ô tô khách đã lái xe liên tục húc đẩy CSGT đang làm nhiệm vụ, sau đó tăng ga bỏ chạy."
+          },
+          {
+            "time": "2024-08-06T00:09:00",
+            "text": "Chiều 5/8, trên Quốc lộ 48C đoạn qua thị trấn Quỳ Hợp, huyện Quỳ Hợp xảy ra vụ tai nạn giao thông giữa xe đầu kéo và xe máy khiến hai người thương vong."
+          },
+          {
+            "time": "2024-08-06T00:08:00",
+            "text": "Từ 1/1/2025, lái xe cần lưu ý gì khi quy định mới về chuyển hướng xe khi tham gia giao thông được áp dụng?"
+          }
+        ]
+      },
+      {
+        "cluster_id": 4,
+        "documents": [
+          {
+            "time": "2024-08-06T23:12:00",
+            "text": "Trường Trung cấp Ngoại thương được kỳ vọng là địa điểm đào tạo uy tín, chất lượng đáp ứng nhu cầu học tập và nâng cao tay nghề cho học sinh, sinh viên, học viên tại khu vực ĐBSCL."
+          },
+          {
+            "time": "2024-08-06T17:50:51",
+            "text": "Đại diện một số trường đại học phía Bắc đã đưa ra những phân tích, dự đoán về điểm chuẩn năm 2024 theo phương thức sử dụng kết quả thi tốt nghiệp THPT."
+          },
+          {
+            "time": "2024-08-06T10:43:00",
+            "text": "Các trường học ở TPHCM bắt đầu công bố kết quả tuyển bổ sung vào lớp 10 năm học 2024-2025."
+          },
+          {
+            "time": "2024-08-06T10:09:09",
+            "text": "\"Giáo trình Lý luận chung về nhà nước và pháp luật\" do PGS.TS. Vũ Trọng Lâm làm chủ biên, rất bổ ích cho đào tạo đại học, sau đại học và trên đại học ngành Luật."
+          },
+          {
+            "time": "2024-08-06T01:14:14",
+            "text": "Đặc biệt, những ngôi trường này đều nằm khá gần nhau và dù không phải học sinh của trường, bạn vẫn có thể xin phép để được 'sống ảo' tại những tọa độ này."
+          },
+          {
+            "time": "2024-08-06T00:22:46",
+            "text": "Năm học 2024 -2025, học phí trường Đại học Ngoại ngữ (Đại học Quốc gia Hà Nội) dự kiến từ 15 - 62,5 triệu đồng/năm học."
+          },
+          {
+            "time": "2024-08-06T00:18:00",
+            "text": "Với nhiều thí sinh và các bậc phụ huynh, lựa chọn vào các ngành học và trường học không chỉ theo nguyện vọng, sở thích mà còn phụ thuộc vào mức học phí có vừa sức hay không."
+          },
+          {
+            "time": "2024-08-06T00:09:00",
+            "text": "Còn suất học lớp 10 nhưng nhiều trường THPT top đầu \"trắng\" hồ sơ tuyển bổ sung, do không được hạ điểm chuẩn, lại chỉ nhận các em đã trượt tất cả nguyện vọng."
+          },
+          {
+            "time": "2024-08-06T00:05:00",
+            "text": "Việc không bắt buộc học tất cả các môn học trong chương trình giúp giảm áp lực. Tuy nhiên, để chọn được tổ hợp phù hợp không phải dễ dàng với nhiều học sinh."
+          }
+        ]
+      },
+      {
+        "cluster_id": 5,
+        "documents": [
+          {
+            "time": "2024-08-06T19:02:00",
+            "text": "Kết quả quay số mở thưởng POWER 6/55 ngày 6/8, Vietlott đã tìm thấy 1 khách hàng trúng giải Jackpot trị giá lên tới hơn 228 tỷ đồng."
+          },
+          {
+            "time": "2024-08-06T05:03:00",
+            "text": "Nhằm kích cầu cũng như \"dọn kho\" vào thời điểm tháng 7 âm lịch (tháng cô hồn), nhiều mẫu xe có giá dưới 1 tỷ đồng đang được các hãng mạnh tay giảm giá đến cả trăm triệu trong tháng 8 này."
+          },
+          {
+            "time": "2024-08-06T01:12:00",
+            "text": "Tỷ giá trung tâm giảm 1 đồng, chỉ số VN-Index giảm mạnh 48,53 điểm hay lũy kế 7 tháng, thu ngân sách nhà nước ước đạt 1.188.1 nghìn tỷ đồng... là một số thông tin kinh tế đáng chú ý trong ngày 5/8."
+          },
+          {
+            "time": "2024-08-06T01:05:00",
+            "text": "Hòa Phát cán đích quý II lãi 3.320 tỷ đồng với động lực chính từ thép xây dựng và được ước tính lợi nhuận ròng cả năm 2024 có thể đạt 12.800 tỷ đồng nhờ giành lại thị trường của thép cán nóng."
+          },
+          {
+            "time": "2024-08-06T00:51:00",
+            "text": "6 tháng đầu năm, lợi nhuận trước thuế của Danapha đạt 50,3 tỷ đồng, giảm 9% so với cùng kỳ năm trước và hoàn thành 65% kế hoạch lợi nhuận cả năm."
+          },
+          {
+            "time": "2024-08-06T00:35:00",
+            "text": "Mercedes-AMG CL 53 Cabriolet đã chính thức mở bán với mức giá khởi điểm từ 89.300 Euro (2,45 tỷ đồng)."
+          },
+          {
+            "time": "2024-08-06T00:23:00",
+            "text": "Lợi nhuận sau thuế quý II/2024 của Hoàng Anh Gia Lai đạt gần 281 tỷ đồng, gấp 3,4 lần cùng kỳ năm ngoái nhờ xuất khẩu chuối khởi sắc."
+          },
+          {
+            "time": "2024-08-06T00:21:00",
+            "text": "CTCP Phát triển Hạ tầng Kỹ thuật (Becamex IJC, mã IJC - sàn HoSE) ghi nhận lãi 73,53 tỷ đồng trong quý II, lũy kế nửa đầu năm 2024 lãi 112,75 tỷ đồng, giảm 54,8% so với cùng kỳ."
+          },
+          {
+            "time": "2024-08-06T00:18:00",
+            "text": "Số liệu thống kê từ Bộ Tài chính cho biết, tổng chi ngân sách nhà nước 7 tháng ước đạt 948,3 nghìn tỷ đồng, bằng 44,7% dự toán, tăng 0,6% so cùng kỳ năm 2023."
+          }
+        ]
+      },
+      {
+        "cluster_id": 6,
+        "documents": [
+          {
+            "time": "2024-08-06T14:08:08",
+            "text": "Nhiều doanh nghiệp bất động sản ghi nhận mức lương và thù lao trả cho ban lãnh đạo trong 2 quý đầu năm tăng. Đáng chú ý có ông Ng Teck Yow, Thành viên HĐQT kiêm Tổng Giám đốc Novaland nhận hơn 2,47 tỷ đồng, tương đương 412 triệu đồng/tháng."
+          },
+          {
+            "time": "2024-08-06T09:10:00",
+            "text": "Lãi suất ngân hàng hôm nay 6/8/2024 có thêm một nhà băng gia nhập cuộc đua tăng khi nâng lãi suất huy động từ 0,3-0,4%/năm tại các kỳ hạn."
+          },
+          {
+            "time": "2024-08-06T01:10:00",
+            "text": "Theo Thứ trưởng Bộ Xây dựng Bùi Xuân Dũng, Thủ tướng Chính phủ đã cơ bản thống nhất với đề xuất của Ngân hàng Nhà nước giảm lãi suất cho vay đối với khách hàng mua nhà ở xã hội 3 - 5%."
+          },
+          {
+            "time": "2024-08-06T01:05:09",
+            "text": "Ngân hàng Nhà nước đang lấy ý kiến về việc giảm lãi suất cho vay đối với người vay mua nhà ở xã hội từ 3 – 5%. Hiện nay, gói tín dụng 120.000 tỉ đồng hỗ trợ mua nhà ở xã hội mới giải ngân được 49 tỉ đồng cho người mua nhà."
+          },
+          {
+            "time": "2024-08-06T01:05:00",
+            "text": "Ngô Kiến Huy được cho là 'đại gia bất động sản' với nhiều mảnh đất ở TP.HCM và các tỉnh lân cận."
+          },
+          {
+            "time": "2024-08-06T00:51:00",
+            "text": "Đồng Nai giao thêm gần 100ha đất phục vụ dự án sân bay Long Thành; Đấu giá hơn 200 lô đất tại khu đô thị Đông Hương, Thanh Hóa;Cá nhân kinh doanh bất động sản không được mua bán quá 10 lần/năm;Doanh nghiệp nào muốn làm 2 khu đô thị quy mô 2.840ha ở Khánh Hòa…là những tin tức xây dựng - bất động sản đáng chú ý"
+          },
+          {
+            "time": "2024-08-06T00:35:00",
+            "text": "Trong 7 tháng năm 2024, các doanh nghiệp bất động sản đã phát hành 38.700 tỉ đồng trái phiếu, chiếm 24%"
+          },
+          {
+            "time": "2024-08-06T00:31:54",
+            "text": "Tính chung 7 tháng đầu năm, nhóm doanh nghiệp bất động sản phát hành xấp xỉ 38,7 nghìn tỷ đồng, chiếm 24% mặc dù lãi suất tới 12%/năm, trong khi nhóm ngân hàng chiếm tỷ trọng 67,5% nhưng lãi suất thấp hơn nhiều..."
+          },
+          {
+            "time": "2024-08-06T00:22:01",
+            "text": "Theo Thứ trưởng Bộ Xây dựng Bùi Xuân Dũng, bộ ba luật mới về bất động sản và các nghị định hướng dẫn có những điểm mới sẽ tác động ngay đến thị trường bất động sản cuối năm nay."
+          }
+        ]
+      },
+      {
+        "cluster_id": 7,
+        "documents": [
+          {
+            "time": "2024-08-06T20:00:00",
+            "text": "Người đẹp Louise Chanthalangsy là đại diện của Lào và là đối thủ trực tiếp của người đẹp Võ Lê Quế Anh tại cuộc thi Hoa hậu Hòa bình Quốc tế 2024 (Miss Grand International) sắp tới."
+          },
+          {
+            "time": "2024-08-06T19:14:00",
+            "text": "Miss Grand Vietnam 2024 Võ Lê Quế Anh chia sẻ cô từng sống trong căn nhà ngói cũ ở khu tập thể tại Quảng Nam. Khi lên đại học và sống xa nhà, hoa hậu chỉ được bố mẹ cho 2-3 triệu/tháng."
+          },
+          {
+            "time": "2024-08-06T01:25:00",
+            "text": "Theo chia sẻ, đám cưới của NSƯT Vũ Luân và Hoa hậu Phương Lê sẽ diễn ra vào năm 2025."
+          },
+          {
+            "time": "2024-08-06T01:12:00",
+            "text": "Kim Dung từng chia sẻ điều khiến mình ấn tượng với đạo diễn Nhật Nam bởi chị cần sự bình yên trong tình yêu và cần một cộng sự đắc lực trong công việc."
+          },
+          {
+            "time": "2024-08-06T01:05:00",
+            "text": "Hoa hậu Đỗ Thị Hà thả dáng vô cùng xinh đẹp và cuốn hút. Kỳ Duyên khoe chân dài, eo thon với đầm cúp ngực trắng cách điệu."
+          },
+          {
+            "time": "2024-08-06T00:29:00",
+            "text": "Đạo diễn Hoàng Nhật Nam và 'bà trùm hoa hậu' Phạm Kim Dung có cuộc hôn nhân được không ít người ngưỡng mộ."
+          },
+          {
+            "time": "2024-08-06T00:15:00",
+            "text": "Ở đời thường, Hoa hậu Võ Lê Quế Anh cùng 4 á hậu: Hạnh Nguyên, Thu Hiền, Bích Tuyền và Ánh Vương đều gây thương nhớ bởi vẻ đẹp ngọt ngào, tự nhiên."
+          },
+          {
+            "time": "2024-08-06T00:05:00",
+            "text": "Chia sẻ của Hoa hậu H'Hen Niê khiến dân tình không khỏi lo lắng."
+          }
+        ]
+      },
+      {
+        "cluster_id": 8,
+        "documents": [
+          {
+            "time": "2024-08-06T14:49:22",
+            "text": "Người đàn ông 75 tuổi vào khám bệnh có kết quả hoàn toàn bình thường nhưng vẫn cố chờ đến cuối buổi chiều. Khi phòng khám hết bệnh nhân, ông vào xin bác sĩ kiểm tra lại chứng rối loạn cương."
+          },
+          {
+            "time": "2024-08-06T10:37:59",
+            "text": "Nam bệnh nhân 28 tuổi vào cấp cứu vì đau đầu, chóng mặt sau khi bị xe máy va phải trên đường. Tình cờ, bác sĩ phát hiện bệnh nhân có khối u gan lớn."
+          },
+          {
+            "time": "2024-08-06T10:03:55",
+            "text": "Bà S. bị sốt kéo dài và mệt mỏi nên đến bệnh viện khám, phát hiện mắc sốt xuất huyết thể nặng. Chỉ sau một ngày, nữ bệnh nhân đã rơi vào trạng thái nguy kịch."
+          },
+          {
+            "time": "2024-08-06T02:59:00",
+            "text": "Mới đây, Bệnh viện Bệnh nhiệt đới trung ương (Hà Nội) vừa tiếp nhận nam bệnh nhân 41 tuổi (ở Thanh Hóa) trong tình trạng nguy kịch do nhiễm liên cầu lợn. Dù được cấp cứu, chữa trị tích cực nhưng bệnh nhân đã không qua khỏi."
+          },
+          {
+            "time": "2024-08-06T01:07:41",
+            "text": "Mới đây, Viện Sốt rét – Ký sinh trùng – Côn trùng Trung ương phối hợp với Trung tâm Kiểm soát bệnh tật tỉnh Bắc Kạn thành lập đoàn điều tra phân vùng dịch tễ bệnh ký sinh trùng, nhằm đánh giá sự phân bố và gánh nặng bệnh tật do các bệnh ký sinh trùng gây ra trên địa bàn tỉnh Bắc Kạn."
+          },
+          {
+            "time": "2024-08-06T00:58:00",
+            "text": "Từ ngày 1/8, Bệnh viện Bạch Mai kéo dài thời gian khám, chữa bệnh theo yêu cầu đến 21h từ thứ 2 - thứ 6 hàng tuần. Điều này không chỉ giúp giảm tải bệnh viện, tạo thuận lợi cho người dân mà còn giúp nhân viên tăng thu nhập."
+          },
+          {
+            "time": "2024-08-06T00:30:00",
+            "text": "Theo Sở Y tế Hà Nội, TP ghi nhận 1 ca mắc liên cầu lợn tại huyện Quốc Oai. Đó là nữ bệnh nhân 86 tuổi, khởi phát bệnh với triệu chứng sốt cao, đau đầu, lơ mơ... Sau đó, bệnh nhân được gia đình đưa đến Bệnh viện Quân y 103."
+          },
+          {
+            "time": "2024-08-06T00:12:00",
+            "text": "Sáng 6/8, Trung tâm Kiểm soát bệnh tật tỉnh Thanh Hóa xác nhận, nữ bệnh nhân mang thai 8 tháng ở huyện Mường Lát (Thanh Hóa) được xác định dương tính với bạch hầu, không rõ nguồn lây."
+          }
+        ]
+      },
+      {
+        "cluster_id": 9,
+        "documents": [
+          {
+            "time": "2024-08-06T18:27:00",
+            "text": "Uống rượu bia quá nhanh, ngay trước giờ đi ngủ, trên máy bay… có thể gây hại cho cơ thể."
+          },
+          {
+            "time": "2024-08-06T06:31:00",
+            "text": "Khi bụng đói, bạn tuyệt đối cần tránh ăn 5 loại thực phẩm này và đừng dại dột mà làm 3 việc dưới đây để bảo vệ sức khỏe."
+          },
+          {
+            "time": "2024-08-06T01:15:26",
+            "text": "Uống nước quế ngay khi thức dậy vào buổi sáng có thể mang lại nhiều lợi ích cho sức khỏe. Từ việc thúc đẩy quá trình trao đổi chất đến cải thiện sức khỏe tiêu hóa, uống nước quế như một thức uống giải độc vào sáng sớm có thể cải thiện sức khỏe tổng thể của bạn."
+          },
+          {
+            "time": "2024-08-06T00:29:00",
+            "text": "Lão hóa là một quá trình tự nhiên, nhưng việc chủ động chăm sóc bản thân sẽ giúp mỗi người duy trì sức khỏe tốt để có cuộc sống chất lượng."
+          },
+          {
+            "time": "2024-08-06T00:17:00",
+            "text": "Loại rau này có tác dụng thanh nhiệt, giải độc, làm ẩm ruột và cải thiện giấc ngủ, nếu không biết ăn uống thì thật đáng tiếc."
+          },
+          {
+            "time": "2024-08-06T00:05:00",
+            "text": "Đi bộ mang lại điều kỳ diệu cho cả sức khỏe thể chất và tinh thần, là một cách giúp giải tỏa căng thẳng, hỗ trợ ngủ ngon…"
+          },
+          {
+            "time": "2024-08-06T00:05:00",
+            "text": "Ăn uống là một phần cơ bản của cuộc sống tuy nhiên ít người biết rằng tốc độ nhai thức ăn có thể ảnh hưởng đáng kể đến sức khỏe tổng thể."
+          }
+        ]
+      },
+      {
+        "cluster_id": 10,
+        "documents": [
+          {
+            "time": "2024-08-06T15:38:00",
+            "text": "Ông Hoàng Quốc Khánh, Chủ tịch UBND tỉnh Sơn La, được Bộ Chính trị chuẩn y giữ chức Bí thư Tỉnh ủy Sơn La, nhiệm kỳ 2020-2025."
+          },
+          {
+            "time": "2024-08-06T08:21:00",
+            "text": "Thiếu tướng Nguyễn Đức Dũng - Giám đốc Công an tỉnh Quảng Nam - được Ban Bí thư chuẩn y giữ chức Phó Bí thư Tỉnh ủy Quảng Nam."
+          },
+          {
+            "time": "2024-08-06T01:27:00",
+            "text": "Chiều 5-8, nhân chuyến tiếp xúc cử tri huyện Phú Thiện (tỉnh Gia Lai) Ủy viên Ban Thường vụ Tỉnh ủy, Phó Chủ tịch Thường trực HĐND tỉnh Trương Văn Đạt và Chủ tịch Liên đoàn Lao động tỉnh Nguyễn Hoàng Phong tặng bò cho ông Ksor Bung thôn Sôma Lơng A, xã Chrôh Pơnan."
+          },
+          {
+            "time": "2024-08-06T01:05:09",
+            "text": "Ban Bí thư chuẩn y chức danh Phó Bí thư Tỉnh ủy Quảng Nam đối với Thiếu tướng Nguyễn Đức Dũng."
+          },
+          {
+            "time": "2024-08-06T01:05:00",
+            "text": "Hôm nay (6/8), Bí thư Tỉnh ủy Thanh Hóa Đỗ Trọng Hưng tiếp xã giao đoàn công tác của tỉnh Niigata, Nhật Bản; bế mạc Hội khỏe Phù Đổng toàn quốc lần thứ X, năm 2024..."
+          },
+          {
+            "time": "2024-08-06T00:48:00",
+            "text": "Sáng 6/8, Tỉnh ủy Quảng Nam tổ chức Hội nghị về công tác cán bộ, công bố Quyết định của Ban Bí thư chuẩn y giữ chức Phó Bí thư Tỉnh ủy Quảng Nam nhiệm kỳ 2020-2025 đối với Thiếu tướng Nguyễn Đức Dũng, Ủy viên Ban Thường vụ Tỉnh ủy, Giám đốc Công an tỉnh Quảng Nam."
+          },
+          {
+            "time": "2024-08-06T00:47:00",
+            "text": "Ban Thường vụ Tỉnh ủy Quảng Nam tổ chức Hội nghị công bố quyết định của Ban Bí thư về công tác cán bộ."
+          }
+        ]
+      },
+      {
+        "cluster_id": 11,
+        "documents": [
+          {
+            "time": "2024-08-06T17:50:00",
+            "text": "Ancelotti giận Jude Bellingham, gọi điện không thèm nghe, lên tiếng làm rõ vai trò của ngôi sao người Anh khi Real Madrid đón thêm Kylian Mbappe."
+          },
+          {
+            "time": "2024-08-06T09:05:00",
+            "text": "Hình ảnh Suri, con gái của Tom Cruise và Katie Holmes, nức nở khi gọi điện thoại trên đường khiến nhiều người tò mò. Cô gái 18 tuổi lộ vẻ mặt buồn bã, liên tục lau nước mắt."
+          },
+          {
+            "time": "2024-08-06T01:19:00",
+            "text": "Thủy điện Thác Bà xả lũ gây thiệt hại 49 nhà dân và 30 xưởng gỗ, ảnh hưởng đến nhiều diện tích hoa màu, ao cá... của người dân các xã Vĩnh Kiên, Yên Bình, Hán Đà, Đại Minh và thị trấn Yên Bình."
+          },
+          {
+            "time": "2024-08-06T01:17:00",
+            "text": "iPhone 15 series dẫn đầu danh sách điện thoại thông minh bán chạy nhất trong quý II năm 2024."
+          },
+          {
+            "time": "2024-08-06T00:05:00",
+            "text": "Dịp hè một số trẻ em mải chơi điện tử, xem điện thoại nhiều rất hại mắt."
+          },
+          {
+            "time": "2024-08-06T00:04:59",
+            "text": "Ngày 5-8, Bộ NN-PTNT đã có thêm 2 công điện yêu cầu thủy điện Hòa Bình và thủy điện Thác Bà mở thêm các cửa xả nước."
+          }
+        ]
+      },
+      {
+        "cluster_id": 12,
+        "documents": [
+          {
+            "time": "2024-08-06T09:07:48",
+            "text": "Chỉ riêng trong tháng 7/2024, ngay khi tính năng cảnh báo tài khoản lừa đảo vừa đi vào triển khai, một ngân hàng đã cảnh báo cho 2.700 khách hàng khi thực hiện giao dịch chuyển tiền và có 1.500 khách chủ động dừng giao dịch sau khi nhận khuyến cáo."
+          },
+          {
+            "time": "2024-08-06T01:03:00",
+            "text": "Sở Giao dịch Hàng hóa Việt Nam (MXV) cho biết, thị trường tài chính thế giới, trong đó có giao dịch hàng hóa đỏ lửa trong ngày hôm qua (5/8)."
+          },
+          {
+            "time": "2024-08-06T00:54:00",
+            "text": "Theo dữ liệu về kết quả phát triển Mobile-Money, đến tháng 6/2024, Việt Nam đã đạt 9,13 triệu tài khoản Mobile-Money, 11.885 điểm kinh doanh được thiết lập, 275.575 đơn vị chấp nhận thanh toán và 128 triệu giao dịch trị giá 4.782 tỷ đồng."
+          },
+          {
+            "time": "2024-08-06T00:32:45",
+            "text": "Theo dữ liệu giao dịch cổ phiếu HBC ngày 31/07, khối lượng giao dịch tăng đột biến lên hơn 15 triệu đơn vị, giá trị hơn 89,28 tỷ đồng, bình quân mỗi cổ phiếu có giá là 5.880 đồng."
+          },
+          {
+            "time": "2024-08-06T00:19:00",
+            "text": "Theo ghi nhận, giá cao su kỳ hạn trên sàn giao dịch TOCOM và SHFE đồng loạt chìm trong sắc đỏ. Trong đó, giá cao su kỳ hạn tháng 8/2024 trên sàn giao dịch TOCOM có mức giảm mạnh nhất với 1,47%."
+          },
+          {
+            "time": "2024-08-06T00:05:00",
+            "text": "Trên thế giới, giá dầu Brent và WTI trong phiên giao dịch hôm nay 6/8 cùng tăng mạnh. Trong nước, giá xăng dầu dự báo sẽ duy trì đà giảm."
+          }
+        ]
+      },
+      {
+        "cluster_id": 13,
+        "documents": [
+          {
+            "time": "2024-08-06T11:54:00",
+            "text": "Sáng 6/8, Ban thường vụ Công đoàn Bộ Lao động - Thương binh và Xã hội trao các quyết định hợp nhất công đoàn hai báo Dân trí và báo LĐXH thành Công đoàn báo Dân trí."
+          },
+          {
+            "time": "2024-08-06T01:25:00",
+            "text": "Đồng Nai không chỉ tập trung đông công nhân làm việc tại các khu công nghiệp, mà còn thu hút lực lượng lớn lao động phi chính thức ở nhiều ngành nghề. Để những lao động này có nơi sinh hoạt, các cấp Công đoàn đang đẩy mạnh việc thành lập nghiệp đoàn cơ sở nhằm tập hợp lao động tự do gia nhập tổ chức Công đoàn."
+          },
+          {
+            "time": "2024-08-06T00:50:00",
+            "text": "Nghệ An là một trong những tỉnh thu hút được FDI lớn, đứng thứ 10 cả nước. Dự tính từ nay đến cuối năm 2025 nhu cầu tuyển dụng lao động các doanh nghiệp trong KKT và KCN trong tỉnh tăng cao với số lượng hơn 70.000 người."
+          },
+          {
+            "time": "2024-08-06T00:40:00",
+            "text": "Sau hơn 1 tháng thực hiện điều chỉnh tăng lương tối thiểu vùng (1/7), tại một số nơi đã xuất hiện tình trạng ngừng việc tập thể của người lao động do doanh nghiệp không có thông báo rõ ràng về lộ trình tăng lương hoặc việc điều chỉnh tăng lương tối thiểu vùng chưa đáp ứng được nguyện vọng của người lao động... Trước sự việc này, tại nhiều nơi, các cấp công đoàn đã chủ động vào cuộc để nắm bắt tình hình, trở thành cầu nối để giải quyết những vướng mắc giữa người lao động và doanh nghiệp."
+          },
+          {
+            "time": "2024-08-06T00:13:00",
+            "text": "Huyện Nhơn Trạch có nhiều khu công nghiệp được thành lập, thu hút lượng lớn lao động trong và ngoài tỉnh đến sinh sống, lao động. Theo đó, tình hình an ninh trật tự cũng ngày càng diễn biến phức tạp."
+          }
+        ]
+      },
+      {
+        "cluster_id": 14,
+        "documents": [
+          {
+            "time": "2024-08-06T10:19:00",
+            "text": "111 bị cáo trong vụ án cưỡng đoạt tài sản liên quan công ty luật Pháp Việt (trụ sở TPHCM) đã hầu tòa sáng 6/8. Phiên tòa xét xử lưu động, dự kiến kéo dài trong 25 ngày."
+          },
+          {
+            "time": "2024-08-06T01:08:13",
+            "text": "Nguyễn Minh Phúc - người tự xưng 'sư thầy Thích Tâm Phúc'bị đưa ra xét xử về 2 tội Lừa đảo chiếm đoạt tài sản và Sử dụng tài liệu giả của cơ quan, tổ chức."
+          },
+          {
+            "time": "2024-08-06T00:47:00",
+            "text": "Bị cáo Trịnh Văn Quyết bị Tòa tuyên 18 năm tù về tội 'Lừa đảo chiếm đoạt tài sản', 3 năm tù về tội 'Thao túng thị trường chứng khoán,' tổng hợp hình phạt chung đối với bị cáo Quyết là 21 năm tù."
+          },
+          {
+            "time": "2024-08-06T00:10:00",
+            "text": "Sau hai tuần xét xử căng thẳng và nghị án, vào chiều ngày 5/8, Tòa án Nhân dân thành phố Hà Nội đã tuyên án phạt đối với 50 bị cáo liên quan đến vụ án lừa đảo chiếm đoạt tài sản và thao túng thị trường chứng khoán xảy ra tại Công ty Cổ phần Tập đoàn FLC. Đây là một trong những vụ án kinh tế lớn nhất tại Việt Nam trong những năm gần đây."
+          },
+          {
+            "time": "2024-08-06T00:03:00",
+            "text": "Phiên xét xử vụ án 'Lừa đảo chiếm đoạt tài sản và Thao túng thị trường chứng khoán', xảy ra tại Tập đoàn FLC vừa khép lại, ngoài án phạt tù với 50 bị cáo, HĐXX cũng phán quyết về quyền lợi của nhà đầu tư (là bị hại hoặc người có quyền lợi nghĩa vụ liên quan)."
+          }
+        ]
+      },
+      {
+        "cluster_id": 15,
+        "documents": [
+          {
+            "time": "2024-08-06T09:01:00",
+            "text": "Giá vàng hôm nay 6/8/2024 trên thị trường quốc tế bất ngờ tăng dữ dội trở lại sau làn sóng bán tháo. Vàng miếng SJC trong nước 'chậm một nhịp' khi giảm trên dưới 1 triệu đồng cả hai chiều, còn 79 triệu đồng/lượng (bán ra)."
+          },
+          {
+            "time": "2024-08-06T08:10:00",
+            "text": "Sau nhiều ngày bất động, giá vàng miếng SJC sáng nay giảm 1,3 triệu đồng/lượng chiều mua và 800.000 đồng/lượng chiều bán ra, về 77-79 triệu đồng/lượng (mua - bán)."
+          },
+          {
+            "time": "2024-08-06T01:03:00",
+            "text": "Sáng nay (6/8), giá vàng nhẫn giảm nhẹ về mốc 77 triệu đồng/lượng. Trong khi đó, vàng miếng SJC nhiều ngày đứng im 79,8 triệu đồng/lượng bất chấp giá vàng thế giới biến động mạnh. Giá USD trên thị trường tự do hạ nhiệt sau đợt tăng nóng."
+          },
+          {
+            "time": "2024-08-06T01:02:00",
+            "text": "Giá vàng hôm nay (6/8): Vàng nhẫn 9999 tại SJC lần lượt ở mức 76,25 triệu đồng/lượng mua vào và 77,55 triệu đồng/lượng bán ra, tăng 100.000 đồng chiều mua."
+          },
+          {
+            "time": "2024-08-06T00:55:00",
+            "text": "Giá vàng thế giới hôm nay (6/8) 'lao dốc' trước áp lực chốt lời mạnh mẽ của nhà đầu tư. Trong nước, giá vàng miếng duy trì ổn định ở mức 78,3 – 79,8 triệu đồng/lượng; còn vàng nhẫn biến động tăng giảm không đồng nhất giữa các thương hiệu lớn."
+          }
+        ]
+      },
+      {
+        "cluster_id": 16,
+        "documents": [
+          {
+            "time": "2024-08-06T00:57:00",
+            "text": "Nhiều binh sĩ Mỹ bị thương trong vụ tấn công bằng rocket nhằm vào căn cứ quân sự Ain al-Asad có binh sĩ Mỹ đồn trú ở Iraq, một quan chức quốc phòng Mỹ nói trên tờ Al Arabiya."
+          },
+          {
+            "time": "2024-08-06T00:46:00",
+            "text": "Hai nguồn tin an ninh Iraq cho biết căn cứ không quân al Asad ở miền Tây Iraq đã trúng 2 quả rocket. Hiện chưa rõ bên nào đứng sau vụ tấn công."
+          },
+          {
+            "time": "2024-08-06T00:20:00",
+            "text": "Nhiều rocket đã nhắm vào một căn cứ Mỹ ở Iraq vào tối 5-8, theo các nguồn tin Iraq và Mỹ."
+          },
+          {
+            "time": "2024-08-06T00:15:00",
+            "text": "Một quan chức quốc phòng Mỹ cho biết, một vài nhân viên quân sự nước này đã bị thương trong vụ tấn công nghi bằng tên lửa nhằm vào căn cứ không quân Al-Asad ở Iraq."
+          },
+          {
+            "time": "2024-08-06T00:08:09",
+            "text": "Hai quả tên lửa đã được bắn vào căn cứ quân sự của Mỹ và liên quân ở phía tây Iraq, khiến một số binh lính bị thương."
+          }
+        ]
+      },
+      {
+        "cluster_id": 17,
+        "documents": [
+          {
+            "time": "2024-08-06T19:24:00",
+            "text": "Ban Quản lý dự án đường sắt đô thị Hà Nội đã chốt lịch vận hành đoạn trên cao của metro Nhổn - Ga Hà Nội sau chuyến thị sát của lãnh đạo thành phố."
+          },
+          {
+            "time": "2024-08-06T18:46:00",
+            "text": "Tuyến metro Nhổn - ga Hà Nội đoạn trên cao sẽ chính thức vận hành thương mại vào ngày 9/8. Hành khách sẽ được miễn phí đi tàu trong 15 ngày đầu."
+          },
+          {
+            "time": "2024-08-06T01:10:00",
+            "text": "3 ngày nữa metro Nhổn - ga Hà Nội bắt đầu hoạt động chính thức đoạn trên cao nhưng nhiều nhà ga vẫn trong cảnh nhếch nhác, bụi bẩn, nước mưa đọng lênh láng."
+          },
+          {
+            "time": "2024-08-06T00:48:00",
+            "text": "Sau 10 năm, thu nhập bình quân đầu người tại Hà Nội đã tăng từ 4,113 triệu đồng/tháng năm 2014 lên 6,869 triệu đồng/tháng năm 2023, tương ứng tăng 40%. Hà Nội cũng nhiều năm liền dẫn đầu cả nước về chi phí đắt đỏ."
+          }
+        ]
+      },
+      {
+        "cluster_id": 18,
+        "documents": [
+          {
+            "time": "2024-08-06T13:52:35",
+            "text": "Chính quyền Đà Nẵng sẽ phối hợp với Bộ Công an điều tra, xử lý sai phạm tại các dự án Ghềnh Bàng, Bãi Đa và lô đất L09 của khu biệt thự Suối Đá ở bán đảo Sơn Trà."
+          },
+          {
+            "time": "2024-08-06T00:25:00",
+            "text": "Ngày 5-8, Công an phường An Hải Tây (quận Sơn Trà, TP Đà Nẵng) cho biết đã tiến hành tổ chức trao trả tài sản bị đánh rơi cho chị Trương Thị Trúc Vy (1987), là du khách đến tham quan, vui chơi tại TP Đà Nẵng."
+          },
+          {
+            "time": "2024-08-06T00:15:00",
+            "text": "Sáng 5-8, thừa ủy quyền của Chủ tịch UBND TP Đà Nẵng, Thiếu tướng Vũ Xuân Viên - Giám đốc Công an TP Đà Nẵng đã trao thưởng cho các đơn vị có thành tích trong công tác bảo vệ an ninh quốc gia, bảo đảm trật tự an toàn xã hội trên lĩnh vực y tế tại địa bàn TP Đà Nẵng."
+          },
+          {
+            "time": "2024-08-06T00:05:00",
+            "text": "Ngày 5-8, Đoàn công tác Đảng ủy Công an Trung ương (CATW) đã có buổi làm việc, công bố các Quyết định, Kế hoạch giám sát của Ủy ban kiểm tra (UBKT) Đảng ủy CATW đối với Đảng ủy Công an TP Đà Nẵng về việc lãnh đạo, chỉ đạo và tổ chức thực hiện Chỉ thị 36-CT/TW, ngày 16-8-2019 của Bộ Chính trị về tăng cường, nâng cao hiệu quả công tác phòng, chống và kiểm soát ma túy. Thiếu tướng Nguyễn Hồng Nguyên - Phó Chủ nhiệm UBKT Đảng ủy CATW và Thiếu tướng Vũ Xuân Viên - Giám đốc Công an TP Đà Nẵng đồng chủ trì buổi làm việc."
+          }
+        ]
+      },
+      {
+        "cluster_id": 19,
+        "documents": [
+          {
+            "time": "2024-08-06T11:22:59",
+            "text": "Nữ ca sĩ sinh năm 1998 Victoria Canal nói chuyện đồn cô đang hẹn hò tài tử Tom Cruise \"thật là điên rồ\"."
+          },
+          {
+            "time": "2024-08-06T10:46:00",
+            "text": "\"The White Lotus\" đánh dấu lần đầu gia nhập điện ảnh của Lisa (thành viên Blackpink). Bộ phim được quay tại Thái Lan, quê nhà của nữ ca sĩ và nhận được sự chờ đón của người hâm mộ."
+          },
+          {
+            "time": "2024-08-06T03:37:00",
+            "text": "Màn giới thiệu ca sĩ khách mời của Trấn Thành trong tập 7 \"Anh trai say hi\" bị khán giả phát hiện lỗi khi âm thanh không trùng với khẩu hình."
+          },
+          {
+            "time": "2024-08-06T01:05:00",
+            "text": "Bạn khán giả này đã nói gì với Phương Mỹ Chi mà lại khiến nữ ca sĩ băn khoăn đến thế?"
+          }
+        ]
+      },
+      {
+        "cluster_id": 20,
+        "documents": [
+          {
+            "time": "2024-08-06T11:11:00",
+            "text": "Trần Thắng là một họa sĩ làm thơ. Anh sáng tác \"Dốc im lặng\" như muốn dốc cạn tâm can vào một tịch không, để lắng trải những âm vang từ thiên di tháng năm."
+          },
+          {
+            "time": "2024-08-06T09:06:21",
+            "text": "Trong \"Vui lên nào anh em ơi\" tập 11, Thu tức giận khi thấy Tiến thân thiết với Ánh tại nơi làm việc."
+          },
+          {
+            "time": "2024-08-06T06:06:00",
+            "text": "Bên cạnh \"ốc cổ mộ\", \"xôi nhà xác\", \"lẩu bò nghĩa địa\", \"cơm tấm bãi rác\" cũng là một quán ăn thu hút sự chú ý của nhiều thực khách tại TPHCM."
+          },
+          {
+            "time": "2024-08-06T00:24:27",
+            "text": "''Bươn chải'' hay ''bươn trải'', từ nào mới đúng chính tả?"
+          }
+        ]
+      },
+      {
+        "cluster_id": 21,
+        "documents": [
+          {
+            "time": "2024-08-06T11:09:00",
+            "text": "Liên quan các giấy tờ, trong đó có bằng tiến sĩ luật được xác định là giả, người tự xưng \"sư thầy Thích Tâm Phúc\" muốn xin lại “để làm kỉ niệm”. Đại diện VKS đề nghị mức án đối với bị cáo này từ 5-7 năm tù."
+          },
+          {
+            "time": "2024-08-06T11:09:00",
+            "text": "HĐXX vừa tuyên án bị cáo Nguyễn Minh Đức 8 năm tù giam. Các giấy tờ, trong đó có bằng tiến sĩ luật giả, người tự xưng \"sư thầy Thích Tâm Phúc\" muốn xin lại “để làm kỉ niệm”, tòa không chấp thuận."
+          },
+          {
+            "time": "2024-08-06T11:09:00",
+            "text": "HĐXX vừa tuyên án bị cáo Nguyễn Minh Phúc 8 năm tù giam. Các giấy tờ, trong đó có bằng tiến sĩ luật giả, người tự xưng \"sư thầy Thích Tâm Phúc\" muốn xin lại “để làm kỉ niệm”, tòa không chấp thuận."
+          },
+          {
+            "time": "2024-08-06T09:30:00",
+            "text": "Nguyễn Minh Phúc, người tự xưng “sư thầy Thích Tâm Phúc” bị TAND huyện Củ Chi, TPHCM đưa ra xét xử về hành vi nhận tách thửa đất giúp người dân rồi làm giả giấy tờ, chiếm đoạt tiền."
+          }
+        ]
+      },
+      {
+        "cluster_id": 22,
+        "documents": [
+          {
+            "time": "2024-08-06T05:50:00",
+            "text": "Không quân Ukraine lần đầu công bố hình ảnh tiêm kích nước này sử dụng tên lửa Storm Shadow để tập kích các mục tiêu Nga ở bán đảo Crưm."
+          },
+          {
+            "time": "2024-08-06T05:46:00",
+            "text": "Ukraine công bố bức ảnh mà họ nói là bằng chứng cho thấy Kiev đã phá hủy của Nga tiêm kích bom Su-34 trị giá 50 triệu USD."
+          },
+          {
+            "time": "2024-08-06T01:03:00",
+            "text": "Ít nhất 4 vụ nổ đã được nghe thấy ở Kiev ngay sau khi cảnh báo không kích vang lên trong đêm, giữa lúc tên lửa Nga tấn công thủ đô của Ukraine."
+          },
+          {
+            "time": "2024-08-06T00:06:00",
+            "text": "Không quân Ukraine chưa được phép dùng tiêm kích F-16 một cách tự do mà phải trong khuôn khổ."
+          }
+        ]
+      },
+      {
+        "cluster_id": 23,
+        "documents": [
+          {
+            "time": "2024-08-06T01:21:00",
+            "text": "Nhan sắc của mẹ bầu Phương Trinh Jolie khiến dân tình khỏi khỏi trầm trồ."
+          },
+          {
+            "time": "2024-08-06T01:20:00",
+            "text": "Đoàn Thiên Ân gây ấn tượng với nhan sắc xinh đẹp và phong cách thời trang trẻ trung, thanh lịch ở hiện tại."
+          },
+          {
+            "time": "2024-08-06T00:50:00",
+            "text": "Chỉ với một chiếc áo, Doãn Hải My chứng minh nhan sắc không đổi sau sinh."
+          },
+          {
+            "time": "2024-08-06T00:08:08",
+            "text": "Hồng Đào diện đồ thể thao trẻ trung khi chơi thể thao cùng con gái, diễn viên Thanh Hương 'Người phán xử' được nhận xét thăng hạng nhan sắc sau khi ly hôn."
+          }
+        ]
+      },
+      {
+        "cluster_id": 24,
+        "documents": [
+          {
+            "time": "2024-08-06T22:52:00",
+            "text": "Barca đạt thỏa thuận ký 6 năm Dani Olmo sau khi thống nhất được cấu trúc và mức phí chuyển nhượng với Leipzig."
+          },
+          {
+            "time": "2024-08-06T16:48:00",
+            "text": "Chelsea sẽ nhận được 12 triệu bảng nếu trung vệ Marc Guehi rời Crystal Palace, hoàn tất thương vụ chuyển nhượng đến Newcastle ít ngày tới."
+          },
+          {
+            "time": "2024-08-06T07:10:00",
+            "text": "Giới truyền thông xứ sương mù cho hay, Man City chuẩn bị đạt thỏa thuận bán Julian Alvarez cho Atletico Madrid với mức phí 70 triệu bảng Anh."
+          }
+        ]
+      },
+      {
+        "cluster_id": 25,
+        "documents": [
+          {
+            "time": "2024-08-06T22:42:00",
+            "text": "Thống đốc Minnesota Tim Walz đã được ứng viên tổng thống đảng Dân chủ Kamala Harris chọn làm liên danh tranh cử trong cuộc đua vào Nhà Trắng năm nay."
+          },
+          {
+            "time": "2024-08-06T00:50:00",
+            "text": "Không ngoài dự đoán chung nhưng vẫn gây bất ngờ không nhỏ là câu chuyện Phó Tổng thống Mỹ đương nhiệm Kamala Harris trong cuộc biểu quyết trực tuyến của đảng Dân chủ đã giành đủ đa số biểu quyết cần thiết để trở thành ứng cử viên chính thức của đảng này cho cuộc bầu cử tổng thống sắp tới ở nước Mỹ."
+          },
+          {
+            "time": "2024-08-06T00:04:00",
+            "text": "Sau khi tiếp quản chiến dịch tranh cử từ Tổng thống Joe Biden vào tháng trước, bà Harris có rất ít thời gian xuất hiện trên đường đua vào Nhà Trắng. Tuy vậy, điều này không hẳn là một bất lợi đối với Phó Tổng thống."
+          }
+        ]
+      },
+      {
+        "cluster_id": 26,
+        "documents": [
+          {
+            "time": "2024-08-06T21:06:00",
+            "text": "Tổng Bí thư, Chủ tịch nước Tô Lâm lưu ý, các cơ quan Trung ương và địa phương sớm kiện toàn các chức danh lãnh đạo để chuẩn bị tốt nhất cho Đại hội các cấp tiến tới Đại hội 14 của Đảng."
+          },
+          {
+            "time": "2024-08-06T20:07:52",
+            "text": "Trong các ngày qua, lãnh đạo các đảng, các nước tiếp tục gửi thư, điện chúc mừng Chủ tịch nước Tô Lâm được bầu giữ chức Tổng Bí thư."
+          },
+          {
+            "time": "2024-08-06T19:10:00",
+            "text": "Đây là phiên họp lãnh đạo chủ chốt đầu tiên sau khi Chủ tịch nước Tô Lâm được bầu làm Tổng Bí thư, nhằm duy trì nền nếp làm việc của lãnh đạo chủ chốt."
+          }
+        ]
+      },
+      {
+        "cluster_id": 27,
+        "documents": [
+          {
+            "time": "2024-08-06T17:09:30",
+            "text": "Thăm các nạn nhân chất độc da cam/dioxin, Thứ trưởng Bộ Quốc phòng Hoàng Xuân Chiến và Đại sứ Mỹ Marc Knapper đều nhấn mạnh về hợp tác hai nước trong khắc phục hậu quả chiến tranh."
+          },
+          {
+            "time": "2024-08-06T10:03:32",
+            "text": "Sáng 6/8, Đại tướng Phan Văn Giang, Bộ trưởng Quốc phòng chủ trì lễ đón Bộ trưởng Quốc phòng Nhật Bản Kihara Minoru Bản đang có chuyến thăm chính thức Việt Nam."
+          },
+          {
+            "time": "2024-08-06T00:32:00",
+            "text": "Nhật Bản và Campuchia nhất trí sẽ tiếp tục thúc đẩy hợp tác quốc phòng và tăng cường trao đổi đoàn giữa hai nước. Tuyên bố được đưa ra ngày 5/8 tại cuộc hội đàm giữa Bộ trưởng Quốc phòng Nhật Bản Minoru Kihara và người đồng cấp Campuchia Tea Seiha ở thủ đô Phnôm Pênh."
+          }
+        ]
+      },
+      {
+        "cluster_id": 28,
+        "documents": [
+          {
+            "time": "2024-08-06T10:40:43",
+            "text": "Phần luận tội 254 bị cáo trong đại án đăng kiểm, đại diện Viện kiểm sát nhấn mạnh, vụ án được phá nhờ manh mối 2 chiếc ô tô có dấu hiệu cơi nới thành thùng so với quy chuẩn."
+          },
+          {
+            "time": "2024-08-06T00:35:00",
+            "text": "Trong 6 tháng đầu năm 2024, các cơ quan kiểm sát Trung Quốc đã truy tố 1.597 người trong 668 vụ án về tội gây ô nhiễm môi trường."
+          },
+          {
+            "time": "2024-08-06T00:03:47",
+            "text": "Bộ Công an đã khởi tố 26 bị can, tách vụ án và ra kết luận điều tra đối với 1 bị can, đồng thời đang điều tra 25 bị can còn lại."
+          }
+        ]
+      },
+      {
+        "cluster_id": 29,
+        "documents": [
+          {
+            "time": "2024-08-06T07:30:00",
+            "text": "HY LẠP - Nhiều người ví von rằng \"có một ngọn núi lửa du khách\" luôn chờ phun trào để phá hủy hòn đảo thiên đường Santorini."
+          },
+          {
+            "time": "2024-08-06T00:35:00",
+            "text": "HY LẠP - Nhiều người ví von rằng 'có một ngọn núi lửa du khách' luôn chờ phun trào để phá hủy hòn đảo thiên đường Santorini."
+          },
+          {
+            "time": "2024-08-06T00:35:00",
+            "text": "Với cấu tạo độc đáo từ quá trình phun trào của núi lửa từ nhiều năm về trước, núi Thới Lới mang vẻ đẹp hùng vĩ và đầy sức sống."
+          }
+        ]
+      },
+      {
+        "cluster_id": 30,
+        "documents": [
+          {
+            "time": "2024-08-06T06:00:00",
+            "text": "Gia đình Radford là gia đình đông con nhất nước Anh với tổng cộng 22 người con. Cuộc sống của vợ chồng nhà Radford có nhiều điều lạ lùng và những tâm sự rất riêng."
+          },
+          {
+            "time": "2024-08-06T01:07:00",
+            "text": "Theo thông tin ban đầu, vì mâu thuẫn gia đình, một người đàn ông ở xã Tà Chải (Bắc Hà) đã cầm dao hành hung vợ dã man dẫn đến tử vong."
+          },
+          {
+            "time": "2024-08-06T01:05:00",
+            "text": "Canh thịt bò củ cải không chỉ có hương vị thơm ngon mà còn cung cấp nhiều dinh dưỡng, thường được yêu thích trong các bữa ăn gia đình."
+          }
+        ]
+      },
+      {
+        "cluster_id": 31,
+        "documents": [
+          {
+            "time": "2024-08-06T01:26:00",
+            "text": "Theo nghị quyết của Hội đồng nhân dân tỉnh Hòa Bình, học phí các cơ sở giáo dục mầm non, giáo dục phổ thông công lập năm học 2024 – 2025 trên địa tỉnh chia theo 3 khu vực. Mức thấp nhất 33.000đ/học sinh/tháng, cao nhất 59.000đ/học sinh/tháng."
+          },
+          {
+            "time": "2024-08-06T00:58:00",
+            "text": "Bộ GD&ĐT ban hành Khung kế hoạch thời gian năm học 2024 - 2025 đối với giáo dục mầm non, giáo dục phổ thông và giáo dục thường xuyên."
+          },
+          {
+            "time": "2024-08-06T00:33:00",
+            "text": "Trường THPT chuyên Võ Nguyên Giáp là cơ sở giáo dục phổ thông của hệ thống giáo dục quốc dân. Trường được thành lập ngày 11/7/1996 theo quyết định của UBND tỉnh với tên gọi đầu tiên là Trường Năng khiếu Quảng Bình. Trải qua 28 năm xây dựng và trưởng thành, dưới sự lãnh đạo, chỉ đạo của Tỉnh ủy, HĐND, UBND và Sở Giáo dục-Đào tạo (GD-ĐT), cùng với nỗ lực của đội ngũ cán bộ (CB) quản lý, giáo viên (GV) và học sinh (HS) qua các thế hệ, nhà trường đã không ngừng phát triển, luôn dẫn đầu phong trào thi đua 'dạy tốt, học tốt' trong khối các trường THPT tỉnh. Đặc biệt, năm 2014, gần 1 năm sau ngày Đại tướng Võ Nguyên Giáp về cõi vĩnh hằng, thể theo nguyện vọng của GV, HS nhà trường, ngày 7/8, UBND tỉnh đã ban hành Quyết định số 2133/QĐ-UBND, đổi tên Trường THPT chuyên Quảng Bình thành Trường THPT chuyên Võ Nguyên Giáp."
+          }
+        ]
+      },
+      {
+        "cluster_id": 32,
+        "documents": [
+          {
+            "time": "2024-08-06T01:03:00",
+            "text": "Mặt bằng bán lẻ ở trung tâm thành phố Hà Nội có thể tăng 18% trong năm 2024, mặc dù công suất thuê có xu hướng giảm, theo CBRE. Nguồn cung hạn chế"
+          },
+          {
+            "time": "2024-08-06T00:53:00",
+            "text": "Ngày 20-7, chị Hòa ở huyện Đông Anh dẫn con gái sang trung tâm thành phố Hà Nội chơi. Hai mẹ con đi dạo quanh hồ Hoàn Kiếm và ngồi ghế đá ngắm cảnh."
+          },
+          {
+            "time": "2024-08-06T00:13:00",
+            "text": "Theo Văn phòng UBND thành phố Hà Nội, nhờ thực hiện nhiều giải pháp nâng cấp cơ sở hạ tầng, cải thiện dịch vụ khách sạn và đổi mới công tác xúc tiến quảng bá, ngành du lịch Hà Nội đã đạt được những kết quả ấn tượng."
+          }
+        ]
+      },
+      {
+        "cluster_id": 33,
+        "documents": [
+          {
+            "time": "2024-08-06T00:35:00",
+            "text": "'Ngọc nữ màn ảnh' Tăng Thanh Hà cùng nhiều mỹ nhân đình đám từng khuynh đảo màn ảnh cách đây hơn 2 thập kỷ."
+          },
+          {
+            "time": "2024-08-06T00:20:00",
+            "text": "Nam diễn viên là 'tình đầu' của Hồ Ngọc Hà trên màn ảnh hiện có cuộc sống ra sao?"
+          },
+          {
+            "time": "2024-08-06T00:19:00",
+            "text": "Sau 20 năm, dàn diễn viên 'Những cô gái chân dài' đã có những đổi thay lớn trong cuộc sống."
+          }
+        ]
+      },
+      {
+        "cluster_id": 34,
+        "documents": [
+          {
+            "time": "2024-08-06T00:28:00",
+            "text": "Phản ứng của Hoắc Kiến Hoa khi chứng kiến bà xã Lâm Tâm Như và nam đồng nghiệp quay cảnh thân mật ngay trước mặt thu hút sự quan tâm của cư dân mạng."
+          },
+          {
+            "time": "2024-08-06T00:08:00",
+            "text": "Mới đây, cư dân mạng Việt đang chuyền tay nhau khoảnh khắc khá hài hước của 2 người đàn ông."
+          },
+          {
+            "time": "2024-08-06T00:05:00",
+            "text": "Sự việc về sao nam Cbiz này nhanh chóng được đem ra bàn tán và còn trở thành tâm điểm chú ý của cư dân mạng."
+          }
+        ]
+      },
+      {
+        "cluster_id": 35,
+        "documents": [
+          {
+            "time": "2024-08-06T00:27:00",
+            "text": "Ngày 5/8, Thủ tướng Ấn Độ Narendra Modi đã chủ trì cuộc họp Ủy ban Nội các An ninh về tình hình đang diễn ra ở Bangladesh, trong bối cảnh cuộc khủng hoảng chính trị đang diễn ra ở nước láng giềng này. Ghi nhận của phóng viên TTXVN tại Nam Á."
+          },
+          {
+            "time": "2024-08-06T00:06:00",
+            "text": "Báo Thế giới & Việt Nam cập nhật loạt diễn biến mới cũng như phản ứng của cộng đồng quốc tế về tình hình an ninh, chính trị của Bangladesh sau khi Thủ tướng nước này Sheikh Hasina từ chức và rời khỏi đất nước."
+          },
+          {
+            "time": "2024-08-06T00:01:00",
+            "text": "Ngày 5/8, quân đội Ấn Độ đã đưa ra cảnh báo cao độ cho tất cả các đơn vị dọc theo biên giới giữa nước này với Bangladesh. Cảnh sát Ấn Độ cũng đã tăng cường an ninh xung quanh Cao ủy Bangladesh tại thủ đô New Delhi."
+          }
+        ]
+      },
+      {
+        "cluster_id": 36,
+        "documents": [
+          {
+            "time": "2024-08-06T20:32:24",
+            "text": "Thủ tướng yêu cầu đánh giá toàn diện chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của 4 nhiệm kỳ Chính phủ; đề xuất giải pháp kiện toàn cơ cấu tổ chức của Chính phủ tinh gọn, giảm tầng nấc trung gian và đầu mối bên trong."
+          },
+          {
+            "time": "2024-08-06T18:19:00",
+            "text": "Theo yêu cầu của Thủ tướng Phạm Minh Chính, các đơn vị cần nghiên cứu quy định của Đảng để đề xuất định hướng kiện toàn cơ cấu tổ chức của bộ, cơ quan ngang bộ và cơ cấu Chính phủ khóa XVI."
+          }
+        ]
+      },
+      {
+        "cluster_id": 37,
+        "documents": [
+          {
+            "time": "2024-08-06T19:17:00",
+            "text": "Sự biến mất của tùy chọn động cơ diesel có thể sẽ tác động mạnh đến tình hình doanh số của Hyundai Santa Fe 2024 thế hệ mới. Mẫu xe với thiết kế mới vẫn gây ra nhiều ý kiến trái chiều và dự kiến gặp sức ép lớn từ đối thủ Ford Everest."
+          },
+          {
+            "time": "2024-08-06T00:39:00",
+            "text": "MG7, Wuling Bingo hay Hyundai Santa Fe 2024 sẽ là những cái tên dự kiến xuất hiện tại Việt Nam vào nửa cuối năm nay."
+          }
+        ]
+      },
+      {
+        "cluster_id": 38,
+        "documents": [
+          {
+            "time": "2024-08-06T17:30:00",
+            "text": "Núi Bà Đen có nhiều trải nghiệm văn hoá tâm linh độc đáo. Dưới đây gợi ý là lịch trình chi tiết nếu du khách chỉ có 1 ngày để khám phá “nóc nhà Nam bộ”."
+          },
+          {
+            "time": "2024-08-06T01:06:00",
+            "text": "Tháng 8 là thời điểm thích hợp cho các tín đồ du lịch trải nghiệm nhiều nơi mới lạ."
+          }
+        ]
+      },
+      {
+        "cluster_id": 39,
+        "documents": [
+          {
+            "time": "2024-08-06T17:29:00",
+            "text": "MLee ưa chuộng những trang phục khoét eo, xẻ đùi táo bạo để lộ cơ bụng săn chắc."
+          },
+          {
+            "time": "2024-08-06T15:20:00",
+            "text": "Trong những ngày ở Paris (Pháp), Hồng Nhung gây chú ý khi thường xuyên xuống phố với những bộ trang phục gợi cảm, cá tính."
+          }
+        ]
+      },
+      {
+        "cluster_id": 40,
+        "documents": [
+          {
+            "time": "2024-08-06T17:11:00",
+            "text": "Vì phải đóng phim từ sáng đến khuya trong nhiều ngày liên tục, nữ diễn viên gần như kiệt sức. Có ngày cô phải nhập viện vì vấn đề bao tử."
+          },
+          {
+            "time": "2024-08-06T15:58:46",
+            "text": "Trở lại đóng phim sau thời gian gặp nhiều biến cố, Dương Cẩm Lynh làm việc đến mức kiệt sức, phải nhập viện vì chứng bệnh bao tử."
+          }
+        ]
+      },
+      {
+        "cluster_id": 41,
+        "documents": [
+          {
+            "time": "2024-08-06T16:59:00",
+            "text": "Phó Chủ tịch UBND tỉnh Thanh Hóa đã có chỉ đạo giao Sở Văn hóa - Thể thao và Du lịch tỉnh này làm việc với CLB Thanh Hóa về thông tin các cầu thủ \"đình công\" vì bị nợ lương, thưởng gần 20 tỷ đồng."
+          },
+          {
+            "time": "2024-08-06T16:34:00",
+            "text": "Ông Triệu Thế Hùng, Chủ tịch UBND tỉnh Hải Dương, vừa được phê chuẩn làm Phó Chủ nhiệm Ủy ban Văn hóa - Giáo dục Quốc hội khóa XV."
+          }
+        ]
+      },
+      {
+        "cluster_id": 42,
+        "documents": [
+          {
+            "time": "2024-08-06T15:38:30",
+            "text": "MỸ - Một người chơi gôn suýt bị một chiếc máy bay nhỏ đâm trúng khi nó hạ cánh khẩn cấp xuống một sân gôn được ưa chuộng ở Sacramento. Vụ việc xảy ra vào Chủ nhật (4/8)."
+          },
+          {
+            "time": "2024-08-06T07:25:00",
+            "text": "Một máy bay Mỹ phải hạ cánh khẩn cấp vì một hành khách có dấu hiệu \"phê\" cần sa gây rối và đòi mở cửa thoát hiểm trên không."
+          }
+        ]
+      },
+      {
+        "cluster_id": 43,
+        "documents": [
+          {
+            "time": "2024-08-06T15:37:00",
+            "text": "Tình báo Mỹ tin rằng kế hoạch tấn công của Iran và các lực lượng đồng minh để trả đũa Israel sẽ gồm 2 bước và có thể không giống cuộc tấn công hồi tháng 4."
+          },
+          {
+            "time": "2024-08-06T14:11:00",
+            "text": "Lực lượng Houthi đang lên kế hoạch lớn cho một cuộc tấn công từ mọi hướng vào Israel giữa lúc có lo ngại Iran và các nhóm vũ trang đồng minh sẽ phối hợp cùng tập kích trả đũa quốc gia này."
+          }
+        ]
+      },
+      {
+        "cluster_id": 44,
+        "documents": [
+          {
+            "time": "2024-08-06T15:08:00",
+            "text": "Dốc toàn bộ tài sản, vay mượn để mua một căn hộ chung cư nhưng cuối cùng cuộc hôn nhân của tôi lại rơi vào ngõ cụt."
+          },
+          {
+            "time": "2024-08-06T00:05:00",
+            "text": "Theo Luật Hôn nhân và Gia đình Việt Nam, nếu không có chứng cứ nào khác chứng minh tài sản thuộc riêng của vợ, chồng thì tài sản đó được coi là tài sản chung."
+          }
+        ]
+      },
+      {
+        "cluster_id": 45,
+        "documents": [
+          {
+            "time": "2024-08-06T14:00:00",
+            "text": "Các nhà nghiên cứu từ Học viện Công nghệ Massachusetts (MIT, Mỹ) cho rằng, việc đánh giá một mô hình ngôn ngữ lớn (LLM) cần phải dựa trên cách con người hình thành niềm tin về khả năng của mô hình đó."
+          },
+          {
+            "time": "2024-08-06T10:31:37",
+            "text": "Nhiều bạn trẻ của thành phố Tuyên Quang đã và đang hình thành những ý tưởng táo bạo, ứng dụng công nghệ 4.0 để thiết kế, sáng tạo ra những mô hình, phần mềm thiết thực."
+          }
+        ]
+      },
+      {
+        "cluster_id": 46,
+        "documents": [
+          {
+            "time": "2024-08-06T11:51:00",
+            "text": "Ở Mỹ, các diễn viên lồng tiếng trò chơi điện tử và nghệ sĩ đóng giả chuyển động nhân vật vừa tổ chức một cuộc biểu tình, đình công, phản ứng với... AI (trí tuệ nhân tạo) vì cạnh tranh trong công việc."
+          },
+          {
+            "time": "2024-08-06T00:16:00",
+            "text": "Hơn 400 diễn viên không chuyên tham dự Liên hoan Tiếng hát công nhân, viên chức, lao động Hà Tĩnh năm 2024 đã mang đến cho khán giả những tiết mục biểu diễn hấp dẫn, ấn tượng."
+          }
+        ]
+      },
+      {
+        "cluster_id": 47,
+        "documents": [
+          {
+            "time": "2024-08-06T11:00:00",
+            "text": "Tổng Giám đốc Piaggio Việt Nam đã được Bộ Kế hoạch và Đầu tư trao tặng kỷ niệm chương “Vì sự nghiệp ngành Kế hoạch và Đầu tư Việt Nam”."
+          },
+          {
+            "time": "2024-08-06T00:56:00",
+            "text": "Việt Nam đang đứng trước cơ hội đón nhận làn sóng FDI lần thứ 4, tuy nhiên Việt Nam không phải là quốc gia duy nhất khao khát cơ hội này trong khu vực. Do đó, để đón làn sóng đầu tư này, Việt Nam cần quyết liệt cải thiện hơn nữa môi trường đầu tư nếu không muốn để vuột mất các 'đại bàng' và nhiều tỷ USD."
+          }
+        ]
+      },
+      {
+        "cluster_id": 48,
+        "documents": [
+          {
+            "time": "2024-08-06T10:19:41",
+            "text": "Toà án liên bang tại Mỹ vừa đưa ra phán quyết Google đã vi phạm quy định về độc quyền trong lĩnh vực tìm kiếm sau phiên toà kéo dài 10 tuần."
+          },
+          {
+            "time": "2024-08-06T01:10:00",
+            "text": "Thẩm phán liên bang Mỹ ra phán quyết, Google đã vi phạm luật chống độc quyền khi duy trì vị thế độc quyền trong lĩnh vực tìm kiếm trực tuyến. Đây là phán quyết mang tính bước ngoặt của Bộ Tư pháp Mỹ trong nỗ lực kiềm chế các gã khổng lồ công nghệ."
+          }
+        ]
+      },
+      {
+        "cluster_id": 49,
+        "documents": [
+          {
+            "time": "2024-08-06T09:09:09",
+            "text": "Dư nợ và tiến độ trả nợ của 4 khách hàng lớn gồm Novaland, Trung Nam, Sun Group và Vingroup là vấn đề được các nhà đầu tư quan tâm tại hội nghị nhà đầu tư năm 2024 của MB."
+          },
+          {
+            "time": "2024-08-06T01:25:14",
+            "text": "Chỉ số VIX đo lường nỗi sợ hãi của nhà đầu tư ở Phố Wall có lúc tăng tới 65 điểm, mức cao nhất kể từ những ngày đầu của đại dịch Covid1-9 vào năm 2020..."
+          }
+        ]
+      },
+      {
+        "cluster_id": 50,
+        "documents": [
+          {
+            "time": "2024-08-06T08:09:00",
+            "text": "16 cổ đông cá nhân và 5 cổ đông tổ chức nắm hơn 70% vốn KienlongBank. Trong đó có nhiều người liên quan ông Võ Đức Thắng, hay còn được gọi là \"bầu\" Thắng, cựu Chủ tịch KienlongBank."
+          },
+          {
+            "time": "2024-08-06T06:01:00",
+            "text": "GELEX sẽ nâng tỷ lệ sở hữu từ 4,9% hiện tại lên mức 10% vốn điều lệ của Eximbank, trở thành cổ đông lớn của nhà băng này. Sắp đón cổ đông lớn mới, Eximbank đang làm ăn ra sao?"
+          }
+        ]
+      },
+      {
+        "cluster_id": 51,
+        "documents": [
+          {
+            "time": "2024-08-06T08:08:26",
+            "text": "MU xác nhận tân binh Leny Yoro đã phẫu thuật thành công chấn thương ở chân, cần 3 tháng để hồi phục."
+          },
+          {
+            "time": "2024-08-06T00:05:00",
+            "text": "Phẫu thuật khúc xạ là giải pháp giúp người bị cận thị hồi phục thị lực một cách nhanh chóng. Tạm biệt kính cận, các bạn trẻ có thể hoàn toàn tự tin để theo đuổi ngành học và công việc mơ ước."
+          }
+        ]
+      },
+      {
+        "cluster_id": 52,
+        "documents": [
+          {
+            "time": "2024-08-06T08:00:00",
+            "text": "Gạch chịu lửa, vật liệu có nguồn gốc từ thời đại đồ đồng, có thể trở thành nhân tố quan trọng trong quá trình chuyển đổi 100% năng lượng tái tạo trên toàn cầu."
+          },
+          {
+            "time": "2024-08-06T01:14:00",
+            "text": "iPhone 16 series có thể sẽ không kịp trình làng một tính năng quan trọng khi ra mắt vào tháng 9."
+          }
+        ]
+      },
+      {
+        "cluster_id": 53,
+        "documents": [
+          {
+            "time": "2024-08-06T07:20:00",
+            "text": "Theo các giáo viên Ngữ văn, yêu cầu không dùng ngữ liệu trong sách giáo khoa để kiểm tra sẽ triệt tiêu được tình trạng \"thầy đoán đề, trò học tủ”, tuy nhiên nếu sử dụng ngoài sách dễ dẫn đến tự do quá trớn, vô tội vạ..."
+          },
+          {
+            "time": "2024-08-06T00:25:00",
+            "text": "Theo các giáo viên Ngữ văn, yêu cầu không dùng ngữ liệu trong sách giáo khoa để kiểm tra sẽ triệt tiêu được tình trạng 'thầy đoán đề, trò học tủ', tuy nhiên nếu sử dụng ngoài sách dễ dẫn đến tự do quá trớn, vô tội vạ..."
+          }
+        ]
+      },
+      {
+        "cluster_id": 54,
+        "documents": [
+          {
+            "time": "2024-08-06T06:02:00",
+            "text": "Nghị định 96 quy định tổng dư nợ vay tại tổ chức tín dụng, dư nợ trái phiếu doanh nghiệp và vốn chủ sở hữu phải có không vượt quá 100% tổng vốn đầu tư của dự án đó."
+          },
+          {
+            "time": "2024-08-06T00:27:00",
+            "text": "Dự án nâng cấp, mở rộng khu neo đậu tránh trú bão kết hợp cảng cá Tịnh Hòa có tổng vốn đầu tư 460 tỷ được phê duyệt từ năm 2022 nhưng đến nay vẫn dang dở do vướng giải phóng mặt bằng."
+          }
+        ]
+      },
+      {
+        "cluster_id": 55,
+        "documents": [
+          {
+            "time": "2024-08-06T05:43:00",
+            "text": "Trẻ nhỏ luôn khiến người lớn vừa tức vừa buồn cười."
+          },
+          {
+            "time": "2024-08-06T01:05:00",
+            "text": "Cảnh tượng này không chỉ làm cho người xem bật cười mà còn cảm thấy xúc động trước những khoảnh khắc vui vẻ, hồn nhiên của tuổi trẻ."
+          }
+        ]
+      },
+      {
+        "cluster_id": 56,
+        "documents": [
+          {
+            "time": "2024-08-06T04:27:00",
+            "text": "Đường dây sử dụng tiền âm phủ để lừa bán tiền giả đã lừa khoảng 6.900 người trên cả nước, thu lợi bất chính hơn 6 tỷ đồng."
+          },
+          {
+            "time": "2024-08-06T00:42:00",
+            "text": "Sử dụng mạng xã hội để quảng cáo bán tiền giả, khi có người đặt mua tiền giả, các đối tượng trong đường dây tội phạm này thay bằng tiền 'âm phủ' để gửi đi cho khách hàng. Bằng thủ đoạn đó, các đối tượng đã lừa đảo hàng nghìn người, chiếm đoạt khoảng 6 tỷ đồng. Ngày 5-8, Công an TP Bảo Lộc (Lâm Đồng) cho biết, vừa khởi tố vụ án, khởi tố bị can, bắt tạm giam 14 đối tượng liên quan đến đường dây tội phạm nói trên để điều tra về hành vi: 'Lừa đảo chiếm đoạt tài sản'."
+          }
+        ]
+      },
+      {
+        "cluster_id": 57,
+        "documents": [
+          {
+            "time": "2024-08-06T03:09:00",
+            "text": "Cô nàng thừa nhận phẫu thuật thẩm mỹ là chủ đề được hỏi nhiều nhất nhì trên các tài khoản MXH của mình."
+          },
+          {
+            "time": "2024-08-06T00:20:00",
+            "text": "Ngân 98 mới đây đã công khai nhan sắc sau khi chi tiền tỷ sang Hàn Quốc phẫu thuật thẩm mỹ nhưng cô nàng lại nhận lại yêu cầu lạ từ các fan của mình."
+          }
+        ]
+      },
+      {
+        "cluster_id": 58,
+        "documents": [
+          {
+            "time": "2024-08-06T01:14:00",
+            "text": "Israel đang chuẩn bị ứng phó với động thái trả đũa của Iran trong bối cảnh căng thẳng khu vực gia tăng đến mức chưa từng thấy kể từ khi Hamas tấn công lãnh thổ quốc gia này hồi tháng 10-2023."
+          },
+          {
+            "time": "2024-08-06T00:57:00",
+            "text": "Ngày 5/8, người phát ngôn Bộ Ngoại giao Iran Nasser Kanaani khẳng định Iran không muốn leo thang căng thẳng trong khu vực nhưng cần phải trừng phạt Israel để ngăn chặn bất ổn gia tăng."
+          }
+        ]
+      },
+      {
+        "cluster_id": 59,
+        "documents": [
+          {
+            "time": "2024-08-06T01:13:00",
+            "text": "Hơn 30 năm trước, Việt Nam mở cửa thu hút dòng vốn đầu tư trực tiếp nước ngoài (FDI) với kỳ vọng sẽ có thêm nguồn lực đầu tư vào các lĩnh vực để phát triển kinh tế - xã hội. Đồng thời, các doanh nghiệp (DN) FDI sẽ kết nối với DN Việt Nam, từng bước chuyển giao khoa học - công nghệ, cùng tham gia vào chuỗi cung ứng toàn cầu. Qua đó, DN Việt từng bước làm chủ công nghệ, trở thành những mắt xích quan trọng trong chuỗi sản xuất và lớn mạnh dần."
+          },
+          {
+            "time": "2024-08-06T00:57:00",
+            "text": "Tương lai tươi sáng phía trước sẽ đến với các doanh nghiệp Việt nếu biết cách 'mở khóa' các cơ hội khai thác hiệu quả dòng vốn đầu tư trực tiếp nước ngoài (FDI) chất lượng cao đang không ngừng rót vốn vào Việt Nam. Điều quan trọng là họ cần nỗ lực tận dụng thế mạnh về sản xuất và dịch vụ của mình để nâng cao chuỗi giá trị tổng thể, gia tăng tỷ lệ cung ứng nội địa hóa và bổ trợ cho hoạt động đầu tư của khối ngoại."
+          }
+        ]
+      },
+      {
+        "cluster_id": 60,
+        "documents": [
+          {
+            "time": "2024-08-06T01:05:00",
+            "text": "Hứa Khải cho biết bản thân phải mất một thời gian khá lâu mới 'quen' cảm giác hôn Đàm Tùng Vận."
+          },
+          {
+            "time": "2024-08-06T00:53:00",
+            "text": "Thanh nhãn là một trong những cây trồng thế mạnh ở Cần Thơ trong nhiều năm trở lại đây. Đặc biệt, thời gian qua, nhiều hộ sản xuất đã ứng dụng kỹ thuật để điều chỉnh thời gian ra hoa, giúp trái chín sớm, mang lại hiệu quả kinh tế vượt trội."
+          }
+        ]
+      },
+      {
+        "cluster_id": 61,
+        "documents": [
+          {
+            "time": "2024-08-06T01:05:00",
+            "text": "Khi nhiều người đang chạy theo công nghệ làm đẹp bằng dao kéo để được biến đổi nhanh thì một phương thức làm đẹp khác an toàn hơn, ai cũng có thể thực hiện được mà không tốn kém cũng đang được nhiều người đón nhận. Đó là làm đẹp bằng y học cổ truyền."
+          },
+          {
+            "time": "2024-08-06T00:10:01",
+            "text": "eSIM được viết tắt là (Embedded SIM) đây là công nghệ SIM hiện đại và đang được đặt rất nhiều kỳ vọng của ngành truyền thông hiện nay."
+          }
+        ]
+      },
+      {
+        "cluster_id": 62,
+        "documents": [
+          {
+            "time": "2024-08-06T00:59:00",
+            "text": "Khoảng 21 giờ ngày 5/8, cháy lớn bất ngờ xảy ra tại một quán ăn nằm trên phố ẩm thực Nguyễn Thượng Hiền, phường 4, Quận 3 (TP Hồ Chí Minh). Thời điểm này, trong nhà có 5 người đã nhanh chóng thoát ra ngoài rồi hô hoán. Nhiều người dùng bình chữa cháy mini để dập lửa nhưng bất thành."
+          },
+          {
+            "time": "2024-08-06T00:26:00",
+            "text": "Quán ăn gồm 1 tầng trệt, 1 lầu ở Phố ẩm thực Nguyễn Thượng Hiền, quận 3, TP.HCM bốc cháy lớn, may mắn 5 người trong căn nhà đã thoát nạn thành công."
+          }
+        ]
+      },
+      {
+        "cluster_id": 63,
+        "documents": [
+          {
+            "time": "2024-08-06T00:58:00",
+            "text": "Nhân dịp Đại hội thi đua Quyết thắng lực lượng vũ trang (LLVT) tỉnh giai đoạn 2019 - 2024, sáng 6/8, Đoàn đại biểu Tỉnh ủy, HĐND, UBND, Ủy ban MTTQ Việt Nam tỉnh và Đoàn đại biểu cán bộ, chiến sĩ LLVT tỉnh tổ chức Lễ dâng hoa, dâng hương tại Nghĩa trang Liệt sĩ TP.Quảng Ngãi, nhằm tưởng nhớ, tri ân các Anh hùng liệt sĩ đã hy sinh vì độc lập, tự do của Tổ quốc."
+          },
+          {
+            "time": "2024-08-06T00:43:00",
+            "text": "Tối 5/8, tại Trạm khách T50 (TP.Quảng Ngãi), Bộ CHQS tỉnh đã tổ chức chương trình Giao lưu điển hình tiên tiến trong phong trào Thi đua Quyết thắng lực lượng vũ trang (LLVT) tỉnh giai đoạn 2019 - 2024. Phó Chủ tịch Thường trực UBND tỉnh Trần Hoàng Tuấn đã đến dự chương trình."
+          }
+        ]
+      },
+      {
+        "cluster_id": 64,
+        "documents": [
+          {
+            "time": "2024-08-06T00:56:00",
+            "text": "Sau 10 ngày bị nước lũ bủa vây, nhiều gia đình sinh sống tại xã Nam Phương Tiến, huyện Chương Mỹ (Hà Nội) đang tất bật dọn dẹp, khắc phục hậu quả với mong muốn sớm ổn định cuộc sống."
+          },
+          {
+            "time": "2024-08-06T00:51:00",
+            "text": "Ba năm gần đây, cuộc sống của gia đình anh Lê Văn Cường sinh năm 1972 và chị Mai Thị Hằng sinh năm 1973 ở thôn Tràng Cát, xã Kim An, huyện Thanh Oai bị xáo trộn khi hết tai họa này đến khó khăn khác liên tục ập đến."
+          }
+        ]
+      },
+      {
+        "cluster_id": 65,
+        "documents": [
+          {
+            "time": "2024-08-06T00:50:00",
+            "text": "Với mong muốn mang lại những gì tốt đẹp nhất cho cộng đồng, nhiều tấm gương điển hình làm công tác mặt trận đã phát huy vai trò tiên phong, gương mẫu, xây dựng khối đại đoàn kết giữa các tầng lớp nhân dân, góp phần thực hiện thắng lợi nhiệm vụ phát triển KT-XH ở địa phương..."
+          },
+          {
+            "time": "2024-08-06T00:26:00",
+            "text": "Năng động, sáng tạo, dám nghĩ, dám làm, đó là những cán bộ làm công tác Mặt trận thuộc thế hệ '8X' của tỉnh đang thổi luồng gió mới, tạo nên những dấu ấn đậm nét đối với công tác Mặt trận và sự nghiệp xây dựng khối đại đoàn kết toàn dân tộc tại địa phương."
+          }
+        ]
+      },
+      {
+        "cluster_id": 66,
+        "documents": [
+          {
+            "time": "2024-08-06T00:49:00",
+            "text": "Mới đây, Triều Tiên đã bàn giao 250 bệ phóng tên lửa đạn đạo chiến thuật mới cho lực lượng quân đội."
+          },
+          {
+            "time": "2024-08-06T00:06:22",
+            "text": "Hãng thông tấn trung ương Triều Tiên (KCNA) đưa tin, các đơn vị quân đội tiền tuyến của nước này đã được trang bị 250 bệ phóng tên lửa đạn đạo chiến thuật thế hệ mới."
+          }
+        ]
+      },
+      {
+        "cluster_id": 67,
+        "documents": [
+          {
+            "time": "2024-08-06T00:49:00",
+            "text": "Bà Lê Xuân Thư, Chi hội trưởng Chi hội Cựu chiến binh tổ dân phố Cụm 591 - Hội Cựu chiến binh xã Liên Ninh (huyện Thanh Trì) nhiều năm qua luôn tích cực triển khai thực hiện các nhiệm vụ trong công tác cựu chiến binh và tham gia các phong trào thi đua."
+          },
+          {
+            "time": "2024-08-06T00:47:00",
+            "text": "Thấm nhuần lời dạy của Chủ tịch Hồ Chí Minh 'Thi đua là yêu nước, yêu nước thì phải thi đua', thời gian qua, cán bộ, hội viên cựu chiến binh (CCB) huyện Đồng Hỷ luôn tích cực tham gia phong trào 'CCB gương mẫu' trên mọi lĩnh vực."
+          }
+        ]
+      },
+      {
+        "cluster_id": 68,
+        "documents": [
+          {
+            "time": "2024-08-06T00:34:00",
+            "text": "Với mong muốn đưa các nguồn vốn về với người nông dân, tiếp sức nông dân phát triển kinh tế, Hội Nông dân huyện Yên Sơn đã làm tốt vai trò cầu nối với Ngân hàng Nông nghiệp và Phát triển nông thôn Chi nhánh huyện Yên Sơn (Agribank Yên Sơn) giúp nông dân tiếp cận các nguồn vốn tín dụng ưu đãi. Qua đó, giúp hội viên nông dân có nguồn vốn đầu tư sản xuất, kinh doanh, vươn lên thoát nghèo và giảm nghèo bền vững."
+          },
+          {
+            "time": "2024-08-06T00:11:00",
+            "text": "Chủ tịch Hội Nông dân tỉnh Bình Thuận Nguyễn Phú Hoàng khẳng định, những năm qua, Hội Nông dân các cấp tỉnh Bình Thuận đã không ngừng đổi mới, nâng cao chất lượng hoạt động, phát huy vai trò chủ thể trong vận động, đoàn kết, tập hợp, phát triển hội viên, trở thành nhân tố trung tâm, sát cánh cùng nông dân trong quá trình xây dựng nông thôn mới (NTM)."
+          }
+        ]
+      },
+      {
+        "cluster_id": 69,
+        "documents": [
+          {
+            "time": "2024-08-06T00:32:00",
+            "text": "Văn hóa không chỉ là di sản mà còn là nguồn lực thúc đẩy sự phát triển đời sống, kinh tế, xã hội... Trong bối cảnh đô thị hóa nhanh chóng, phát huy vốn văn hóa đóng vai trò quan trọng nhằm xây dựng đô thị bền vững và đáng sống."
+          },
+          {
+            "time": "2024-08-06T00:30:00",
+            "text": "Đọc sách, ở bất kì thời đại nào cũng đóng vai trò quan trọng, góp phần kiến tạo văn hóa cộng đồng, xã hội..."
+          }
+        ]
+      },
+      {
+        "cluster_id": 70,
+        "documents": [
+          {
+            "time": "2024-08-06T00:31:00",
+            "text": "Trong một nghiên cứu gần đây, các nhà nghiên cứu từ Viện Hàn lâm Khoa học Trung Quốc (CAS) đã khám phá ra graphene hình thành tự nhiên được sắp xếp theo cấu trúc lớp mỏng đặc biệt trên Mặt trăng."
+          },
+          {
+            "time": "2024-08-06T00:05:00",
+            "text": "Một phần mềm độc hại Android mang tên BingoMod rất đáng sợ vừa được các nhà nghiên cứu bảo mật tại Cleafy Labs phát hiện."
+          }
+        ]
+      },
+      {
+        "cluster_id": 71,
+        "documents": [
+          {
+            "time": "2024-08-06T00:30:00",
+            "text": "Những năm qua, dưới sự lãnh đạo của Ban Thường vụ Huyện ủy Hướng Hóa, sự quan tâm chỉ đạo, hướng dẫn của Ban Thường trực Ủy ban MTTQ Việt Nam tỉnh, sự phối hợp của các cấp chính quyền và các tổ chức thành viên nên các tầng lớp nhân dân trong huyện đã phát huy truyền thống đoàn kết, tương thân tương ái, vượt qua mọi khó khăn, thách thức đề đẩy mạnh sản xuất, phát triển KT-XH, giữ vững QP-AN. Sức mạnh khối đại đoàn kết toàn dân tộc ngày càng được củng cố và tăng cường, vai trò của MTTQ từ huyện đến cơ sở tiếp tục được khẳng định và không ngừng được nâng lên."
+          },
+          {
+            "time": "2024-08-06T00:25:00",
+            "text": "Cùng với sự vào cuộc của các cấp ủy đảng, chính quyền, MTTQ Việt Nam xã Hải Lệ, thị xã Quảng Trị đã đổi mới hình thức hoạt động, nâng cao hiệu quả công tác tuyên truyền, vận động, tập hợp đoàn viên, hội viên, phát huy tốt vai trò là tổ chức chính trị, là trung tâm của khối đại đoàn kết toàn dân."
+          }
+        ]
+      },
+      {
+        "cluster_id": 72,
+        "documents": [
+          {
+            "time": "2024-08-06T00:26:28",
+            "text": "Kỳ 2: Xây dựng Bình Dương trở thành đô thị thông minh"
+          },
+          {
+            "time": "2024-08-06T00:15:13",
+            "text": "Phó Thủ tướng Trần Hồng Hà vừa ký Quyết định số 790/QĐ-TTg phê duyệt quy hoạch tỉnh Bình Dương thời kỳ 2021-2030, tầm nhìn đến năm 2050 (gọi tắt là Quyết định số 790/ QĐ-TTg). Theo đó, tầm nhìn đến năm 2050, xây dựng Bình Dương trở thành trung tâm đô thị, công nghiệp, dịch vụ hiện đại, mang tầm khu vực và quốc tế, là một trong những đầu tàu thúc đẩy phát triển kinh tế quốc gia, với động lực tăng trưởng chính là công nghiệp, dịch vụ, đổi mới sáng tạo, có cơ sở kinh tế vững chắc, sức cạnh tranh cao..."
+          }
+        ]
+      },
+      {
+        "cluster_id": 73,
+        "documents": [
+          {
+            "time": "2024-08-06T00:23:00",
+            "text": "Dự án cầu Rạch Đỉa nối Quận 7 và huyện Nhà Bè đang được đẩy nhanh tiến độ thi công để hoàn thành cuối năm nay. Hiện nay, tiến độ toàn dự án đạt 70% khối lượng."
+          },
+          {
+            "time": "2024-08-06T00:02:00",
+            "text": "Sau nhiều năm làm cầm chừng vì vướng mặt bằng, đến nay các hạng mục chính của dự án cầu Cây Khô, nối huyện Nhà Bè và huyện Bình Chánh đã thành hình, sắp sửa hoàn thành. Người dân rất phấn khởi bởi sắp tới đây không còn phải đi lại bằng đò giữa 2 huyện nữa."
+          }
+        ]
+      },
+      {
+        "cluster_id": 74,
+        "documents": [
+          {
+            "time": "2024-08-06T00:15:00",
+            "text": "Một chiếc Toyota Camry 2022 lăn bánh 20.000 km hiện đang được chào bán trên sàn xe cũ với mức giá rẻ bất ngờ."
+          },
+          {
+            "time": "2024-08-06T00:05:00",
+            "text": "Hành động của Adele khiến nhiều người không khỏi bất ngờ."
+          }
+        ]
+      },
+      {
+        "cluster_id": 75,
+        "documents": [
+          {
+            "time": "2024-08-06T00:11:00",
+            "text": "Dựa trên quy định của pháp luật về nhà ở và các đặc điểm thực tế của chung cư mini và có thể xếp đây vào loại hình 'Nhà ở nhiều tầng nhiều căn hộ'. Bắt đầu từ tháng 8 này, nhiều quy định mới áp dụng cho chung cư mini đã bắt đầu có hiệu lực, cụ thể tại Luật Nhà ở 2023 và các văn bản hướng dẫn có liên quan."
+          },
+          {
+            "time": "2024-08-06T00:05:00",
+            "text": "Luật Nhà ở năm 2023 đã chính thức có hiệu lực thi hành từ ngày 01/8/2024, trong đó có một số quy định mới về chung cư mini người dân cần biết."
+          }
+        ]
+      },
+      {
+        "cluster_id": 76,
+        "documents": [
+          {
+            "time": "2024-08-06T00:08:00",
+            "text": "Sau khi cựu Thủ tướng Sheikh Hasina từ chức và rời Bangladesh bằng máy bay trực thăng hôm 5/8, quân đội đã tiếp quản đất nước và có động thái đầu tiên."
+          },
+          {
+            "time": "2024-08-06T00:06:00",
+            "text": "Thủ tướng Bangladesh Sheikh Hasina đã từ chức và rời khỏi đất nước do sức ép từ làn sóng biểu tình thời gian qua. Quân đội Bangladesh sau đó đã ra tuyên bố về việc thành lập Chính phủ lâm thời."
+          }
+        ]
+      },
+      {
+        "cluster_id": 77,
+        "documents": [
+          {
+            "time": "2024-08-06T00:05:00",
+            "text": "Sau khi hoàn thành việc trùng tu, 'thiên hạ đệ nhất hùng quan' - Hải Vân Quan mở cửa đón khách từ 1/8 và thu hút hàng nghìn lượt khách đến thăm mỗi ngày."
+          },
+          {
+            "time": "2024-08-06T00:03:00",
+            "text": "Những ngày qua, có đông đảo du khách thập phương cùng nhau lên đỉnh đèo Hải Vân để tham quan di tích Quốc gia Hải Vân Quan sau thời gian trùng tu."
+          }
+        ]
+      }
+    ],
+    "noise_documents": [
+      {
+        "time": "2024-08-06T21:12:00",
+        "text": "Một nghị sĩ Ukraine cho biết có 800.000 nam giới nước này đã lẩn trốn trong thời gian qua để tránh bị tuyển quân khi chiến sự với Nga vẫn chưa thấy hồi kết."
+      },
+      {
+        "time": "2024-08-06T20:43:00",
+        "text": "Thủ tướng Phạm Minh Chính đề nghị Bộ Quốc phòng Việt Nam và Nhật Bản tăng cường hợp tác trong đào tạo nhân lực, chuyển giao công nghệ, hỗ trợ trang thiết bị, an ninh mạng, hợp tác giữa các doanh nghiệp quốc phòng…"
+      },
+      {
+        "time": "2024-08-06T20:37:00",
+        "text": "Bị vợ từ chối \"chuyện ấy\", Ngọc Anh không giữ được bình tĩnh. Anh đập vỡ 2 chiếc điện thoại, khiến vợ phải gửi con đi du lịch để cân bằng tâm trạng."
+      },
+      {
+        "time": "2024-08-06T20:05:00",
+        "text": "Nếu chẳng may bị dính keo 502 và không tài nào gỡ ra được, đây sẽ là những mẹo nhỏ giúp bạn xử lý tình huống an toàn, nhanh chóng."
+      },
+      {
+        "time": "2024-08-06T19:41:00",
+        "text": "Một số mẫu SUV sẽ đón bản nâng cấp, trong đó có sản phẩm nhiều khả năng sẽ tăng giá mạnh và có thể \"đội giá\" tại đại lý."
+      },
+      {
+        "time": "2024-08-06T19:24:00",
+        "text": "Xe cũ sau thời gian dài sử dụng dễ bị gỉ gây thủng ống xả, gây nên tiếng ồn rất khó chịu. Lúc này, nên hàn lại lỗ thủng để đi tạm hay thay cả đoạn ống xả cho yên tâm?"
+      },
+      {
+        "time": "2024-08-06T19:12:00",
+        "text": "Dữ liệu của khách hàng tưởng chừng được bảo mật kỹ càng nhưng lại bị các hãng xe thu thập và bán lại với giá rẻ mạt, theo thông tin từ các Thượng nghị sĩ Mỹ."
+      },
+      {
+        "time": "2024-08-06T19:05:04",
+        "text": "Mikel Arteta chuẩn bị ký hợp đồng mới với Arsenal mà sẽ đưa ông vào top HLV cao nhất Ngoại hạng Anh, có thể ngang Pep Guardiola."
+      },
+      {
+        "time": "2024-08-06T19:01:00",
+        "text": "Liên đoàn boxing quốc tế (IBA) phản đối tư cách thi đấu của 2 võ sĩ bị nghi ngờ giới tính ở Olympic 2024 là Imane Khelif và Lin Yu Ting."
+      },
+      {
+        "time": "2024-08-06T19:00:00",
+        "text": "Hơn 50 khách hàng đã trực tiếp trải nghiệm những tính năng ưu việt từ “tân binh” nhà Yamaha, chinh phục những cung đường mùa thu tuyệt đẹp từ Long Biên đến Quảng trường Tam Đảo."
+      },
+      {
+        "time": "2024-08-06T18:54:00",
+        "text": "Mở rộng công việc ngoài nghệ thuật, Ngọc Sơn được nhiều đồng nghiệp thân thiết đến chúc mừng."
+      },
+      {
+        "time": "2024-08-06T18:48:00",
+        "text": "Tổng công ty Điện lực miền Nam đã có cuộc gặp với lãnh đạo tỉnh Sóc Trăng để giải quyết vướng mắc di dời lưới điện 110kV trung hạ thế, phục vụ cho các dự án đầu tư đường giao thông trên địa bàn tỉnh."
+      },
+      {
+        "time": "2024-08-06T18:48:00",
+        "text": "Trong phiên họp thứ 36 sắp diễn ra, Ủy ban Thường vụ Quốc hội dự kiến tiến hành phiên chất vấn và trả lời chất vấn tập trung vào 2 nhóm lĩnh vực."
+      },
+      {
+        "time": "2024-08-06T18:34:00",
+        "text": "Tổng thống Ukraine Volodymyr Zelensky nói rằng nước này có mục tiêu nhằm tạo ra nền tảng để đạt được hòa bình với Nga trong năm nay."
+      },
+      {
+        "time": "2024-08-06T18:30:00",
+        "text": "Hai lần liên tiếp, tôi để mất người yêu vào tay bạn. Tôi trở nên căm ghét đàn ông và không dám lấy chồng dù khát khao hạnh phúc."
+      },
+      {
+        "time": "2024-08-06T18:29:00",
+        "text": "Vợ chồng NSND Lan Hương - NSƯT Đỗ Kỷ cùng nhau dạo phố, chụp hình kỷ niệm. Minh Hương 'Vàng Anh' chăm chỉ làm việc trong trang phục công an."
+      },
+      {
+        "time": "2024-08-06T18:15:00",
+        "text": "Đường sắt tăng nhiều tàu khách cho các tuyến dịp nghỉ lễ Quốc khánh 2/9 đồng thời áp dụng các chính sách giảm giá vé."
+      },
+      {
+        "time": "2024-08-06T18:02:00",
+        "text": "Chương trình Sáng kiến An toàn Giao thông Việt Nam năm 2024 đặt mục tiêu tìm kiếm giải pháp ứng dụng công nghệ trong quản lý, cảnh báo, giảm thiểu tỷ lệ tai nạn giao thông."
+      },
+      {
+        "time": "2024-08-06T18:00:00",
+        "text": "Việc quản lý và lập kế hoạch tài chính có thể giúp cá nhân hạnh phúc và thư thái hơn khi tận hưởng một chuyến du lịch, giải quyết món nợ tồn đọng, đảm bảo cho tương lai tài chính thịnh vượng."
+      },
+      {
+        "time": "2024-08-06T18:00:00",
+        "text": "Nữ diễn viên Triệu Lộ Tư - một trong những \"tiểu hoa đán\" thế hệ mới của làng giải trí Trung Quốc - vướng nghi vấn dao kéo thẩm mỹ khi để lộ hình ảnh hiện tại."
+      },
+      {
+        "time": "2024-08-06T17:35:00",
+        "text": "Để xảy ra tiêu cực có hệ thống trong suốt thời gian dài ở Cục Đăng kiểm, cựu Cục trưởng Trần Kỳ Hình bị đề nghị tuyên phạt từ 23-24 năm và Đặng Việt Hà là 20 năm tù."
+      },
+      {
+        "time": "2024-08-06T17:29:00",
+        "text": "Khi chị H. chuyển tiền vào tài khoản của khách hàng để làm thẻ tín dụng có hạn mức cao, Dũng thay đổi sim điện thoại, chiếm quyền truy cập rồi chiếm đoạt số tiền có trong tài khoản."
+      },
+      {
+        "time": "2024-08-06T17:28:31",
+        "text": "Người đàn ông ngoài 50 tuổi được đưa đến cấp cứu với bàn tay phải kẹt nguyên trong máy xay thịt."
+      },
+      {
+        "time": "2024-08-06T17:20:00",
+        "text": "Nhằm gia tăng trải nghiệm dịch vụ chi tiêu thẻ, từ đầu tháng 8/2024, SHB “bắt tay” hơn 200 thương hiệu nổi tiếng ở đa lĩnh vực triển khai ưu đãi hấp dẫn cho người dùng mọi dòng thẻ tín dụng và thẻ ghi nợ quốc tế SHB."
+      },
+      {
+        "time": "2024-08-06T16:59:00",
+        "text": "Truyền thông Israel nói rằng Nga có thể đã chuyển tên lửa Iskander và hệ thống tác chiến điện tử sang Iran trong bối cảnh tình hình Trung Đông đang \"căng như dây đàn\"."
+      },
+      {
+        "time": "2024-08-06T16:55:00",
+        "text": "Cao Minh Tiến đã biến bờ biển Lan Hạ thành sàn catwalk, các người mẫu di chuyển dưới nước nhìn xa như thể đang sải bước trên mặt biển."
+      },
+      {
+        "time": "2024-08-06T16:49:00",
+        "text": "Ngày 5/8, VNPETRO ký hợp đồng trở thành nhà phân phối ủy quyền toàn quốc các sản phẩm đánh bóng công nghiệp và xe hơi thương hiệu Menzerna từ Cộng hòa Liên bang Đức tại Việt Nam."
+      },
+      {
+        "time": "2024-08-06T16:46:00",
+        "text": "Công ty cổ phần Dược phẩm Imexpharm vừa được vinh danh trong danh sách bình chọn \"Top 50 doanh nghiệp phát triển bền vững\" do tạp chí Nhịp cầu đầu tư tổ chức."
+      },
+      {
+        "time": "2024-08-06T16:41:00",
+        "text": "Tính đến nay, cả nước có 4 địa phương là Yên Bái, Hà Tĩnh, Bình Dương và Đà Nẵng đã có chính sách hỗ trợ hoạt động của các Tổ công nghệ số cộng đồng tại địa phương mình."
+      },
+      {
+        "time": "2024-08-06T16:40:00",
+        "text": "Ngày 5/8, UBND huyện Vĩnh Thạnh (Bình Định) đã công bố đồ án Quy hoạch xây dựng vùng huyện Vĩnh Thạnh đến năm 2035. Theo đồ án, toàn bộ huyện sẽ được chia thành 3 phân vùng phát triển kinh tế."
+      },
+      {
+        "time": "2024-08-06T16:37:00",
+        "text": "Hơn 3 tháng từ khi ra mắt khán giả, \"Lật mặt 7: Một điều ước\" vẫn bám trụ trên các cụm rạp trong nước lẫn quốc tế."
+      },
+      {
+        "time": "2024-08-06T16:31:19",
+        "text": "Đại diện các hãng smartphone cho biết, việc tắt sóng 2G sắp tới đem lại nhiều lợi ích, hãng sẽ tung ra nhiều dòng smartphone phổ thông phục vụ nhu cầu người dùng."
+      },
+      {
+        "time": "2024-08-06T16:31:00",
+        "text": "Đội bóng thành Manchester sẽ dừng quan tâm Manuel Ugarte và chuyển hướng sang mục tiêu khác để bổ sung sức mạnh cho hàng tiền vệ."
+      },
+      {
+        "time": "2024-08-06T16:30:00",
+        "text": "6 tháng cuối năm không chỉ là cơ hội để doanh nghiệp, cá nhân tạo đột phá, bứt tốc kinh doanh, đây còn là khoảng thời gian tập trung nhiều ngày lễ, dịp đặc biệt để “gắn kết” các mối quan hệ, từ đó cùng khai mở và kiến tạo những giá trị mới."
+      },
+      {
+        "time": "2024-08-06T16:26:00",
+        "text": "Tính riêng tháng 6, giá trị xuất khẩu cá ngừ Việt Nam sang Hàn Quốc đạt gần 6 triệu USD, gấp 6 lần cùng kỳ năm 2023."
+      },
+      {
+        "time": "2024-08-06T16:24:00",
+        "text": "Chứng khoán hồi phục mạnh mẽ với mức tăng hơn 22 điểm của VN-Index, song thanh khoản lại rất thấp và khối ngoại bán ròng."
+      },
+      {
+        "time": "2024-08-06T16:24:00",
+        "text": "Ủy ban Cạnh tranh Quốc gia yêu cầu Công ty TNHH Phong Cách Sống Kim Cương Việt Nam chấm dứt hoạt động bán hàng đa cấp kể từ ngày 26/7."
+      },
+      {
+        "time": "2024-08-06T16:23:12",
+        "text": "Khi cuộc đua trí tuệ nhân tạo (AI) 'nóng' dần, các hãng công nghệ lớn đều chi đậm cho công nghệ của riêng mình, cũng như đầu tư vào những doanh nghiệp AI khác."
+      },
+      {
+        "time": "2024-08-06T16:22:28",
+        "text": "Các tính năng Apple Intelligence được cho là sẽ bị trì hoãn ra mắt đến cuối năm nay. Điều này khiến các iFan lo lắng sẽ ảnh hưởng đến thời điểm phát hành iPhone 16."
+      },
+      {
+        "time": "2024-08-06T16:22:00",
+        "text": "Theo Thiếu tướng Lê Xuân Đức, những ý kiến, sáng kiến về ATGT xuất phát từ những điều kiện trực tiếp, những nghiên cứu của các nhà khoa học, là những sáng kiến hết sức thực tiễn và có giá trị."
+      },
+      {
+        "time": "2024-08-06T16:01:29",
+        "text": "Scarlett Johansson và Channing Tatum, hai diễn viên từng được bầu chọn là sexy nhất hành tinh đóng chính trong phim \"Fly Me To The Moon\" (Vụ bê bối ánh trăng) ra rạp từ 9/8."
+      },
+      {
+        "time": "2024-08-06T16:00:00",
+        "text": "TCL - thương hiệu điện tử hàng đầu thế giới vừa tổ chức sự kiện kỷ niệm 25 năm toàn cầu hóa và gắn kết cùng Việt Nam."
+      },
+      {
+        "time": "2024-08-06T15:42:48",
+        "text": "Bé trai 2 tuổi được người nhà chở bằng xe máy đưa thẳng vào phòng cấp cứu trong tình trạng nguy kịch, hôn mê ngừng tuần hoàn sau khi ngã xuống ao gần nhà."
+      },
+      {
+        "time": "2024-08-06T15:39:11",
+        "text": "Ca sĩ Thu Phượng, con gái Vi An và các học trò tổ chức đêm nhạc \"Ngàn điều ước\" để gây quỹ giúp đỡ bệnh nhi tại khoa Ung bướu, Bệnh viện Nhi Đồng 2."
+      },
+      {
+        "time": "2024-08-06T15:30:00",
+        "text": "Sáng ngày 5/8, UBND quận Gò Vấp (TP.HCM) tổ chức lễ ra mắt mini app “Quận Gò Vấp Smart - Nền tảng công dân số” trên Zalo, trở thành một trong những quận tiên phong trên cả nước có mini app riêng để phục vụ người dân trên địa bàn."
+      },
+      {
+        "time": "2024-08-06T15:30:00",
+        "text": "Đối diện áp lực cạnh tranh trong một thị trường đã sớm được khai phá, doanh nghiệp ngành bán lẻ cần đầu tư cho công nghệ để phát triển hệ thống và tăng trưởng bền vững. Câu chuyện của 7-Eleven Việt Nam là một minh chứng cho điều này."
+      },
+      {
+        "time": "2024-08-06T15:30:00",
+        "text": "Mùa trăng rằm 2024, khách sạn Lotte Sài Gòn khéo léo lồng sự tích “Lý ngư vượt Vũ Môn quan hóa long” trong món quà Trung thu ý nghĩa."
+      },
+      {
+        "time": "2024-08-06T15:20:25",
+        "text": "Chiều 6/8, tại trụ sở Chính phủ, Thủ tướng Phạm Minh Chính, Trưởng Ban Chỉ đạo tổng kết 20 năm thực hiện mô hình tổ chức bộ máy của Chính phủ chủ trì phiên họp thứ nhất của Ban Chỉ đạo."
+      },
+      {
+        "time": "2024-08-06T15:16:07",
+        "text": "Ferrari SF90 Stradale vừa bị hãng xe Ý khai tử sau 5 năm kể từ khi ra mắt. Đây có lẽ là \"tin buồn\" cho đại gia Hoàng Kim Khánh khi anh chỉ vừa mới tậu siêu xe này được 1 năm nhân ngày sinh nhật của mình."
+      },
+      {
+        "time": "2024-08-06T15:16:00",
+        "text": "Nữ võ sĩ Chen Nien Chin, người trải qua 8 đợt hóa trị chữa bệnh ung thư, chắc chắn có huy chương ở Olympic 2024."
+      },
+      {
+        "time": "2024-08-06T15:06:00",
+        "text": "Đó là khẳng định của ông Võ Nguyên Chương, Phó Giám đốc Sở Tài nguyên và Môi trường Đà Nẵng, liên quan đến tình hình giải tỏa, đền bù cho dự án cao tốc Hòa Liên - Túy Loan."
+      },
+      {
+        "time": "2024-08-06T15:00:00",
+        "text": "Hơn 500 gian hàng ở chợ Jagalchi, Hàn Quốc cung cấp đủ các loại hải sản từ bình dân tới cao cấp. Ăn một bữa ở đây, du khách có thể tiêu tốn tới vài triệu đồng mới no bụng."
+      },
+      {
+        "time": "2024-08-06T14:40:00",
+        "text": "Trong thời gian Bill Gates vẫn còn làm việc tại Microsoft, mặc dù ông là người đứng đầu và có nhiều quyền lực, công ty vẫn áp dụng một lệnh cấm hết sức kỳ lạ với vị tỷ phú này."
+      },
+      {
+        "time": "2024-08-06T14:37:21",
+        "text": "Anh - Chiếc Rolls-Royce bọc thép độc đáo này từng xuất hiện trong hai bộ phim điện ảnh ăn khách sắp được bán với giá chỉ 32 nghìn bảng (khoảng 1 tỷ đồng), thấp hơn nhiều so với giá xe trung bình tại Anh."
+      },
+      {
+        "time": "2024-08-06T14:34:00",
+        "text": "Trực tiếp Olympic 2024 ngày 6/8 - Điền kinh sẽ có thêm 5 HCV được trao, trong số 15 HCV của ngày thứ 11 Thế vận hội Paris 2024."
+      },
+      {
+        "time": "2024-08-06T14:31:00",
+        "text": "Tiền gửi trong ngân hàng hiện đạt khoảng trên 15 triệu tỷ đồng, Thủ tướng yêu cầu cần tiếp tục đẩy mạnh tín dụng, hướng dòng vốn vào các lĩnh vực sản xuất, kinh doanh."
+      },
+      {
+        "time": "2024-08-06T14:22:00",
+        "text": "Nam bệnh nhân 65 tuổi bị ung thư đại tràng, các bác sĩ tư vấn cần phẫu thuật nhưng ông từ chối và quyết định về nhà dùng hoa đu đủ đực."
+      },
+      {
+        "time": "2024-08-06T14:11:21",
+        "text": "Mối duyên của cô gái có khuôn mặt bị lệch và chàng trai Sóc Trăng là minh chứng cho tình yêu không phân biệt ngoại hình."
+      },
+      {
+        "time": "2024-08-06T14:03:00",
+        "text": "Ukraine bất ngờ bỏ chạy khỏi nhiều con đường và khu phố ở Pivnichne gần Toretsk, điều này đã giúp quân đội Nga tiến liền một mạch, chiếm được vùng lãnh thổ rộng lớn."
+      },
+      {
+        "time": "2024-08-06T14:00:00",
+        "text": "TRUNG QUỐC - Sau khi chia tay người yêu, cô gái thuê một shipper leo lên đỉnh núi phá \"ổ khóa tình yêu\" 2 người từng đặt ở đó."
+      },
+      {
+        "time": "2024-08-06T13:31:31",
+        "text": "Trong tương lai, một người bán hàng có thể đăng tải sản phẩm và tiếp cận khách hàng tại thị trường nước ngoài mà không cần biết ngôn ngữ của họ."
+      },
+      {
+        "time": "2024-08-06T13:31:00",
+        "text": "Erik ten Hag được cho đã quyết định đôn sao trẻ học viện - Harry Amass, lên đội 1 MU chơi ở mùa giải 2024/25, sau tour du đấu Mỹ."
+      },
+      {
+        "time": "2024-08-06T13:27:00",
+        "text": "Lãnh đạo TPHCM yêu cầu các đơn vị hoàn thiện hồ sơ dự án mở rộng đường Đỗ Xuân Hợp (TP Thủ Đức) sau nhiều năm công trình này bị trì hoãn vì chưa thống nhất phương án đền bù và giải tỏa mặt bằng."
+      },
+      {
+        "time": "2024-08-06T13:26:16",
+        "text": "Liên quan đến vụ va chạm giữa ô tô và tàu hỏa khiến 2 người chết, Công an TP Biên Hòa (Đồng Nai) vừa khởi tố vụ án hình sự vi phạm quy định về tham gia giao thông đường bộ."
+      },
+      {
+        "time": "2024-08-06T13:00:00",
+        "text": "Maca, một loại thảo dược từ Peru, từ lâu được biết đến với khả năng hỗ trợ cân bằng hormone cho phụ nữ và giảm bớt các triệu chứng khó chịu của tiền mãn kinh và mãn kinh, bao gồm nóng bừng, mất ngủ và giảm ham muốn tình dục."
+      },
+      {
+        "time": "2024-08-06T12:28:46",
+        "text": "Bên cạnh đề xuất những nhiệm vụ trọng tâm các bộ, ngành cần tập trung, trong \"Hướng dẫn khung chuyển đổi số cấp bộ\", Bộ TT&TT còn hướng dẫn cách làm mới, các bước triển khai để có thể đạt kết quả đột phá."
+      },
+      {
+        "time": "2024-08-06T12:03:00",
+        "text": "Mẫu ô tô có giá bán dễ tiếp cận nhất của VinFast dự kiến được phân phối tại một số thị trường khác, trong đó có quốc gia đông dân thứ 2 khu vực Đông Nam Á."
+      },
+      {
+        "time": "2024-08-06T12:00:00",
+        "text": "Cùng với sự vào cuộc của địa phương và các nhà cung cấp dịch vụ như VNPT, chữ ký số đang từng bước đến với các thôn làng, ngõ xóm; giúp người dân dễ dàng bước lên môi trường số, góp phần tạo nên một nền hành chính công minh bạch."
+      },
+      {
+        "time": "2024-08-06T11:45:00",
+        "text": "Không chỉ riêng Việt Nam, rau muống xào tỏi đã trở thành món ăn bình dân rất phổ biến ở một số nơi của châu Á."
+      },
+      {
+        "time": "2024-08-06T11:45:00",
+        "text": "Đoàn Kiểm tra của Ban Bí thư làm việc với Ban Cán sự đảng Bộ LĐ-TB&XH kiểm tra việc lãnh đạo, chỉ đạo và tổ chức thực hiện Kết luận số 21-KL/TW về việc đẩy mạnh xây dựng, chỉnh đốn Đảng."
+      },
+      {
+        "time": "2024-08-06T11:30:00",
+        "text": "Với nỗ lực nâng cao chất lượng chăm sóc bệnh nhân mắc các bệnh không lây nhiễm (NCD) qua các thông tin trao đổi thực hành, Viatris phối hợp với Hội Tim mạch Việt Nam và Hội Thấp khớp Việt Nam tổ chức hội nghị khoa học \"Viatris Masterclass 2024\"."
+      },
+      {
+        "time": "2024-08-06T11:30:00",
+        "text": "Tập đoàn Bảo hiểm FWD cho biết sẽ mở rộng chương trình giáo dục tài chính từng đạt giải thưởng có tên JA SparktheDream tại Việt Nam, nhằm hỗ trợ trang bị các kiến thức và kỹ năng tài chính cho thế hệ trẻ."
+      },
+      {
+        "time": "2024-08-06T11:15:00",
+        "text": "Hoa hậu Bùi Quỳnh Hoa nói cô biết ơn những biến cô vì nhờ vậy, cô đã học hỏi được nhiều thứ, có nhiều trải nghiệm giúp mình mạnh mẽ hơn."
+      },
+      {
+        "time": "2024-08-06T11:10:00",
+        "text": "Võ Hoài Anh - con gái thứ hai của NSƯT Võ Hoài Nam - được khán giả khen có vẻ đẹp cuốn hút, cá tính và gợi cảm cùng chiều cao nổi bật ở tuổi 19."
+      },
+      {
+        "time": "2024-08-06T11:00:00",
+        "text": "Trong khuôn khổ các buổi trao giải của chương trình \"9 ngày vàng - Ngập tràn ưu đãi\" và \"9 tuần vàng - Ngập tràn ưu đãi\", ông Yasuhiko Imai - Phó chủ tịch HĐTV FE CREDIT đã đại diện công ty trao các giải thưởng giá trị đến khách hàng."
+      },
+      {
+        "time": "2024-08-06T10:54:00",
+        "text": "Theo bác sĩ Bệnh viện đa khoa tỉnh Bình Định, nguyên nhân ban đầu dẫn đến tử vong của nam nghệ nhân đang biểu diễn tuồng trên sân khấu, được nghi do đột quỵ tim hoặc não."
+      },
+      {
+        "time": "2024-08-06T10:49:05",
+        "text": "Rất nhiều cảnh sát tư pháp, cơ động... được huy động giữ an ninh phiên xử 111 bị cáo trong vụ núp bóng công ty luật để \"đòi nợ theo kiểu khủng bố\"."
+      },
+      {
+        "time": "2024-08-06T10:40:00",
+        "text": "Thấy những con chim bị nhốt trong lồng, cụ ông bán vé số nghèo khổ không ngần ngại chi 900.000 đồng mua lại, để thả về trời."
+      },
+      {
+        "time": "2024-08-06T10:38:45",
+        "text": "Bảy công ty công nghệ vốn hoá lớn nhất của Mỹ đã bị thổi bay khoảng một nghìn tỷ USD trong ngày giao dịch đầu tuần (5/8) trên sàn chứng khoán Mỹ."
+      },
+      {
+        "time": "2024-08-06T10:23:36",
+        "text": "Từ năm 2023 đến nay, TAND hai cấp tỉnh Cao Bằng tổ chức 122 phiên tòa trực tuyến, giúp giảm thiểu thời gian, chi phí đi lại cho các đương sự, các cơ quan tham gia tố tụng."
+      },
+      {
+        "time": "2024-08-06T10:23:00",
+        "text": "Tham gia \"Sao nhập ngũ\", Hoa hậu Thùy Tiên cho biết bản thân cô đã chuẩn bị tâm lý sẵn sàng nhưng cũng gặp không ít khó khăn trong lúc thực hiện thử thách."
+      },
+      {
+        "time": "2024-08-06T10:15:00",
+        "text": "Quy trình xác thực và giám sát phát hành hợp đồng bảo hiểm M-Pro của Manulife Việt Nam vừa được vinh danh “Giải pháp chuyển đổi số của năm - Digital Transformation Initiative of the Year” tại giải thưởng Insurance Asia Awards 2024."
+      },
+      {
+        "time": "2024-08-06T10:10:00",
+        "text": "Nền tảng ViHAT Solutions tích hợp AI và nhiều công nghệ tiên tiến, hỗ trợ đắc lực cho doanh nghiệp trong quảng cáo, chăm sóc khách hàng."
+      },
+      {
+        "time": "2024-08-06T09:58:00",
+        "text": "Lion Championship 16 sẽ trở lại TPHCM vào ngày 10/8 với những cặp đấu hấp dẫn để tìm ra các ứng viên tiếp theo tranh đai vô địch."
+      },
+      {
+        "time": "2024-08-06T09:55:36",
+        "text": "Thấy nữ đồng nghiệp bị ngạt khí, nằm bất động dưới bể chứa, người đàn ông trèo xuống cố gắng đưa chị lên nhưng chỉ vài phút sau, anh cũng bất tỉnh. Cả hai được đưa đi cấp cứu."
+      },
+      {
+        "time": "2024-08-06T09:54:00",
+        "text": "Tuy là tập hợp những ghi chép của một tiến sĩ, bác sĩ tâm thần nhi nhưng \"Đứa trẻ được nuôi trong chuồng chó\" không hề khô khan hay khó đọc, mà ngược lại, nó vô cùng giàu thông tin và cảm xúc."
+      },
+      {
+        "time": "2024-08-06T09:17:51",
+        "text": "TRUNG QUỐC - Sau thời gian chống chọi với bệnh tật, Giáo sư Lý Chính Đạo - nhà Vật lý nổi tiếng thế giới, đã qua đời ở tuổi 98. Ông là người trẻ thứ ba trên thế giới đoạt giải Nobel Vật lý."
+      },
+      {
+        "time": "2024-08-06T09:17:49",
+        "text": "Dưới chân thác là các tầng nước có độ dốc thoai thoải nối tiếp nhau, trông như ruộng bậc thang. Du khách sau khi vui chơi, bơi lội có thể nghỉ ngơi, lưu trú tại một số homestay cạnh thác nước."
+      },
+      {
+        "time": "2024-08-06T09:03:00",
+        "text": "Những tranh cãi, lùm xùm xung quanh chọn ngôi vị hoa hậu khiến cuộc thi sắc đẹp dần \"mất điểm\" trong lòng khán giả. Một câu hỏi đặt ra là có chuyện ưu ái cho \"người quen\" không khi chấm thi nhan sắc?"
+      },
+      {
+        "time": "2024-08-06T09:00:00",
+        "text": "Hội tụ tiềm năng phát triển, mang lợi thế của căn hộ sở hữu lâu dài, dự án Vung Tau Centre Point đang thu hút những nhà đầu tư “ăn chắc mặc bền”."
+      },
+      {
+        "time": "2024-08-06T08:16:00",
+        "text": "Trung tá Lương Thuỳ Linh là nghệ sĩ trẻ nhất toàn quân được phong tặng danh hiệu NSND lần thứ 10/2024, làm nên kỳ tích của Nhà hát Chèo Quân đội sau 70 năm thành lập."
+      },
+      {
+        "time": "2024-08-06T08:15:00",
+        "text": "Được mẹ chồng tặng vàng trong ngày cưới nhưng khi chị Thuận muốn bán, chồng chị lại nói 'mẹ dặn sử dụng phải xin phép'. Tại chương trình Mẹ chồng nàng dâu mới đây chị mới hiểu nỗi lòng bà."
+      },
+      {
+        "time": "2024-08-06T08:14:00",
+        "text": "Cuộc thi dành cho những DJ Việt vừa chính thức quay trở lại, đánh dấu quy mô và sức lan tỏa mạnh mẽ của dòng nhạc này đến với người hâm mộ toàn thế giới."
+      },
+      {
+        "time": "2024-08-06T08:00:00",
+        "text": "Ngày 5/8, Vietnam Airlines khởi động chương trình \"Chào Thu\" với nhiều mức giá hấp dẫn, giúp hành khách có cơ hội khám phá Việt Nam và thế giới dễ dàng trên những chuyến bay mang chất lượng dịch vụ 5 sao của hãng hàng không quốc gia."
+      },
+      {
+        "time": "2024-08-06T07:58:00",
+        "text": "Chợ sâm Ngọc Linh mỗi tháng họp một lần, do chính quyền địa phương tổ chức để người trồng sâm bán trực tiếp đến người tiêu dùng. Mỗi phiên chợ, số sâm bán được lên đến hàng tỷ đồng."
+      },
+      {
+        "time": "2024-08-06T07:55:00",
+        "text": "Điện Biên, Sơn La đang huy động các nguồn lực để nhanh chóng khắc phục hậu quả nặng nề do mưa lũ gây ra và chuẩn bị các phương án đối phó với những sự cố thiên tai cực đoan thời gian tới. Thủ tướng hỗ trợ khẩn cấp mỗi tỉnh 10 tỷ đồng."
+      },
+      {
+        "time": "2024-08-06T07:08:00",
+        "text": "Nhiều hệ thống bán lẻ đang giảm giá mạnh những mẫu laptop và tung ra nhiều chương trình ưu đãi được áp dụng đồng thời nhằm giúp các tân sinh viên có thể lựa chọn một chiếc máy tính phù hợp."
+      },
+      {
+        "time": "2024-08-06T07:00:00",
+        "text": "ANH - Cô gái đã từ bỏ công việc văn phòng từ 9h đến 17h, để theo đuổi công việc chụp ảnh bàn chân, mang lại thu nhập hơn 1.279 USD (hơn 32 triệu đồng)/tháng."
+      },
+      {
+        "time": "2024-08-06T07:00:00",
+        "text": "Theo Luật Nhà ở 2023, từ ngày 1/8, người bán căn hộ chung cư thuộc dự án nhà ở xã hội không phải đóng 50% giá trị tiền sử dụng đất. Trong khi đó, giá nhà ở xã hội vẫn tăng đều qua các năm."
+      },
+      {
+        "time": "2024-08-06T07:00:00",
+        "text": "Chỉ còn 2 tuần nữa là năm học mới sẽ bắt đầu. Thế nhưng Quỳnh Anh vẫn đang nằm trên giường bệnh với một bên chân đã bị cắt. Tai nạn bất ngờ ập đến khiến tương lai của em trở nên hết sức mờ mịt."
+      },
+      {
+        "time": "2024-08-06T06:53:00",
+        "text": "Đoạn clip ghi lại \"bà cụ non\" 6 tuổi vừa ngồi học vừa nhắn nhủ mẹ phải yêu thương bản thân mình khiến cộng đồng mạng thích thú, thi nhau thả tim."
+      },
+      {
+        "time": "2024-08-06T06:50:00",
+        "text": "Một nhà ngoại giao cấp cao của Nga cho rằng châu Âu đang ngày càng trở nên phụ thuộc vào Mỹ về khí đốt."
+      },
+      {
+        "time": "2024-08-06T06:36:00",
+        "text": "Nữ võ sĩ quyền anh người Algeria, Imane Khelif đã đáp trả mạnh mẽ những lời chỉ trích và khẳng định rằng tình trạng bắt nạt cô trên mạng xã hội phải chấm dứt."
+      },
+      {
+        "time": "2024-08-06T06:34:00",
+        "text": "Báo VietNamNet cùng Phòng CTXH Bệnh viện Bỏng Quốc gia vừa trao số tiền 162.141.997 đồng đến gia đình có 2 anh em bị bỏng nặng."
+      },
+      {
+        "time": "2024-08-06T06:34:00",
+        "text": "Trong buổi phỏng vấn xin việc, nếu nhận được câu hỏi này, bạn sẽ trả lời như thế nào?"
+      },
+      {
+        "time": "2024-08-06T06:33:00",
+        "text": "Việc tổ chức họp báo cũng cần tuân thủ quy định trong Luật Báo chí và các văn bản hướng dẫn liên quan."
+      },
+      {
+        "time": "2024-08-06T06:30:00",
+        "text": "Wan-Bissaka đòi tiền đền bù mới rời MU, Conor Gallagher lương cao gấp 4 lần ở Chelsea, Mourinho gọi Ilkay Gundogan là những tin chuyển nhượng chính hôm nay, 6/8."
+      },
+      {
+        "time": "2024-08-06T06:27:00",
+        "text": "\"Tuy nhiên, tôi cũng nghe đồn chương trình này rất đày ải nghệ sĩ, phải lăn lê bò toài, phải ở đầu đường xó chợ\" - Kiều Oanh chia sẻ."
+      },
+      {
+        "time": "2024-08-06T06:02:00",
+        "text": "Vì chi phí cao và nguy cơ tàn phá thiên nhiên, đơn vị tư vấn đã chọn phương án chỉ mở rộng mà không kéo dài đường băng của sân bay Côn Đảo (Bà Rịa - Vũng Tàu)."
+      },
+      {
+        "time": "2024-08-06T06:01:00",
+        "text": "Elon Musk đã đệ đơn kiện chống lại Sam Altman, tố cáo mình bị “thao túng” để đồng sáng lập OpenAI."
+      },
+      {
+        "time": "2024-08-06T06:00:00",
+        "text": "Sau những sóng gió trong quá khứ, cựu người mẫu, vận động viên Thúy Vinh hiện có cuộc sống kín tiếng. Cô ăn chay trường, học thiền, tu tập để cân bằng tinh thần."
+      },
+      {
+        "time": "2024-08-06T06:00:00",
+        "text": "Lương cơ sở 2,34 triệu đồng/tháng được áp dụng từ 1/7 sẽ được bãi bỏ khi thực hiện cải cách tiền lương theo Nghị quyết 27."
+      },
+      {
+        "time": "2024-08-06T06:00:00",
+        "text": "Rich Anh Tuấn - em trai 'bé' Xuân Mai, từng là ca sĩ nhí - hiện có cuộc sống ổn định, chuyên tâm vào học hành ở tuổi 27."
+      },
+      {
+        "time": "2024-08-06T05:59:00",
+        "text": "Những người lính quy tập mà tôi may mắn được gặp, được trò chuyện, quả quyết rằng, giữa họ và anh linh các liệt sỹ dường như có sợi dây kết nối nào đó..."
+      },
+      {
+        "time": "2024-08-06T05:55:00",
+        "text": "Nguồn tin nói với Reuters rằng một căn cứ quân sự Mỹ ở Iraq đã bị trúng rocket trong bối cảnh căng thẳng ở Trung Đông không ngừng leo thang thời gian qua."
+      },
+      {
+        "time": "2024-08-06T05:45:00",
+        "text": "Israel và Iran có năng lực quân sự hàng đầu Trung Đông. Cả hai quốc gia đều sở hữu những thế mạnh riêng trong trường hợp nổ ra xung đột."
+      },
+      {
+        "time": "2024-08-06T05:40:00",
+        "text": "Cua hoàng đế đỏ Na Uy giá đang siêu rẻ vì sản lượng tăng mạnh. Còn tại chợ Việt, giá loại 'hải sản nhà giàu' này cao gấp 3-10 lần, đạt mức kỷ lục."
+      },
+      {
+        "time": "2024-08-06T05:39:00",
+        "text": "Đại diện Sở TT&TT TP.HCM cho biết chưa nhận được đơn xin phép tổ chức họp báo từ phía nữ diễn viên."
+      },
+      {
+        "time": "2024-08-06T05:35:00",
+        "text": "Ở sự kiện quyền anh quốc tế quy mô bậc nhất khu vực châu Á - Thái Bình Dương, diễn ra tại Quảng Nam cách đây 2 ngày, các võ sĩ Vũ Quang Vinh và Đinh Hồng Quân có chiến thắng."
+      },
+      {
+        "time": "2024-08-06T05:32:00",
+        "text": "Sau khi kiểm tra bể chứa ngâm thực phẩm, 2 người ở Phú Thọ bị ngạt thở, bất tỉnh, đến viện trong tình trạng nguy kịch."
+      },
+      {
+        "time": "2024-08-06T05:30:00",
+        "text": "Nhiều ý kiến cho rằng, với lỗi vi phạm tiềm ẩn nguy cơ cao cho xã hội như đi ngược chiều trên cao tốc, thay vì trừ 6 điểm trên giấy phép lái xe như Bộ Công an đề xuất thì cần trừ “kịch khung” 12 điểm."
+      },
+      {
+        "time": "2024-08-06T05:30:00",
+        "text": "Nhóm chiến binh Hamas chia các lãnh đạo thành 2 phần, gồm những người ở Gaza và những người lưu vong ở các nước như Qatar, Lebanon, Thổ Nhĩ Kỳ..."
+      },
+      {
+        "time": "2024-08-06T05:30:00",
+        "text": "ĐH Bách khoa Hà Nội, Học viện Ngân hàng dự kiến sẽ công bố điểm chuẩn vào ngày 17/8, trong khi Trường ĐH Kinh tế quốc dân dự kiến công bố vào ngày 19/8."
+      },
+      {
+        "time": "2024-08-06T05:22:00",
+        "text": "MC Vân Hugo luôn chuẩn bị tinh thần cho mọi cuộc chia ly để không đau khổ. \"Tôi áp dụng suy nghĩ đó vào tất cả các mối quan hệ của mình trong cuộc sống này, không chỉ là hôn nhân\", cô nói."
+      },
+      {
+        "time": "2024-08-06T05:06:00",
+        "text": "Ngay khi phát hiện bất thường, đoàn thanh tra đã khuyến nghị với hội đồng chấm thi và Sở GD&ĐT Hải Phòng để có phương án chấm khác với những bài thi này."
+      },
+      {
+        "time": "2024-08-06T05:04:00",
+        "text": "Đến thời điểm này, VFF vẫn chưa chốt được kế hoạch đá giao hữu quốc tế giúp tuyển Việt Nam chuẩn bị cho AFF Cup 2024."
+      },
+      {
+        "time": "2024-08-06T05:00:00",
+        "text": "Đông A Books vừa phát hành \"Bộ sách Hilda\", mang đến cho bạn đọc Việt Nam những chuyến phiêu lưu kỳ thú trong thế giới huyền bí với sinh vật ma thuật."
+      },
+      {
+        "time": "2024-08-06T05:00:00",
+        "text": "Sùng Bầu đã lập tức có sự điều chỉnh chỉ sau vài ngày."
+      },
+      {
+        "time": "2024-08-06T05:00:00",
+        "text": "Bất ngờ tung ra demo ca khúc mới, Vương Anh Tú đã khiến người hâm mộ nóng lòng chờ đợi sản phẩm chính thức được phát hành."
+      },
+      {
+        "time": "2024-08-06T04:31:00",
+        "text": "8 nghệ sĩ nữ gồm Hoa hậu, ca sĩ, diễn viên... sẽ có 7 ngày trải nghiệm huấn luyện thực tế, thực hiện các thử thách trong môi trường quân đội."
+      },
+      {
+        "time": "2024-08-06T04:30:00",
+        "text": "Nhiều người tỏ ra lo lắng cho tình trạng sức khoẻ của nữ idol này."
+      },
+      {
+        "time": "2024-08-06T04:17:00",
+        "text": "Bị cầu thủ đội đối phương vô tình đập vào chỗ hiểm khi đi đá bóng, Liam Landers (ở Anh) sau đó phải thốt lên: \"Chính điều đó đã cứu mạng tôi!\"."
+      },
+      {
+        "time": "2024-08-06T02:00:00",
+        "text": "Lực lượng Phòng vệ Israel hiện gồm 3 nhánh quân, được trang bị nhiều vũ khí và trang thiết bị hiện đại, có khả năng đáp trả đối phương mạnh mẽ."
+      },
+      {
+        "time": "2024-08-06T01:29:00",
+        "text": "Bí thư Chi bộ kiêm Trưởng thôn Hoàng Tiên (xã Ia Phìn, huyện Chư Prông, tỉnh Gia Lai) Trần Văn Quy (SN 1959) nhiều năm liền hoàn thành xuất sắc nhiệm vụ được giao, đồng thời là nông dân sản xuất giỏi với thu nhập hơn 1 tỷ đồng mỗi năm. Vì vậy, ông được người dân gọi là cán bộ thôn '2 giỏi'."
+      },
+      {
+        "time": "2024-08-06T01:28:00",
+        "text": "Sau khi quan chức tình báo hàng đầu Australia đề cập đến sự gia tăng 'các hệ tư tưởng cực đoan' trong nước, ngày 5-8, Chính phủ Australia đã nâng mức cảnh báo khủng bố từ 'có thể' lên 'có khả năng'."
+      },
+      {
+        "time": "2024-08-06T01:28:00",
+        "text": "Với quyết tâm chính trị cao của cả hệ thống chính trị, năm 2023, huyện Xuân Lộc vươn lên đứng đầu trong các đơn vị cấp huyện về cải cách hành chính (CCHC)."
+      },
+      {
+        "time": "2024-08-06T01:27:00",
+        "text": "Nhờ có cách làm hay, sáng tạo và hiệu quả, UBND xã An Phước được huyện Long Thành chọn làm xã điểm ra mắt và nhân rộng mô hình Chính quyền thân thiện (CQTT) ra toàn huyện."
+      },
+      {
+        "time": "2024-08-06T01:25:00",
+        "text": "Phó Giáo sư, Tiến sĩ Đỗ Duy Cường, Giám đốc Trung tâm Bệnh nhiệt đới, Bệnh viện Bạch Mai cho hay, điều khác biệt trong mùa sốt xuất huyết năm nay là khu vực ngoại thành như Hoài Đức, Đan Phượng, Phúc Thọ,… và các địa phương như Hải Phòng, Hải Dương, Thái Bình,… có vẻ như xảy ra sớm và nặng hơn mọi năm."
+      },
+      {
+        "time": "2024-08-06T01:23:00",
+        "text": "Tổng số đảng viên ở khu vực ngoài nhà nước trên địa bàn Đồng Nai hiện có hơn 4,2 ngàn người."
+      },
+      {
+        "time": "2024-08-06T01:22:06",
+        "text": "Động thái này đánh dấu một bước tiến quan trọng trong mục tiêu chiến lược của Trung Quốc nhằm tạo ra phiên bản riêng, cạnh tranh với mạng lưới Starlink đang phát triển với khoảng 5.500 vệ tinh trong không gian."
+      },
+      {
+        "time": "2024-08-06T01:22:00",
+        "text": "Báo cáo việc làm tháng 7 của Chính phủ Mỹ cho thấy lĩnh vực phi nông nghiệp chỉ tăng 114.000 việc làm."
+      },
+      {
+        "time": "2024-08-06T01:21:41",
+        "text": "Ngày 5/8, Phó Thủ tướng Chính phủ Trần Lưu Quang ký các quyết định của Thủ tướng Chính phủ về việc thi hành kỷ luật đối với hai nguyên Chủ tịch Ủy ban nhân dân tỉnh Bình Dương và Bà Rịa-Vũng Tàu."
+      },
+      {
+        "time": "2024-08-06T01:20:00",
+        "text": "Ông chủ tỷ phú của Neuralink - Elon Musk cho biết họ vừa thực hiện cấy ghép chip não cho bệnh nhân thứ 2 và 'mọi chuyện diễn ra cực kỳ tốt đẹp'."
+      },
+      {
+        "time": "2024-08-06T01:19:00",
+        "text": "Chúng tôi đến xã Thuận (H. Hướng Hóa) trong những ngày cuối tháng 7-2024. Mưa gió nên bà con đồng bào đều không thể lên bản, cũng ít đi lại vì nước đổ về suối chảy hỗn. Khi chúng tôi hỏi thăm về hoàn cảnh bị can Hồ Văn Ly (2005, thôn Thuận 1) trong vụ án: 'Vận chuyển trái phép chất ma túy', lãnh đạo xã Thuận cho hay: Anh trai Ly là Hồ Văn Long trước đó đã bị tuyên án tử hình vào tháng 11-2022."
+      },
+      {
+        "time": "2024-08-06T01:17:00",
+        "text": "Những ngày qua, người dân trên địa bàn xã Ngũ Hiệp, huyện Cai Lậy (Tiền Giang) bức xúc tuyến đường huyện 70B (đường liên ấp) thuộc xã Ngũ Hiệp (huyện Cai Lậy) thi công mãi không xong."
+      },
+      {
+        "time": "2024-08-06T01:17:00",
+        "text": "Khi xem bộ phim 'Giải cứu binh nhì Ryan' (1998), nhiều người cảm động trước câu chuyện 8 binh sĩ làm nhiệm vụ đưa binh nhì Ryan trở về nhà an toàn. Trên thực tế, một sự việc như vậy từng xảy ra."
+      },
+      {
+        "time": "2024-08-06T01:16:32",
+        "text": "Bộ Công an đề xuất người điều khiển xe ô tô, máy kéo, loại xe tương tự xe ô tô mà để dầu nhờn, hóa chất rơi vãi xuống đường bộ có thể bị xử phạt đến 4.000.000 đồng."
+      },
+      {
+        "time": "2024-08-06T01:16:07",
+        "text": "Xác định hồi là cây trồng chủ lực, những năm qua, cấp ủy, chính quyền huyện Bình Gia đã chỉ đạo phòng chuyên môn triển khai các giải pháp nhằm nâng cao năng suất, chất lượng và giá trị kinh tế của cây hồi, hướng đến mục tiêu phát triển vùng nguyên liệu, hàng hóa quy mô lớn."
+      },
+      {
+        "time": "2024-08-06T01:16:06",
+        "text": "Cầu Bến Mới thuộc gói thầu XL04 dự án cải tạo cầu yếu và cầu kết nối trên các quốc lộ (giai đoạn 1), cầu bắc qua sông Đáy nối Nam Định và Ninh Bình."
+      },
+      {
+        "time": "2024-08-06T01:16:00",
+        "text": "Bất chấp những lời cảnh báo liên tục nhắm vào Israel, có thể ước tính rằng Tehran sẽ cân nhắc cẩn thận phạm vi và cường độ của một phản ứng quân sự."
+      },
+      {
+        "time": "2024-08-06T01:15:12",
+        "text": "Nhiều người dân chi cả vài chục triệu đồng để mua thuốc xương khớp Đông y, được quảng cáo là 'thần dược' nhưng sử dụng không hiệu quả."
+      },
+      {
+        "time": "2024-08-06T01:15:00",
+        "text": "Chiều 5/8, Văn phòng Chính phủ đã tổ chức buổi họp báo Chính phủ cung cấp thông tin về tình hình kinh tế xã hội (KTXH) tháng 7 và 7 tháng đầu năm tới báo chí. Trong đó, khu vực công nghiệp tiếp tục tăng trưởng ổn định và có đà phục hồi tốt so với tháng trước và cùng kỳ năm ngoái."
+      },
+      {
+        "time": "2024-08-06T01:15:00",
+        "text": "Tổng Công ty Thương mại Xây dựng (Vietracimex) là đơn vị duy nhất đăng ký thực hiện dự án Khu đô thị mới G8 tại huyện Đông Anh, TP. Hà Nội có quy mô 44,6 ha, tổng vốn đầu tư hơn 13.200 tỷ đồng."
+      },
+      {
+        "time": "2024-08-06T01:14:00",
+        "text": "Thực tế, những năm qua, các địa phương trên địa bàn đã bắt, tịch thu, xử phạt hành chính nhiều trường hợp, nhưng nhiều người dân vì cuộc mưu sinh vẫn sử dụng xung điện đánh bắt cá."
+      },
+      {
+        "time": "2024-08-06T01:13:03",
+        "text": "UBND TP Hà Nội yêu cầu thành lập Tổ công tác thường trực tiếp công dân phục vụ Đại hội Đảng các cấp tại Trụ sở Tiếp công dân Trung ương và của thành phố."
+      },
+      {
+        "time": "2024-08-06T01:12:41",
+        "text": "Trên dọc tuyến đường sắt Bắc Nam hiện nay, có nhiều cầu, hầm và đường ngang bị xuống cấp, cần ưu tiên nguồn vốn để gia cố nhằm đảm bảo an toàn chạy tàu."
+      },
+      {
+        "time": "2024-08-06T01:12:01",
+        "text": "Năm 2025, Thanh tra Bộ Thông tin và Truyền thông sẽ tập trung giám sát, thanh tra, kiểm tra đối với các đơn vị, doanh nghiệp hoạt động trong lĩnh vực thông tin, truyền thông…"
+      },
+      {
+        "time": "2024-08-06T01:12:00",
+        "text": "Ngày 05/8, tại Hà Nội, thay mặt Đoàn Chủ tịch Liên hiệp các tổ chức hữu nghị Việt Nam (VUFO), ông Phan Anh Sơn, Chủ tịch VUFO trao Kỷ niệm chương 'Vì hòa bình, hữu nghị giữa các dân tộc' tặng Đại sứ Cộng hòa Áo tại Việt Nam Hans-Peter Glanzer vì những đóng góp to lớn, thiết thực của Đại sứ cho quan hệ Việt Nam - Áo."
+      },
+      {
+        "time": "2024-08-06T01:12:00",
+        "text": "Những năm qua, Sở Thông tin và Truyền thông (TT và TT) và Bộ Chỉ huy Bộ đội Biên phòng (BĐBP) tỉnh đã phối hợp kiên trì thực hiện công tác truyền thông và thông tin đối ngoại (TTĐN) tại khu vực biên giới biển, góp phần thực hiện có hiệu quả đường lối của Đảng, chính sách, pháp luật của Nhà nước về biển, đảo, giúp nhân dân nâng cao nhận thức, cảnh giác trước những âm mưu, thủ đoạn 'diễn biến hòa bình' của các thế lực thù địch, tích cực tham gia bảo vệ vững chắc chủ quyền, an ninh biên giới biển trên địa bàn tỉnh."
+      },
+      {
+        "time": "2024-08-06T01:11:54",
+        "text": "Tối 5/8, Ban tổ chức xây dựng mô hình câu lạc bộ (CLB) sinh hoạt văn hóa dân gian thuộc Chương trình mục tiêu quốc gia năm 2024 (gọi tắt là Ban Tổ chức) tổ chức chương trình báo cáo kết quả xây dựng mô hình và lễ ra mắt CLB sinh hoạt văn hóa dân gian dân tộc Tày, Nùng các thôn xã Gia Cát, huyện Cao Lộc."
+      },
+      {
+        "time": "2024-08-06T01:11:00",
+        "text": "Giới chuyên gia cho rằng, kho vũ khí hạt nhân của Mỹ đã lỗi thời trong khi Nga và Trung Quốc đều đang xây dựng lực lượng hạt nhân của mình."
+      },
+      {
+        "time": "2024-08-06T01:11:00",
+        "text": "Số người di cư trong nước, hay tị nạn ở nước ngoài tiếp tục tăng cao ở mức đáng báo động, trong bối cảnh các điểm nóng xung đột vẫn tiếp diễn, thảm họa thiên nhiên ngày càng khó lường. Thế giới cần thêm nhiều nỗ lực và giải pháp hữu hiệu, để chung tay vượt qua cuộc khủng hoảng di cư ngày càng trầm trọng."
+      },
+      {
+        "time": "2024-08-06T01:11:00",
+        "text": "Trong danh sách 30 đơn vị nợ đóng bảo hiểm do BHXH Hà Tĩnh cung cấp có 27 đơn vị chưa nộp giảm nợ trong tháng 7 và 3 đơn vị nợ mới."
+      },
+      {
+        "time": "2024-08-06T01:11:00",
+        "text": "Khoảng 4-5 năm trở lại đây, sản xuất xanh được Việt Nam cũng như nhiều quốc gia trên thế giới nhắc đến, bởi đây là một trong những giải pháp hữu hiệu để ứng phó với biến đổi khí hậu ngày càng diễn biến phức tạp. Nhiều quốc gia đã đặt ra yêu cầu, hàng hóa nhập khẩu ngoài chất lượng, mẫu mã thì phải có tiêu chí xanh, ít phát thải khí nhà kính… Vì thế, doanh nghiệp (DN) nào sớm thay đổi quy trình, công nghệ để tạo ra sản phẩm xanh sẽ dễ dàng tìm được đối tác mua hàng. Đồng thời, các nhãn hàng quốc tế cũng ưu tiên đặt hàng với những nhà máy sản xuất xanh."
+      },
+      {
+        "time": "2024-08-06T01:09:00",
+        "text": "Quiet Luxury (giàu có trong thầm lặng), Old money style (phong cách đơn giản nhưng vẫn toát lên giàu có, quyền lực) hay Stealth wealth (giàu ngầm) đang trở thành đặc điểm nhận biết của giới siêu giàu thế giới trong đó có Việt Nam. Không chỉ thời trang, siêu thuyền, máy bay riêng, không gian sống Quiet Luxury xuất hiện ngày một nhiều, ở các đô thị lớn, các thành phố biển, thậm chí các đô thị địa phương… để đáp ứng nhu cầu sống 'giàu có trong thầm lặng' của những 'nhà giàu thế hệ mới'."
+      },
+      {
+        "time": "2024-08-06T01:08:00",
+        "text": "Nguyễn Thanh Thủy, Giám đốc Công ty cổ phần CNTT Lam Hồng (Hà Tĩnh) chỉ đạo thuộc cấp xây dựng hồ sơ nhiều công ty khác nhau, nhờ bạn bè đứng tên để làm 'quân xanh' giúp công ty của mình trúng thầu, gây thiệt hại cho ngân sách Nhà nước 5,1 tỷ đồng."
+      },
+      {
+        "time": "2024-08-06T01:07:00",
+        "text": "Ông Nguyễn Văn A là viên chức, công tác tại vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn từ ngày 22/8/2007 đến ngày 2/5/2019. Ông A chết do tai nạn giao thông. Thời gian thực tế công tác tại vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn là 11 năm 2 tháng."
+      },
+      {
+        "time": "2024-08-06T01:07:00",
+        "text": "Vụ việc đau lòng xảy ra tại Ấn Độ khi một bức tường đổ sập do mưa lớn, cướp đi sinh mạng của 9 em nhỏ."
+      },
+      {
+        "time": "2024-08-06T01:07:00",
+        "text": "Với sự bùng nổ của thương mại điện tử, chuyển phát nhanh là một trong những lĩnh vực có nhiều dư địa phát triển. Nắm bắt điều này, Bưu điện tỉnh Thái Nguyên đã triển khai nhiều ứng dụng số hóa để thay đổi quy trình, rút ngắn thời gian giao nhận bưu phẩm, bưu kiện, nâng cao chất lượng phục vụ khách hàng."
+      },
+      {
+        "time": "2024-08-06T01:05:00",
+        "text": "Sau khi hứng chịu thất bại quân sự trên chiến trường, Mali đã cho thấy họ không muốn ký tiếp hợp đồng với công ty quân sự tư nhân (PMC) Wagner."
+      },
+      {
+        "time": "2024-08-06T01:05:00",
+        "text": "Ông Donald Trump cũng cho rằng, vụ việc lần này sẽ tạo một tiền lệ xấu, từ đó cho phép phía Nga sẽ có những cuộc trao đổi có lợi hơn trong tương lai."
+      },
+      {
+        "time": "2024-08-06T01:05:00",
+        "text": "Bộ trưởng Bộ Y tế Đào Hồng Lan đã trao quyết định điều động, bổ nhiệm, bổ nhiệm lại lãnh đạo nhiều đơn vị chức năng thuộc Bộ Y tế gồm: Cục Quản lý Khám chữa bệnh, Thanh tra Bộ, Cục Quản lý Dược và Văn phòng Bộ."
+      },
+      {
+        "time": "2024-08-06T01:05:00",
+        "text": "Ngày 5/8, tại Phú Thọ, Tập đoàn Hóa chất Việt Nam (Vinachem) đã tổ chức Hội diễn văn nghệ khu vực phía Bắc."
+      },
+      {
+        "time": "2024-08-06T01:05:00",
+        "text": "Không còn hoạt động showbiz nhưng mọi động thái của hotgirl Trâm Anh được netizen cập nhật chi tiết. Mới đây trên trang cá nhân, người đẹp đến từ Thanh Hóa có dòng story pose dáng trước gương với dòng caption 'Dạo này trông chắc chắn thiệt'."
+      },
+      {
+        "time": "2024-08-06T01:05:00",
+        "text": "Dù kém tuổi vợ nhưng ông xã Lê Phương là người đàn ông tâm lý, chững chạc."
+      },
+      {
+        "time": "2024-08-06T01:05:00",
+        "text": "Kiều Thu Quyên là người mẫu trẻ sáng giá trong công ty của siêu mẫu Xuân Lan. Vừa hoạt động nghệ thuật năng nổ, cô bạn còn có profile học tập xịn khi đang là sinh viên tại Trường ĐH FPT Hà Nội - một ngôi trường đào tạo công nghệ nổi tiếng."
+      },
+      {
+        "time": "2024-08-06T01:05:00",
+        "text": "Ngoài gương mặt được ví như 'nam thần', Thái Bảo Nam (13 tuổi, Hà Nội) còn sở hữu nhiều tài năng và có khả năng biến hóa trên sân khấu."
+      },
+      {
+        "time": "2024-08-06T01:05:00",
+        "text": "Sao Việt 6/8: Nam Thư và công ty quản lý có những phản hồi liên quan đến loạt thông tin tiêu cực thời gian qua. Phía nữ diễn viên phủ nhận thông tin là người thứ ba, xen vào mối quan hệ vợ chồng của người khác."
+      },
+      {
+        "time": "2024-08-06T01:05:00",
+        "text": "Cusp Overlap - kỹ thuật tiên phong trong chiến lược giảm thiểu rối loạn dẫn truyền sau thay van động mạch chủ qua da - được BV Hồng Ngọc giới thiệu."
+      },
+      {
+        "time": "2024-08-06T01:05:00",
+        "text": "Động cơ tăng áp (turbo) được trang bị bộ phận làm mát khí nạp nhằm mục đích giảm nhiệt độ, từ đó giúp hỗn hợp không khí giàu oxy hơn, tăng hiệu suất động cơ."
+      },
+      {
+        "time": "2024-08-06T01:05:00",
+        "text": "Ông Lê Hoàng Châu – Chủ tịch Hiệp hội Bất động sản TP. Hồ Chí Minh, đã đề nghị cơ quan soạn thảo bảng giá đất nên đặt mình vào hoàn cảnh của người dân để thấu hiểu và thấy rõ là vì sao tại thời điểm hiện nay chưa nên ban hành Bảng giá đất áp dụng từ ngày 1/8/2024 mà cần lần đầu áp dụng từ ngày 1/1/2026."
+      },
+      {
+        "time": "2024-08-06T01:04:00",
+        "text": "Dự thảo Luật Thuế TNDN (sửa đổi) đang được Bộ Tài chính lấy ý kiến để kịp thời trình Quốc hội cho ý kiến lần đầu tại Kỳ họp vào tháng 10 tới đây, có rất nhiều nội dung sửa đổi được các chuyên gia và doanh nghiệp đánh giá tích cực và nhìn nhận là có tính khả thi cao."
+      },
+      {
+        "time": "2024-08-06T01:04:00",
+        "text": "2024 là năm có dấu mốc quan trọng đối với ngành Ngân hàng khi Luật Các TCTD 2024 đã được Quốc hội thông qua và có hiệu lực thi hành."
+      },
+      {
+        "time": "2024-08-06T01:04:00",
+        "text": "Một số bị cáo tuy thừa nhận một phần trách nhiệm nhưng phủ nhận hoặc có lời khai nhằm giảm nhẹ hành vi vi phạm so với nội dung cáo trạng truy tố"
+      },
+      {
+        "time": "2024-08-06T01:04:00",
+        "text": "Các chủ sở hữu VinFast VF 3 hiện chỉ có thể sạc xe bằng dòng điện DC tại các điểm sạc công cộng. Muốn sạc pin tại nhà, khách hàng sẽ phải đợi đến khi hãng mở bán bộ sạc rời."
+      },
+      {
+        "time": "2024-08-06T01:03:00",
+        "text": "Sau khi giá phòng trọ tăng 50%, Huy rủ bạn về ở cùng, chia sẻ không gian chưa đến 6 m2 nằm sâu trong phố Phạm Tuấn Tài, quận Cầu Giấy."
+      },
+      {
+        "time": "2024-08-06T01:03:00",
+        "text": "Chính phủ Australia đã thông tin về quy định mới về việc tăng vị trí cất và hạ cánh tại sân bay Sydney, đồng thời tạo điều kiện cho các hãng hàng không mới có cơ hội tiếp cận những vị trí này nhằm thúc đẩy sự cạnh tranh."
+      },
+      {
+        "time": "2024-08-06T01:02:00",
+        "text": "TAND tỉnh Tiền Giang đã tuyên án sơ thẩm đối với 24 bị cáo là cựu cán bộ UBND, Công an cấp xã của tỉnh Tiền Giang và Kiên Giang, liên quan tới vụ làm giả tài liệu trong hoạt động cấp giấy đăng ký xe..."
+      },
+      {
+        "time": "2024-08-06T01:01:00",
+        "text": "Ngày 5/8, một sự cố kỹ thuật đã gây ra tình trạng mất điện cục bộ tại một phần sân bay Frankfurt của Đức. Tuy nhiên, các chuyến bay tại trung tâm hàng không sầm uất nhất nước Đức này vẫn diễn ra bình thường."
+      },
+      {
+        "time": "2024-08-06T01:00:00",
+        "text": "Dự án ứng dụng nhiều công nghệ hiện đại từ những thương hiệu hàng đầu thế giới nhằm đảm bảo tính riêng tư và an ninh cho cư dân."
+      },
+      {
+        "time": "2024-08-06T01:00:00",
+        "text": "Mặt đường bong tróc, chằng chịt 'ổ voi, ổ gà', nắng bụi, mưa lầy… là thực trạng trên tuyến đường nối từ đường tỉnh (ĐT) 261 đến ĐT. 274, đoạn từ phường Bắc Sơn đi xã Phúc Thuận (TP. Phổ Yên). Thực trạng này gây khó khăn cho việc đi lại, giao thương hàng hóa của nhân dân và tiềm ẩn nhiều nguy cơ mất an toàn giao thông."
+      },
+      {
+        "time": "2024-08-06T01:00:00",
+        "text": "Nhiều năm kín tiếng khiến Sỹ Luân nhận không ít tin đồn thất thiệt."
+      },
+      {
+        "time": "2024-08-06T00:58:00",
+        "text": "Việt Nam có nhiều món ăn truyền thống theo quy trình lên men được người tiêu dùng trong và ngoài nước đánh giá cao như: dưa chua, cà muối, củ kiệu muối... nhưng để các loại thực phẩm lên men 'made in Vietnam' có thương hiệu giống như món Kim chi Hàn Quốc thì các DN, HTX vẫn còn nhiều việc phải làm."
+      },
+      {
+        "time": "2024-08-06T00:58:00",
+        "text": "Tín dụng đang tăng nhanh gấp 3 lần so với huy động vốn. Dự báo từ nay đến cuối năm, nhu cầu vốn sẽ còn mạnh mẽ hơn nữa, những ngân hàng có lượng tiền gửi dồi dào sẽ có lợi thế về cho vay và đạt mục tiêu tăng trưởng trong năm nay."
+      },
+      {
+        "time": "2024-08-06T00:58:00",
+        "text": "Công cụ mới đang được Xiaomi thử nghiệm cho phép phát hiện xem có camera gián điệp xung quanh hay không."
+      },
+      {
+        "time": "2024-08-06T00:58:00",
+        "text": "Nếu là một đồ yêu thích nấu ăn chắc chắn không khó để bạn bắt gặp những clip có hàng triệu lượt xem của cô giáo Cao Giang trên các nền tảng mạng xã hội."
+      },
+      {
+        "time": "2024-08-06T00:57:00",
+        "text": "Toyota Camry đời mới đã được Toyota Thái Lan xác nhận ra mắt người dùng nước này vào tháng 10/2024."
+      },
+      {
+        "time": "2024-08-06T00:57:00",
+        "text": "Không ít người đánh giá bảng giá đất tăng vọt tại TP.HCM chỉ có lợi cho những người có tiền và có sẵn đất ở. Ngược lại sẽ là áp lực lớn với những người có nhu cầu chuyển đổi nhu cầu sử dụng đất, hoặc những người mua nhà khi mặt bằng giá được dự báo tăng mạnh."
+      },
+      {
+        "time": "2024-08-06T00:56:57",
+        "text": "Chương trình mới được ra mắt nhằm đáp ứng lời kêu gọi của Chính phủ Trung Quốc trong việc 'xây dựng gia đình hòa thuận'."
+      },
+      {
+        "time": "2024-08-06T00:55:45",
+        "text": "Bộ Ngoại giao vừa đưa ra cảnh báo đối với công dân Việt Nam về tình hình căng thẳng giữa Israel với Libăng và Iran gia tăng và diễn biến phức tạp, có thể gây nguy hiểm."
+      },
+      {
+        "time": "2024-08-06T00:55:00",
+        "text": "Cơ quan An ninh điều tra - Công an thành phố Hà Nội - đang truy tìm Trần Thị Minh Nguyệt, ở phường Hàng Bạc, quận Hoàn Kiếm liên quan đến vụ việc có dấu hiệu tội phạm tổ chức cho người khác xuất cảnh trái phép."
+      },
+      {
+        "time": "2024-08-06T00:55:00",
+        "text": "Trong đơn gửi tới Báo Hànôịmới, một số bạn đọc cho biết đã đăng ký, nộp tiền để được đi làm việc tại Hàn Quốc thông qua Công ty cổ phần Giáo dục Quốc tế T&T theo chương trình Visa E8 nhưng nhiều tháng qua vẫn chưa được giải quyết."
+      },
+      {
+        "time": "2024-08-06T00:54:00",
+        "text": "Nhiều năm qua, các đối tượng thiếu thiện chí, cực đoan, phản động không ngừng tìm mọi phương thức, thủ đoạn hòng chống phá Đảng, Nhà nước ta. Một trong những vấn đề mà họ thường xuyên rêu rao, bịa đặt, đeo bám quyết liệt là xuyên tạc, vu khống về tình hình tự do, tín ngưỡng, tôn giáo ở Việt Nam. Thủ đoạn, hoạt động này tiếp tục được các thế lực thù địch đẩy mạnh trong năm 2024."
+      },
+      {
+        "time": "2024-08-06T00:54:00",
+        "text": "Từ mấy tháng nay, trên đường Hoàng Sa thuộc địa bàn huyện Đông Anh, tại làn đường hai bên dành cho xe máy và xe thô sơ xuất hiện những vệt đất, cát, vật liệu xây dựng ngập ngụa trên mặt đường."
+      },
+      {
+        "time": "2024-08-06T00:54:00",
+        "text": "Theo thống kế, trong 6 tháng đầu năm, tai nạn giao thông ở Thừa Thiên Huế và Quảng Trị đều tăng cả 3 tiêu chí, nguyên nhân chủ yếu do tài xế không làm chủ được tốc độ…"
+      },
+      {
+        "time": "2024-08-06T00:54:00",
+        "text": "Nhìn chung, giá heo hơi hôm nay điều chỉnh tăng giảm 1.000 - 2.000 đồng/kg. Hiện tại, giá khảo sát ở các tỉnh thành dao động trong khoảng 61.000 - 66.000 đồng/kg. Dự báo sản lượng thịt heo của Mỹ năm 2024 sẽ tăng 3,1% so với năm 2023 lên 12,8 triệu tấn."
+      },
+      {
+        "time": "2024-08-06T00:54:00",
+        "text": "UBND tỉnh vừa ban hành Công văn 2153/UBND-KTN giao nhiệm vụ cho Tổ tác nghiệp kiểm tra, xử lý hoạt động khai thác cát trong hồ Dầu Tiếng, hồ Tha La kiểm tra, rà soát các tàu khai thác không có trong kế hoạch khai thác theo đúng quy định."
+      },
+      {
+        "time": "2024-08-06T00:54:00",
+        "text": "Ngày 5.8, Công an huyện Tân Biên cho biết đang tạm giữ hình sự 5 đối tượng để điều tra làm rõ hành vi tổ chức sử dụng và mua bán trái phép chất ma túy."
+      },
+      {
+        "time": "2024-08-06T00:53:00",
+        "text": "Ngày 5-8, theo Hãng tin AP, Tổ chức Hiệp ước Hợp tác Amazon thông báo, lưu vực sông Amazon đang phải đối mặt với đợt hạn hán nghiêm trọng nhất trong những năm gần đây, kèm theo những tác động đáng kể đối với một số quốc gia thành viên gồm Bolivia, Brazil, Colombia, Ecuador, Guyana, Peru, Suriname và Venezuela."
+      },
+      {
+        "time": "2024-08-06T00:51:41",
+        "text": "Xiaomi chính thức 'quay lưng' với người dùng khi khẳng định sẽ không thêm nút tắt quảng cáo hệ thống vào giao diện MIUI."
+      },
+      {
+        "time": "2024-08-06T00:51:00",
+        "text": "Gần 100 cảnh sát từ Cộng hòa Dân chủ Congo đã chạy trốn sang nước láng giềng Uganda vào cuối tuần vừa rồi, sau khi giao tranh giữa phiến quân M23 và quân đội ở phía đông nước này leo thang dữ dội."
+      },
+      {
+        "time": "2024-08-06T00:50:00",
+        "text": "Ngày 5-8, Mali đã tuyên bố cắt đứt quan hệ ngoại giao với Ukraine với cáo buộc quan chức nước này đã hỗ trợ cho phiến quân ly khai phục kích quân đội Mali và thành viên nhóm vũ trang Wagner."
+      },
+      {
+        "time": "2024-08-06T00:50:00",
+        "text": "Từng phải dừng sự nghiệp vì chứng thừa cân, nữ coser có tên Cigw Pols đã có màn trở lại đầy ngoạn mục và được xem là 'ngọn gió mới' trong cộng đồng cosplay."
+      },
+      {
+        "time": "2024-08-06T00:48:00",
+        "text": "Không quân Israel tấn công chỉ huy lực lượng Radwan, trong khi Hezbollah tập kích lãnh thổ Israel tối 5-8 (giờ địa phương)."
+      },
+      {
+        "time": "2024-08-06T00:48:00",
+        "text": "Trải qua 57 năm hình thành và phát triển, ASEAN ghi nhiều dấu mốc quan trọng trong tiến trình hợp tác, liên kết khu vực, đưa toàn khối phát triển hơn, hội nhập sâu rộng hơn trên trường quốc tế."
+      },
+      {
+        "time": "2024-08-06T00:48:00",
+        "text": "Bệnh viện Việt Nam – Thụy Điển Uông Bí (Quảng Ninh) cho biết, đã nhận một trường hợp bệnh nhi 5 tuổi nhập viện do nuốt phải nam châm trong đồ chơi."
+      },
+      {
+        "time": "2024-08-06T00:47:00",
+        "text": "Chiều ngày 05/8, Ban Chỉ đạo phát triển đối tượng tham gia bảo hiểm xã hội (BHXH), bảo hiểm y tế (BHYT), bảo hiểm thất nghiệp (BHTN) tỉnh Trà Vinh (Ban Chỉ đạo) tổ chức hội nghị sơ kết 06 tháng đầu năm về công tác phát triển người tham gia BHXH, BHYT, BHTN, triển khai nhiệm vụ 06 tháng cuối năm."
+      },
+      {
+        "time": "2024-08-06T00:43:11",
+        "text": "Nhiều nhân viên Mỹ ủng hộ việc mặc quần short để thoải mái hơn, song vấp phải nhiều ý kiến phản đối cho rằng phong cách này không phù hợp với môi trường công sở."
+      },
+      {
+        "time": "2024-08-06T00:43:00",
+        "text": "Ukraine đã chỉ trích quyết định của Mali là 'thiển cận và vội vàng', cho rằng không có bằng chứng rõ ràng về sự liên quan của Kiev."
+      },
+      {
+        "time": "2024-08-06T00:43:00",
+        "text": "Nhiều doanh nghiệp BĐS đã áp dụng câu thần chú 'tăng xin, giảm chi' khi lương, thưởng của người đứng đầu cũng được tiết giảm đến kịch sàn."
+      },
+      {
+        "time": "2024-08-06T00:41:00",
+        "text": "Với kết quả thu ngân sách nhà nước 7 tháng, Tổng cục Thuế cho rằng nền kinh tế có dấu hiệu dần hồi phục, tình hình sản xuất, kinh doanh có sự khởi sắc. Điều này cũng cho thấy tác động tích cực của các chính sách miễn, giảm, gia hạn thuế, phí, lệ phí của Chính phủ."
+      },
+      {
+        "time": "2024-08-06T00:40:00",
+        "text": "Theo phóng viên TTXVN tại Mỹ Latinh, Tổ chức Y tế Liên Mỹ (PAHO) đã đưa ra lời kêu gọi các nước trong khu vực thực hiện các hành động phòng ngừa và kiểm soát dịch tễ trước sự gia tăng các trường hợp nhiễm virus Oropouche (OROV) ở 5 quốc gia trong khu vực Mỹ Latinh, gồm Brazil, Bolivia, Peru, Cuba và Colombia."
+      },
+      {
+        "time": "2024-08-06T00:39:00",
+        "text": "Dubai nổi tiếng là vùng đất của những 'cái nhất'. Vào cuối năm nay, một công trình mới sẽ được bổ sung vào danh sách kỷ lục của vùng đất xa hoa này."
+      },
+      {
+        "time": "2024-08-06T00:38:00",
+        "text": "Các khóa đào tạo tại Audit Care Việt Nam (ACV) giúp những người làm công tác tài chính, kế toán nâng cao năng lực, nắm vững kiến thức về lập báo cáo tài chính theo chuẩn quốc tế (IFRS)."
+      },
+      {
+        "time": "2024-08-06T00:37:00",
+        "text": "Mới đây, các nhà nghiên cứu từ Đại học Edith Cowan đã yêu cầu công cụ AI Midjourney tạo ra hình ảnh của các đội tuyển Olympic 2024 từ 40 quốc gia. Kết quả khiến mọi người đều bất ngờ."
+      },
+      {
+        "time": "2024-08-06T00:35:00",
+        "text": "Đợt nắng nóng kỷ lục trong tháng 7 tại phần lớn các khu vực của Ukraine có thể khiến sản lượng ngô của nước này trong năm 2024 giảm khoảng 6 triệu tấn so với vụ mùa năm 2023."
+      },
+      {
+        "time": "2024-08-06T00:35:00",
+        "text": "Những ngôi nhà Đại đoàn kết được xây tặng cho các hộ nghèo trên địa bàn tỉnh từ Đề án 'Huy động nguồn lực thực hiện chính sách hỗ trợ xây mới nhà ở cho hộ nghèo' thực sự là món quà thiết thực, ý nghĩa, giúp các hộ nghèo có điều kiện 'an cư' để 'lạc nghiệp', vươn lên thoát nghèo bền vững."
+      },
+      {
+        "time": "2024-08-06T00:35:00",
+        "text": "Cuộc sống hiện đại dù đã len lỏi khắp bản làng vùng cao bởi nhiều thiết bị công nghệ, nhưng không vì thế mà đồng bào các dân tộc thiểu số bỏ quên những nét đẹp văn hóa truyền thống mà ông cha để lại. Thậm chí, nhờ công nghệ, họ còn duy trì việc hát cho nhau nghe, tiếp cận nhiều hơn với các làn điệu dân ca, dân vũ truyền thống của dân tộc mình..."
+      },
+      {
+        "time": "2024-08-06T00:35:00",
+        "text": "Từ một thợ cắt tóc, anh Lý Láo Tả sinh năm 1999 muốn làm nghề nông nên đã nuôi con vật mê bơi lội, mỗi năm bán 50 tấn, doanh thu lên đến 8,5 tỷ đồng."
+      },
+      {
+        "time": "2024-08-06T00:35:00",
+        "text": "Các nhà đầu tư dự đoán có 60% khả năng Fed sẽ giảm lãi suất 25 điểm cơ bản trong vòng một tuần tới."
+      },
+      {
+        "time": "2024-08-06T00:35:00",
+        "text": "Diễn viên Midu và ông xã đại gia Minh Đạt thường chọn trang phục đồng điệu sắc trắng mỗi khi xuất hiện cùng nhau."
+      },
+      {
+        "time": "2024-08-06T00:35:00",
+        "text": "Xuất hiện trong bộ ảnh mới, nữ rich kid Chao biến hình 'tiểu thư quyến rũ' với chiếc váy lụa và nhận về lời khen với vẻ ngoài quyến rũ."
+      },
+      {
+        "time": "2024-08-06T00:35:00",
+        "text": "Báo hoa mai và báo đốm đều là những kẻ săn mồi phục kích cơ bắp với bộ lông đốm và ngoại hình rất giống nhau. Do đó, nhiều người có xu hướng nhầm lẫn hai loài này hoặc tin rằng chúng là một."
+      },
+      {
+        "time": "2024-08-06T00:35:00",
+        "text": "Mặc dù xây dinh thự hoành tráng với nhiều chi tiết dát vàng lấp lánh nhưng bản thân chủ nhân lại chỉ thích ngắm dinh thự chứ không thích ở."
+      },
+      {
+        "time": "2024-08-06T00:35:00",
+        "text": "Tỉnh Bình Định đang triển khai đầu tư, phát triển cây xanh sử dụng công cộng đô thị trên địa bàn tỉnh giai đoạn 2024-2025 và định hướng đến năm 2030; với tổng kinh phí thực hiện là 902,8 tỷ đồng."
+      },
+      {
+        "time": "2024-08-06T00:34:10",
+        "text": "Hàng loạt mã như HAH giảm gần 14% trong vòng một tháng rơi về vùng hỗ trợ xu hướng; VSC giảm 15,54%; GMD giảm 4% bất chấp kết quả kinh doanh và triển vọng ngành đang tích cực."
+      },
+      {
+        "time": "2024-08-06T00:34:00",
+        "text": "Ngày 5/8, Hội đồng An ninh Nga thông báo, Thư ký của cơ quan này Sergei Shoigu đã đến Iran trong khuôn khổ chuyến thăm làm việc theo kế hoạch nhằm thảo luận về các vấn đề an ninh toàn cầu và khu vực."
+      },
+      {
+        "time": "2024-08-06T00:34:00",
+        "text": "Quảng trường 1 Tháng 4 những đêm tháng 7 lộng gió, thi thoảng những hạt mưa lao xao nhẹ nhàng lướt qua. Trên sân khấu rực ánh đèn, tiếng đàn vẫn ngân lên, tiếng hát vẫn cất lên dạt dào tình đất, tình người hòa vào không gian bao la của đất trời, của phố biển Tuy Hòa."
+      },
+      {
+        "time": "2024-08-06T00:32:00",
+        "text": "Lo ngại hành động trả đũa của Iran đối với vụ ám sát nhà lãnh đạo chính trị của Hamas ở Tehran có thể dẫn đến một cuộc xung đột lớn hơn ở Trung Đông, giá xăng dầu thế giới bất ngờ tăng mạnh."
+      },
+      {
+        "time": "2024-08-06T00:32:00",
+        "text": "Nhà sản xuất lithium lớn nhất thế giới Albemarle kêu gọi các chính phủ can thiệp nhằm giảm bớt vị thế thống trị của Trung Quốc trên thị trường các khoáng sản quan trọng đối với việc sản xuất ô tô điện..."
+      },
+      {
+        "time": "2024-08-06T00:31:43",
+        "text": "Hầu hết trường hợp mắc bệnh ung thư dạ dày đều được phát hiện khi tế bào ung thư đã di căn ra các cơ quan khác."
+      },
+      {
+        "time": "2024-08-06T00:31:00",
+        "text": "Bộ GD-ĐT vừa ban hành khung kế hoạch năm học 2024-2025. Theo đó, kỳ thi tốt nghiệp THPT 2025 dự kiến diễn ra trong hai ngày 26-27/6, tương tự mọi năm."
+      },
+      {
+        "time": "2024-08-06T00:31:00",
+        "text": "Phát huy phương châm 'Dân biết, dân bàn, dân làm, dân kiểm tra, dân giám sát, dân thụ hưởng' đối với Dự án hồ chứa nước Ta Hoét (huyện Đức Trọng), các ý kiến, kiến nghị của bà con Nhân dân trong vùng dự án đã được các cơ quan có thẩm quyền của tỉnh Lâm Đồng giải quyết theo đúng trình tự, đảm bảo quy chế dân chủ ở cơ sở theo đúng chủ trương của Đảng, pháp luật của Nhà nước."
+      },
+      {
+        "time": "2024-08-06T00:29:00",
+        "text": "Ngày 5/8, Trung Quốc và Indonesia đã khuyến cáo công dân phải thận trọng khi tới Liban, viện dẫn tình hình an ninh 'nghiêm trọng và phức tạp'."
+      },
+      {
+        "time": "2024-08-06T00:28:00",
+        "text": "Ngày 5/8, nhà sản xuất chip Infineon của Đức thông báo sẽ cắt giảm 1.400 việc làm và điều chuyển 1.400 nhân sự do tình hình thị trường khó khăn."
+      },
+      {
+        "time": "2024-08-06T00:27:00",
+        "text": "Hội nghị được tổ chức tại TP Hạ Long, tỉnh Quảng Ninh đúng dịp kỷ niệm 30 năm vịnh Hạ Long được công nhận là Di sản Thiên nhiên thế giới."
+      },
+      {
+        "time": "2024-08-06T00:26:00",
+        "text": "Ấn Độ là một trong những quốc gia nổi tiếng với di sản văn hóa đậm nét và tay nghề thủ công tinh xảo. Nghệ nhân thêu của nước này đã có dịp thể hiện tay nghề trong các thiết kế trang phục dành riêng cho Tuần lễ thời trang Ấn Độ 2024."
+      },
+      {
+        "time": "2024-08-06T00:25:00",
+        "text": "Phát huy tinh thần Thi đua Quyết thắng (TĐQT), từng tập thể, cá nhân trong lực lượng vũ trang (LLVT) tỉnh đã có cách nghĩ, cách làm sáng tạo, mang lại hiệu quả trong hoạt động của cơ quan, đơn vị."
+      },
+      {
+        "time": "2024-08-06T00:24:00",
+        "text": "Captain America: Brave New World, Thunderbolts*, The Fantastic Four: First Steps, Blade, Avengers: Doomsday và Avengers: Secret Wars là những bom tấn siêu anh hùng nằm trong Giai đoạn 4, 5 và 6 của Vũ trụ Điện ảnh Marvel, dự kiến ra mắt từ năm 2025 tới năm 2027."
+      },
+      {
+        "time": "2024-08-06T00:24:00",
+        "text": "Thấy điều bất thường, hàng xóm ông T. đã lên tầng 2 của ngôi nhà, thì tá hỏa phát hiện chủ nhà đã tử vong trong tư thế treo cổ."
+      },
+      {
+        "time": "2024-08-06T00:22:00",
+        "text": "Nhiều dự án hạ tầng quan trọng tại TP.HCM như nút giao Nguyễn Văn Linh – Nguyễn Hữu Thọ; hầm chui nút giao thông An Phú; mở rộng Quốc lộ 50... sẽ hoàn thành vào cuối năm 2024."
+      },
+      {
+        "time": "2024-08-06T00:22:00",
+        "text": "Ban Quản lý dự án 2 vừa có văn bản gửi Bộ GTVT đề xuất Dự án cải thiện an toàn giao thông đường sắt sử dụng vốn vay Ngân hàng Thế giới (WB)."
+      },
+      {
+        "time": "2024-08-06T00:20:35",
+        "text": "Trên quần đảo Galapagos, cự đà là một hình ảnh quen thuộc cả trên đất liền và dưới biển. Tuy nhiên, để sinh tồn nơi đảo hoang là thách thức vô cùng lớn với loài động vật quý hiếm này."
+      },
+      {
+        "time": "2024-08-06T00:20:00",
+        "text": "Những năm qua, việc xây dựng các mô hình Toàn dân bảo vệ an ninh Tổ quốc luôn được các địa phương ở tỉnh Lâm Đồng chú trọng. Góp phần quan trọng trong công tác phòng ngừa, đấu tranh phòng, chống tội phạm, mô hình 'Khu dân cư phòng chống tội phạm và tệ nạn xã hội' tại thôn Dơng Glê, xã Phi Liêng, huyện Đam Rông được xem là điểm sáng trong bức tranh giữ gìn ANTT tại cơ sở ở Lâm Đồng."
+      },
+      {
+        "time": "2024-08-06T00:20:00",
+        "text": "Các kỹ sư điện ở tỉnh Quảng Trị đã sử dụng máy bay không người lái kết hợp với trí tuệ nhân tạo (AI) để thu thập hình ảnh lưới điện..."
+      },
+      {
+        "time": "2024-08-06T00:20:00",
+        "text": "Bão Debby đã đổ bộ vào khu vực Big Bend của Florida vào thứ Hai (5/8) ở cấp 1, hiện tượng này là một phần của mùa bão Đại Tây Dương năm 2024, được dự đoán bởi các chuyên là đặc biệt nguy hiểm."
+      },
+      {
+        "time": "2024-08-06T00:19:41",
+        "text": "Ngày 5/8, bảng xếp hạng Fortune Global 500 năm 2024 đã được công bố. Tập đoàn Walmart của Mỹ tiếp tục đứng đầu danh sách trong 11 năm liên tiếp; top 10 gồm 6 công ty Mỹ, 3 Trung Quốc và 1 Arab Saudi."
+      },
+      {
+        "time": "2024-08-06T00:19:33",
+        "text": "Sau hơn một năm triển khai, nguồn vốn vay không lãi suất từ chiến dịch Tô Cam 2022 do Quỹ Vì Tầm Vóc Việt và Tập đoàn TH thực hiện đã góp phần phát triển kinh tế cũng như tăng tiếng nói và vị thế của người phụ nữ tại xã Thải Giàng Phố, huyện Bắc Hà, tỉnh Lào Cai."
+      },
+      {
+        "time": "2024-08-06T00:19:00",
+        "text": "Phó trưởng Ban Tuyên giáo Tỉnh ủy Lê Minh Tuyên cho biết: Thực hiện Nghị quyết số 33-NQ/TW, ngày 9/6/2014 của Ban Chấp hành Trung ương Đảng (khóa XI) về xây dựng và phát triển văn hóa, con người Việt Nam đáp ứng yêu cầu phát triển bền vững đất nước, thời gian qua, các cấp ủy, chính quyền trong tỉnh đã tranh thủ mọi nguồn lực, huy động sức mạnh của toàn xã hội để bảo tồn và phát huy giá trị văn hóa truyền thống, di sản văn hóa. Đến nay, toàn tỉnh có 142 di tích được xếp hạng; trong đó, 56 di tích xếp hạng cấp quốc gia, quốc gia đặc biệt và 86 di tích xếp hạng cấp tỉnh."
+      },
+      {
+        "time": "2024-08-06T00:17:00",
+        "text": "Trước tình hình dịch tả lợn châu Phi phát sinh tại các tỉnh giáp ranh như: Sơn La, Hòa Bình và có nguy cơ lây nhiễm lây nhiễm bệnh dịch tả lợn châu Phi vào địa bàn, tỉnh Phú Thọ đã chỉ đạo tăng cường các biện pháp phòng, chống dịch."
+      },
+      {
+        "time": "2024-08-06T00:17:00",
+        "text": "Các chuyên gia tiến hành chụp CT xác ướp 'người phụ nữ la hét' và phát hiện thi hài 3.500 tuổi này được ướp xác bằng những vật liệu đắt tiền. Toàn bộ cơ quan nội tạng trong xác ướp được bảo quản nguyên vẹn."
+      },
+      {
+        "time": "2024-08-06T00:16:49",
+        "text": "Chiến sự Nga-Ukraine tiếp tục leo thang; Ukraine bắt 2 quan chức tuồn tin mật cho Nga; Tướng Nga nói về khả năng F-16 thay đổi cục diện chiến trường; Nga phá hủy loạt vũ khí tiên tiến của phương Tây gửi cho Ukraine."
+      },
+      {
+        "time": "2024-08-06T00:15:12",
+        "text": "Dù có ý thức hay không thì ta cũng vẫn tiếp tục tưới tẩm cái này hay cái kia trong tâm mình, và chắc chắn chúng ta sẽ tiêu thụ lại sau đó."
+      },
+      {
+        "time": "2024-08-06T00:15:00",
+        "text": "Một số hành tinh khổng lồ có thể di chuyển vào gần sao mẹ do tương tác với đĩa khí và bụi xung quanh sao mẹ trong giai đoạn đầu của hệ sao."
+      },
+      {
+        "time": "2024-08-06T00:15:00",
+        "text": "Dứa có tác dụng làm chậm quá trình lão hóa, dưỡng da, tẩy tế bào chết và giúp tái tạo tế bào da mới. Để sử dụng dứa chăm sóc da, bạn có thể áp dụng một số công thức dưới đây..."
+      },
+      {
+        "time": "2024-08-06T00:14:13",
+        "text": "Du khách tại một số nơi trên thế giới từng chứng kiến cảnh tượng lạ lùng khi những con tàu đang lơ lửng trên mặt biển..."
+      },
+      {
+        "time": "2024-08-06T00:14:00",
+        "text": "Người dân thành phố Khan Younis ở phía nam Gaza cho biết quân đội Israel đã nhiều lần đào mộ tại nghĩa trang Bani Suhaila thuộc vùng đất Palestine."
+      },
+      {
+        "time": "2024-08-06T00:14:00",
+        "text": "Nghị định 95 vừa được ban hành đã quy định cá nhân kinh doanh bất động sản quy mô nhỏ không thuộc trường hợp có giá trị quá 300 tỷ đồng trên một hợp đồng và có số lần giao dịch quá 10 lần/1 năm..."
+      },
+      {
+        "time": "2024-08-06T00:13:25",
+        "text": "Thủ tướng Phạm Minh Chính yêu cầu sớm phân bổ 26.500 tỷ đồng vốn đầu tư công còn lại, điều chuyển vốn sang dự án giải ngân nhanh, có nhu cầu bổ sung vốn."
+      },
+      {
+        "time": "2024-08-06T00:13:23",
+        "text": "Người đi bộ, xe thô sơ, xe gắn máy tốc độ thiết kế nhỏ hơn 70 km/h không được đi vào đường cao tốc, trừ người, phương tiện phục vụ việc quản lý, bảo trì cao tốc."
+      },
+      {
+        "time": "2024-08-06T00:13:00",
+        "text": "Đào chắn rễ, ngừng tưới và để lá chuyển khô, sau đó thực hiện chăm sóc theo đúng quy trình. Đây là cách mà nông dân Nghệ An thúc chanh ra quả sai trĩu."
+      },
+      {
+        "time": "2024-08-06T00:13:00",
+        "text": "Tổng thu ngân sách do cơ quan Thuế quản lý ước đạt 1.019.702 tỷ đồng; thực hiện 28.072 cuộc thanh tra, kiểm tra; ban hành 10.494 quyết định hoàn thuế GTGT… là những con số nổi bật trong 7 tháng năm 2024."
+      },
+      {
+        "time": "2024-08-06T00:13:00",
+        "text": "Thu thuế thương mại điện tử (TMĐT) đang là trọng tâm được ngành Thuế ráo riết thực hiện. Tuy nhiên, một số vướng mắc vẫn khiến cho việc thu thuế gặp khó, khi thậm chí người nộp thuế còn loay hoay chưa biết cách nộp thuế."
+      },
+      {
+        "time": "2024-08-06T00:13:00",
+        "text": "Chính phủ vừa ban hành Nghị định số 100/2024/NĐ-CP quy định chi tiết một số điều của Luật Nhà ở năm 2023 về phát triển và quản lý nhà ở xã hội. Ngoài các quy định gỡ khó cho doanh nghiệp phát triển dự án, điều kiện hưởng chính sách hỗ trợ cũng nới lỏng hơn, sẽ góp phần giải quyết thực trạng 'vừa thiếu vừa ế' của phân khúc nhà ở xã hội thời gian qua."
+      },
+      {
+        "time": "2024-08-06T00:12:00",
+        "text": "Diễn viên Nam Thư cho biết, những ồn ào vừa qua khi bị tố 'giật chồng' đã khiến cô mất đi nhiều hợp đồng quảng cáo, gây thiệt hại lên tới hàng tỷ đồng. Cô khẳng định, tất cả chỉ là sự bịa đặt của tài khoản 'Zyy Doo' với mục đích tống tiền."
+      },
+      {
+        "time": "2024-08-06T00:11:42",
+        "text": "Ông Trump đoán Iran sẽ tấn công Israel trong ngày 6-8, trong khi đó Tổng thống Biden họp khẩn với nhóm an ninh quốc gia tại Phòng Tình huống bàn các biện pháp hỗ trợ Israel."
+      },
+      {
+        "time": "2024-08-06T00:11:00",
+        "text": "Ít nhất 4 người Palestine đã thiệt mạng và 7 người khác bị thương do hỏa lực của Israel tại thị trấn Aqaba, quận Tubas ở Bờ Tây bị chiếm đóng vào sáng thứ Ba, theo Bộ Y tế Palestine."
+      },
+      {
+        "time": "2024-08-06T00:10:00",
+        "text": "Theo doanh nghiệp ngành phân bón, nếu được áp thuế VAT phân bón 5%, doanh nghiệp sẽ có cơ hội đầu tư công nghệ, thiết bị, cải tiến dây chuyền, giảm giá thành sản xuất, giảm giá bán sản phẩm cho nông dân."
+      },
+      {
+        "time": "2024-08-06T00:10:00",
+        "text": "Viện Nghiên cứu Chiến lược, chính sách Công Thương cho rằng, một số doanh nghiệp nước ngoài có thể xem xét di dời hoạt động sản xuất sang các quốc gia có chi phí lao động thấp hơn để duy trì cạnh tranh hơn."
+      },
+      {
+        "time": "2024-08-06T00:10:00",
+        "text": "BĐBP Quảng Trị ngày 5-8 cho biết vừa chủ trì, phối hợp với các đơn vị trong và ngoài lực lượng triệt phá đường dây tổ chức, môi giới cho người nước ngoài nhập cảnh trái phép."
+      },
+      {
+        "time": "2024-08-06T00:10:00",
+        "text": "Mỗi lần tháng Bảy về, tôi lại rưng rưng với những vần thơ tháng Bảy - những vần thơ day dứt như một lời nhắc mình về những ân tình sâu nặng. Tôi biết và yêu 'Cái roi ngày ấy' của tác giả Đinh Phạm Thái viết về đề tài 'Ghi ơn các thương binh liệt sĩ'. Ngày nào con nghịch, con chơi/ Bỏ nhà đi hết một hơi tối ngày/ Làn roi rơi xuống thân gầy/ Làm đau tay mẹ làm cay mắt bà/ Bây giờ con ở đâu xa/ Nắm xương không cửa không nhà mãi đi/ Trường Sơn một dải xanh rì/ Đất đen, đất đỏ, đất gì chôn con./ Chân run, quờ chiếc gậy mòn/ Sợ cầm phải cái roi còn đâu đây..."
+      },
+      {
+        "time": "2024-08-06T00:09:00",
+        "text": "Phóng viên Chuyên trang Thị trường Tài chính- Báo Kinh tế và Đô thị đã có cuộc trao đổi với chuyên gia kinh tế Nguyễn Trí Hiếu về việc việc gần đây nhiều người dân lên tiếng phản ánh Công ty Vàng bạc đá quý Sài Gòn từ chối mua lại vàng miếng SJC một chữ."
+      },
+      {
+        "time": "2024-08-06T00:09:00",
+        "text": "Trương Bá Chi đã lui về ở ẩn trong khoảng gần một năm nay."
+      },
+      {
+        "time": "2024-08-06T00:07:58",
+        "text": "Hôm thứ Hai (5/8), Groq - công ty khởi nghiệp phát triển chip để chạy các mô hình trí tuệ nhân tạo tạo sinh nhanh hơn bộ xử lý thông thường - cho biết đã huy động được 640 triệu USD trong vòng gọi vốn mới do Blackrock dẫn đầu."
+      },
+      {
+        "time": "2024-08-06T00:07:00",
+        "text": "Thủ tướng Benjamin Netanyahu hôm 5/8 khẳng định Israel đang trong cuộc chiến 'đa mặt trận.' Ông Netanyahu cũng cho biết Israel đã chuẩn bị mọi kịch bản và sẵn sàng đối phó với bất kỳ tình huống nào."
+      },
+      {
+        "time": "2024-08-06T00:07:00",
+        "text": "Công ty CP S. thường gửi văn bản cho cơ quan nhà nước bằng bản giấy, đóng dấu đỏ, ký mực tươi. Theo chủ trương chuyển đổi số của Chính phủ, Công ty thực hiện soạn thảo ký số văn bản thay vì in giấy như trước."
+      },
+      {
+        "time": "2024-08-06T00:06:00",
+        "text": "LHQ tuyên bố 9 nhân viên UNRWA \"có thể từng tham gia\" cuộc tấn công của Hamas vào Israel ngày 7/10/2023 và đã sa thải những người này."
+      },
+      {
+        "time": "2024-08-06T00:05:39",
+        "text": "Dù đã có những cải tiến quan trọng, Luật Đấu thầu 2023 cũng khó có thể kiểm soát và ngăn chặn được hết các hành vi lũng đoạn đấu thầu. Cùng với các luật khác, Luật Cạnh tranh có thể tham gia để giới hạn các biểu hiện tiêu cực có thể xảy ra trong quá trình thực thi Luật Đấu thầu. Kiểm soát hành vi thông thầu là một điển hình."
+      },
+      {
+        "time": "2024-08-06T00:05:30",
+        "text": "Theo Erving Goffman, mỗi cá nhân đều thực hiện các 'vai diễn' khác nhau trong cuộc sống. Trong tiểu luận Cái tôi trong tương tác xã hội(1) (The presentation of self in everyday life) xuất bản năm 1956, Goffman cho rằng khi con người tương tác với nhau trong xã hội thì mỗi cá nhân có xu hướng truyền đạt những gì ấn tượng của bản thân tới người đối diện."
+      },
+      {
+        "time": "2024-08-06T00:05:14",
+        "text": "Sau hơn 10 năm ở ổn định và đã đóng 95% tiền mua căn hộ cho chủ đầu tư, các hộ dân của một chung cư ở quận Tân Phú (TPHCM) vẫn chưa có giấy chứng nhận quyền sở hữu. Không những thế, 214 căn hộ của chung cư này còn bị ngân hàng thông báo xử lý tài sản do chủ đầu tư đã thế chấp tại ngân hàng từ năm 2010"
+      },
+      {
+        "time": "2024-08-06T00:05:06",
+        "text": "Chỉ huy và tuân thủ mệnh lệnh là hai yếu tố quan trọng để thành công trong các chiến dịch quân sự. Nhưng một số sự kiện xảy ra từ Thế chiến II tới gần đây cho thấy, đôi khi việc kháng lệnh đã làm thay đổi cả lịch sử, ngăn chặn thảm họa có thể xảy ra."
+      },
+      {
+        "time": "2024-08-06T00:05:05",
+        "text": "Trong bối cảnh an ninh toàn cầu ngày càng phức tạp, Ủy ban châu Âu (EC) quyết định tăng cường đầu tư vào lĩnh vực quốc phòng với số tiền 7,3 tỷ EUR (7,89 tỷ USD) trong giai đoạn 2021-2027 để tài trợ cho 34 dự án nghiên cứu quân sự."
+      },
+      {
+        "time": "2024-08-06T00:05:04",
+        "text": "Ông Bùi Văn Quản, Chủ tịch Hiệp hội Vận tải hàng hóa TP.HCM, đã có những nhận định về đề xuất của Bộ Công an trừ điểm GPLX, phục hồi điểm GPLX và tịch thu phương tiện đối với hành vi vi phạm giao thông."
+      },
+      {
+        "time": "2024-08-06T00:05:00",
+        "text": "Sự kết hợp uy lực giữa máy bay ném bom H-6 của Trung Quốc và Tu-95 của Nga ngày 24/7 vừa qua lại một lần nữa thể hiện sức mạnh, thách thức sự kiên nhẫn của Mỹ."
+      },
+      {
+        "time": "2024-08-06T00:05:00",
+        "text": "Huyện Nam Trực có vị trí địa lý thuận lợi, nằm gần trung tâm TP Nam Định và được bao bọc bởi các trục giao thông quan trọng. Đây là điều kiện thuận lợi để huyện phát triển các ngành công nghiệp, nông nghiệp và dịch vụ."
+      },
+      {
+        "time": "2024-08-06T00:05:00",
+        "text": "Chuyện tình của Tiến Linh và Hồng Loan nhanh chóng kết thúc sau 3 tháng nhưng mọi nhất cử nhất động của chàng trai đội tuyển Việt Nam và gái xinh tuổi 26 vẫn được các fan liên tục cập nhật."
+      },
+      {
+        "time": "2024-08-06T00:05:00",
+        "text": "Ý thức người dân tăng sau thời gian xử lý ngặt nghèo, đã đến lúc giảm mức phạt với tài xế có nồng độ cồn chưa vượt 0,25 mg/lít khí thở, mức mà nhiều nước không phạt."
+      },
+      {
+        "time": "2024-08-06T00:05:00",
+        "text": "Trong thời đại số, dữ liệu là tài sản vô giá của doanh nghiệp. Tuy nhiên, nhiều doanh nghiệp vẫn đang mắc phải những sai lầm cơ bản trong việc bảo vệ dữ liệu, dẫn đến những hậu quả nghiêm trọng…"
+      },
+      {
+        "time": "2024-08-06T00:05:00",
+        "text": "Cái kết trên đầu tóc bà nội khiến ai nấy không khỏi bàng hoàng."
+      },
+      {
+        "time": "2024-08-06T00:04:53",
+        "text": "Từ miền Đông Nam bộ, TPHCM đến đồng bằng sông Cửu Long đều đang cần cát để san lấp cho các công trình giao thông quan trọng. Ngoài các công trình giao thông trọng điểm, hiện các địa phương vẫn cần nguồn cát san lấp để xây dựng các tuyến đường nội tỉnh, khu công nghiệp… Chính vì vậy, sớm có phương án sử dụng tro xỉ làm vật liệu san lấp được xem là giải pháp 'lưỡng dụng', vừa giúp các địa phương giảm áp lực về nguồn cát san lấp vừa giải quyết lượng tro xỉ đang tồn đọng rất lớn."
+      },
+      {
+        "time": "2024-08-06T00:04:12",
+        "text": "Cộng đồng quốc tế đang chạy đua với thời gian nhằm ngăn chặn xung đột tại Trung Đông vượt qua 'lằn ranh đỏ', bùng phát thành một cuộc chiến tranh quy mô lớn cuốn cả khu vực chiến lược này vào vòng xoáy với nhưng hệ lụy còn chưa thể lường hết vào lúc này với toàn thế giới."
+      },
+      {
+        "time": "2024-08-06T00:04:00",
+        "text": "Tiếp bước cha trong sự nghiệp sáng tác kịch bản sân khấu, tác giả trẻ Lê Hoàng Long - con trai của cố tác giả Lê Duy Hạnh - đã viết kịch bản 'Đứt dây tơ chùng'. Vở đã được NSND Hồng Vân dàn dựng và sẽ phúc khảo ngày 8-8 tại Sân khấu Kịch Hồng Vân."
+      },
+      {
+        "time": "2024-08-06T00:04:00",
+        "text": "Theo ông Hà Đình Bốn - Phó Chủ tịch Hội Bảo vệ quyền trẻ em Việt Nam, việc bảo vệ trẻ em là trách nhiệm của cả xã hội, mỗi người dân cần đóng góp một phần nhỏ để tạo ra môi trường sống an toàn và lành mạnh cho trẻ em."
+      },
+      {
+        "time": "2024-08-06T00:04:00",
+        "text": "Campuchia hôm 5/8 đã tổ chức Lễ Động thổ, chính thức khởi công dự án Kênh đào Funan Techo."
+      },
+      {
+        "time": "2024-08-06T00:01:00",
+        "text": "6 tháng đầu năm 2024, HĐND huyện An Phú quyết tâm đổi mới, phát huy dân chủ, chủ động trong chỉ đạo, điều hành, phối hợp chặt chẽ với UBND huyện, UBMTTQVN huyện, tập trung thực hiện thắng lợi nghị quyết HĐND huyện và phát triển kinh tế - xã hội (KTXH)."
+      },
+      {
+        "time": "2024-08-06T00:01:00",
+        "text": "Khối thi đua số 4 tỉnh An Giang gồm 10 thành viên, thuộc nhóm cơ quan bảo vệ pháp luật, lực lượng vũ trang: Sở Tư pháp, Bộ Chỉ huy Quân sự tỉnh, Bộ đội Biên phòng tỉnh, Cục Hải quan, Ban An toàn giao thông, Viện Kiểm sát nhân dân tỉnh, Tòa án nhân dân tỉnh, Cục Thi hành án Dân sự, Thanh tra tỉnh, Công an tỉnh."
+      },
+      {
+        "time": "2024-08-06T00:01:00",
+        "text": "Dự thảo Luật Phòng, chống mua bán người sửa đổi đã đưa ra nhiều điểm mới nổi bật nhằm khắc phục những hạn chế của luật hiện hành và đáp ứng tốt hơn yêu cầu thực tiễn."
+      },
+      {
+        "time": "2024-08-06T00:00:50",
+        "text": "Năm 2023, lượng khách ngoại đến Hội An cao gấp 3 lần lượng khách nội địa, gấp khoảng 6 lần lượng khách ngoại đến Phú Quốc và vượt cả lượng khách ngoại của tỉnh Khánh Hòa."
+      }
+    ]
+  }
