@@ -6,6 +6,10 @@ import usePagination from '../../hooks/usePagination'
 import Pagination from '../../ui/Pagination'
 import axios from 'axios'
 import { toast } from 'react-toastify'
+import CalendarSelector from '../../components/CalendarSelector'
+import Search from '../../ui/Search'
+import { useSearchParams } from 'react-router-dom'
+import dayjs from 'dayjs'
 
 const TYPE = {
   EVENT: 'event',
@@ -17,6 +21,31 @@ const ClusterTable = () => {
   const [filterData, setFilterData] = useState([]);
   const [isDisabled, setIsDisabled] = useState(true);
   const [selected, setSelected] = useState([]);
+  const [date, setDate] = useState();
+  const [title, setTitle] = useState('');
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  useEffect(() => {    
+    searchParams.get("from") && setDate([dayjs(searchParams.get("from"), 'YYYY-MM-DD'), dayjs(searchParams.get("to"), 'YYYY-MM-DD')]);
+    searchParams.get("title") && setTitle(searchParams.get("title"));
+
+  }, [])
+
+  useEffect(() => {
+    if(!date) {
+      setSearchParams({
+        title: title,
+      })
+    }
+    else{
+      setSearchParams({
+        from: date[0].format('YYYY-MM-DDTHH:mm:ss'),
+        to: date[1].format('YYYY-MM-DDTHH:mm:ss'),
+        title: title,
+      })
+    }
+  }, [date, title])
+
 
   const handleMerge = async () => {
     if(selected.length !== 2) return
@@ -37,8 +66,13 @@ const ClusterTable = () => {
 
   const pagination = usePagination(filterData?.num_clusters);
   
-  const fetchCluster = async ({ page = 0 }) => {
-    const res = await axios.get(`/api/v1/clusters?page=${page}`)
+  const fetchCluster = async ({ page = 0, date, title = '' }) => {
+    let from = '', to = ''
+    if(date) {
+      from = date[0].format('YYYY-MM-DDTHH:mm:ss')
+      to = date[1].format('YYYY-MM-DDTHH:mm:ss')
+    }
+    const res = await axios.get(`/api/v1/clusters?page=${page}&from=${from}&to=${to}&title=${title}`);
     setFilterData({
       num_clusters: res.data.total,
       clusters: res.data.clusterEntityList.map((cluster, k) => {
@@ -77,10 +111,12 @@ const ClusterTable = () => {
   useEffect(() => {
     
     fetchCluster({
-      page: pagination.currentPage
+      page: pagination.currentPage,
+      date: date,
+      title: title,
     })
     
-  }, [pagination.currentPage])
+  }, [pagination.currentPage, date, title])
 
   useEffect(() => {
     pagination.goToPage(0);
@@ -230,6 +266,13 @@ const ClusterTable = () => {
     <>
       <div className="w-full grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-[26px] lg:grid-cols-9 lg:items-end xl:grid-cols-12">
         <button disabled={isDisabled} className='btn btn--secondary blue !h-[44px] xl:col-span-12' onClick={handleMerge}>Merge Cluster</button>
+      </div>
+      <div className="w-full grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-[26px] lg:grid-cols-9 lg:items-end xl:grid-cols-12">
+        <CalendarSelector value={date} onChange={setDate} wrapperClass="lg:max-w-[275px] lg:col-span-3 xl:col-span-4" id="ordersPeriodSelector"/>
+        <Search query={title} setQuery={setTitle} placeholder='Title' wrapperClass="lg:max-w-[275px] lg:col-span-3 xl:col-span-4" />
+        <button className='btn btn--outline blue !h-[44px] xl:col-span-1' onClick={() => handleClear()}>
+          Clear
+        </button>
       </div>
       <div>
         <StyledTable
