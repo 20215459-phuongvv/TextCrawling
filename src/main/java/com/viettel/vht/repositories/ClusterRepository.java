@@ -48,8 +48,8 @@ public class ClusterRepository {
         long total = clusterCollection.countDocuments(query);
         List<Document> documents = clusterCollection.find(query)
                 .sort(Sorts.descending("last_updated"))
-                .skip(clusterRequestDTO.getPage() * clusterRequestDTO.getSize())
-                .limit(clusterRequestDTO.getSize())
+//                .skip(clusterRequestDTO.getPage() * clusterRequestDTO.getSize())
+//                .limit(clusterRequestDTO.getSize())
                 .into(new ArrayList<>());
         List<ClusterEntity> clusterEntities = new ArrayList<>();
         if (!documents.isEmpty()) {
