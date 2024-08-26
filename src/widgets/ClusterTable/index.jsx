@@ -72,7 +72,7 @@ const ClusterTable = () => {
       from = date[0].format('YYYY-MM-DDTHH:mm:ss')
       to = date[1].format('YYYY-MM-DDTHH:mm:ss')
     }
-    const res = await axios.get(`/api/v1/clusters?page=${page}&from=${from}&to=${to}&title=${title}`);
+    const res = await axios.get(`/api/v1/clusters?page=${page}&from=${from}&to=${to}&text=${title}`);
     setFilterData({
       num_clusters: res.data.total,
       clusters: res.data.clusterEntityList.map((cluster, k) => {
