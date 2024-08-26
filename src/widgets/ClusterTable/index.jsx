@@ -4,6 +4,7 @@ import { CLUSTER_COLUMN_DEFS } from '../../constants/columnDefs'
 import Empty from '../../components/Empty'
 import usePagination from '../../hooks/usePagination'
 import Pagination from '../../ui/Pagination'
+import DrawerStyler from '../../ui/Drawer'
 import axios from 'axios'
 import { toast } from 'react-toastify'
 import CalendarSelector from '../../components/CalendarSelector'
@@ -24,7 +25,8 @@ const ClusterTable = () => {
   const [date, setDate] = useState();
   const [title, setTitle] = useState('');
   const [searchParams, setSearchParams] = useSearchParams();
-
+  const [initData, setInitData] = useState(false);
+  const [open, setOpen] = useState(false);
   useEffect(() => {    
     searchParams.get("from") && setDate([dayjs(searchParams.get("from"), 'YYYY-MM-DD'), dayjs(searchParams.get("to"), 'YYYY-MM-DD')]);
     searchParams.get("title") && setTitle(searchParams.get("title"));
@@ -72,7 +74,9 @@ const ClusterTable = () => {
       from = date[0].format('YYYY-MM-DDTHH:mm:ss')
       to = date[1].format('YYYY-MM-DDTHH:mm:ss')
     }
-    const res = await axios.get(`/api/v1/clusters?page=${page}&from=${from}&to=${to}&text=${title}`);
+    const res = await axios.get(`/api/v1/clusters?from=${from}&to=${to}&text=${title}`);
+
+    console.log(res.data);
     setFilterData({
       num_clusters: res.data.total,
       clusters: res.data.clusterEntityList.map((cluster, k) => {
@@ -90,6 +94,8 @@ const ClusterTable = () => {
                 content: event.text,
               }
             }),
+          ],
+          documents: [
             ...cluster.documents.map((document, index) => {
               return {
                 ...document,
@@ -111,7 +117,6 @@ const ClusterTable = () => {
   useEffect(() => {
     
     fetchCluster({
-      page: pagination.currentPage,
       date: date,
       title: title,
     })
@@ -139,38 +144,42 @@ const ClusterTable = () => {
     }
   }
 
-  const handleDeleteEvent = async (record, id) => {
-    const res = await axios.delete(`/api/v1/clusters/${id}/events`, {
-      data: [record.content]
-    })
+  const handleDeleteEvent = async (record) => {
+    const key = record.key
+    const id = key.split('-')[0]
+    console.log(record);
+    
+    // const res = await axios.delete(`/api/v1/clusters/${id}/events`, {
+    //   data: [record.content]
+    // })
 
-    if(res.data) {
-      toast.success("EVENT DELETED SUCCESSFULLY")
-      // Tìm cluster có id khớp với id được truyền vào
-      const cluster = filterData.clusters.find(cluster => cluster.id === id);
+    // if(res.data) {
+    //   toast.success("EVENT DELETED SUCCESSFULLY")
+    //   // Tìm cluster có id khớp với id được truyền vào
+    //   const cluster = filterData.clusters.find(cluster => cluster.id === id);
     
-      // Nếu không tìm thấy cluster, hãy trả về
-      if (!cluster) return;
+    //   // Nếu không tìm thấy cluster, hãy trả về
+    //   if (!cluster) return;
     
-      // Tạo một mảng mới không chứa record được truyền vào
-      const newEvents = cluster.children.filter(child => child.key !== record.key);
+    //   // Tạo một mảng mới không chứa record được truyền vào
+    //   const newEvents = cluster.children.filter(child => child.key !== record.key);
     
-      // Tạo một cluster mới với mảng children mới
-      const newCluster = {
-        ...cluster,
-        children: newEvents
-      };
+    //   // Tạo một cluster mới với mảng children mới
+    //   const newCluster = {
+    //     ...cluster,
+    //     children: newEvents
+    //   };
     
-      // Tạo một mảng mới clusters, thay thế cluster cũ bằng cluster mới
-      const newClusters = filterData.clusters.map(c => (c.id === id ? newCluster : c));
+    //   // Tạo một mảng mới clusters, thay thế cluster cũ bằng cluster mới
+    //   const newClusters = filterData.clusters.map(c => (c.id === id ? newCluster : c));
     
-      // Cập nhật filterData với mảng clusters mới
-      setFilterData({
-        ...filterData,
-        clusters: newClusters
-      });
+    //   // Cập nhật filterData với mảng clusters mới
+    //   setFilterData({
+    //     ...filterData,
+    //     clusters: newClusters
+    //   });
 
-    }
+    // }
   }
 
   const handleDeleteDocument = async (record, id) => {
@@ -221,9 +230,9 @@ const ClusterTable = () => {
       handleDeleteEvent(record, id)
     }
 
-    if(type === TYPE.DOCUMENT) {
-      handleDeleteDocument(record, id)
-    }
+    // if(type === TYPE.DOCUMENT) {
+    //   handleDeleteDocument(record, id)
+    // }
 
     if(type === TYPE.CLUSTER) {
       handleDeleteCluster(record)
@@ -236,6 +245,12 @@ const ClusterTable = () => {
 
     
 
+  }
+
+  const handleEdit = (record) => {
+    console.log(record);
+    setInitData(record);
+    setOpen(true);
   }
 
   const handleOnSelect = (record, selected, selectedRows) => {
@@ -276,7 +291,7 @@ const ClusterTable = () => {
       </div>
       <div>
         <StyledTable
-            columns={CLUSTER_COLUMN_DEFS(handleDelete)}
+            columns={CLUSTER_COLUMN_DEFS(handleEdit, handleDelete)}
             pagination={false}
             dataSource={filterData?.clusters}
             locale={{
@@ -289,6 +304,8 @@ const ClusterTable = () => {
       {
         pagination.maxPage > 0 && <Pagination pagination={pagination} />
       }
+
+      <DrawerStyler data={initData} open={open} onClose={() => setOpen(false)} cluster={false} />
     </>
   )
 }

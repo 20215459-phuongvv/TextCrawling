@@ -8,9 +8,9 @@ const Timestamp = ({date, wrapperClass}) => {
                 <span className="h6 !text-sm !font-semibold">
                     {dayjs(date).format('DD/MM/YYYY')}
                 </span>
-                <span className="font-medium text-sm">
+                {/* <span className="font-medium text-sm">
                     at {dayjs(date).format('hh:mm A')}
-                </span>
+                </span> */}
             </div>
         </div>
     )
