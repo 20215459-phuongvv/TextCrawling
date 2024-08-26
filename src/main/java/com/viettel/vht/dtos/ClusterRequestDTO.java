@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 public class ClusterRequestDTO {
     int page = 0;
     int size = 10;
-    String title;
+    String text;
     LocalDateTime from;
     LocalDateTime to;
 }

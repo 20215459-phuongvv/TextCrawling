@@ -13,7 +13,7 @@ import java.util.List;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class ClusterEntity {
     String id;
-    String title;
+    String text;
     List<DocumentInfo> events;
     List<DocumentInfo> documents;
     LocalDateTime lastUpdated;

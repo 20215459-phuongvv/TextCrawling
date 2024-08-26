@@ -15,7 +15,6 @@ import org.springframework.stereotype.Repository;
 
 import org.bson.Document;
 
-import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.util.ArrayList;
 import java.util.Date;
@@ -28,13 +27,13 @@ public class ClusterRepository {
     public final MongoCollection<Document> clusterCollection;
     @Autowired
     public ClusterRepository(MongoDatabase database) {
-        this.clusterCollection = database.getCollection("clusters");
+        this.clusterCollection = database.getCollection("test_clusters");
     }
     public ClusterResponseDTO findClusters(ClusterRequestDTO clusterRequestDTO) {
         List<Bson> filters = new ArrayList<>();
 
-        if (clusterRequestDTO.getTitle() != null && !clusterRequestDTO.getTitle().isEmpty()) {
-            filters.add(Filters.regex("title", clusterRequestDTO.getTitle(), "i"));
+        if (clusterRequestDTO.getText() != null && !clusterRequestDTO.getText().isEmpty()) {
+            filters.add(Filters.regex("title", clusterRequestDTO.getText(), "i"));
         }
 
         if (clusterRequestDTO.getFrom() != null) {
@@ -149,7 +148,7 @@ public class ClusterRepository {
     private ClusterEntity convertToClusterEntity(Document document) {
         ClusterEntity clusterEntity = new ClusterEntity();
         clusterEntity.setId(document.getObjectId("_id").toString());
-        clusterEntity.setTitle(document.getString("title"));
+        clusterEntity.setText(document.getString("title"));
         clusterEntity.setLastUpdated(document.getDate("last_updated").toInstant().atOffset(ZoneOffset.UTC).toLocalDateTime());
         List<DocumentInfo> events = new ArrayList<>();
         List<Map<String, Object>> eventMaps = (List<Map<String, Object>>) document.get("summarized_events");
