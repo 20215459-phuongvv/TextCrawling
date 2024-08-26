@@ -88,9 +88,7 @@ public class DanTriCrawlServiceImpl implements DanTriCrawlService {
             running.set(true);
             List<PostEntity> posts = new ArrayList<>();
             try {
-                while (running.get()) {
-                    posts = crawlDanTri(true);
-                }
+                posts = crawlDanTri(true);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             } finally {
@@ -116,7 +114,7 @@ public class DanTriCrawlServiceImpl implements DanTriCrawlService {
 
     private List<String> crawlDanTriPostUrlByTag(String url, boolean isScheduled) throws IOException {
         List<String> pagePostUrlList = new ArrayList<>();
-        int max = isScheduled ? 2 : Constants.DanTri.MAX_PAGE;
+        int max = isScheduled ? 5 : Constants.DanTri.MAX_PAGE;
         for (int page = 1 ; page <= max; page++) {
             String newUrl = url.replace(".htm", String.format(Constants.DanTri.PAGE, page));
             System.out.println(newUrl);

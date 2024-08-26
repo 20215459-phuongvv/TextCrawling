@@ -81,9 +81,7 @@ public class VietnamnetCrawlServiceImpl implements VietnamnetCrawlService {
             running.set(true);
             List<PostEntity> posts = new ArrayList<>();
             try {
-                while (running.get()) {
-                    posts = crawlVietnamnet(true);
-                }
+                posts = crawlVietnamnet(true);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             } finally {
@@ -109,7 +107,7 @@ public class VietnamnetCrawlServiceImpl implements VietnamnetCrawlService {
 
     private List<String> crawlVietnamnetPostUrlByTag(String url, boolean isScheduled) throws IOException {
         List<String> pagePostUrlList = new ArrayList<>();
-        int max = isScheduled ? 2 : Constants.Vietnamnet.MAX_PAGE;
+        int max = isScheduled ? 5 : Constants.Vietnamnet.MAX_PAGE;
         if (Constants.Vietnamnet.DEAD_PAGE.contains(url)) {
             return null;
         }
