@@ -129,9 +129,17 @@ public class ClusterRepository {
         List<Document> mergedDocuments = new ArrayList<>(documents1);
         mergedDocuments.addAll(documents2);
 
-        mergedDocuments.sort((doc1, doc2) -> doc2.getDate("time").compareTo(doc1.getDate("time")));
+        List<Document> events1 = clusterDoc1.getList("summarized_events", Document.class);
+        List<Document> events2 = clusterDoc2.getList("summarized_events", Document.class);
 
-        Document update = new Document("$set", new Document("documents", mergedDocuments));
+        List<Document> mergedEvents = new ArrayList<>(events1);
+        mergedEvents.addAll(events2);
+
+        mergedEvents.sort((doc1, doc2) -> doc2.getDate("time").compareTo(doc1.getDate("time")));
+
+        Document update = new Document("$set", new Document("documents", mergedDocuments)
+                .append("summarized_events", mergedEvents));
+
         clusterCollection.updateOne(new Document("_id", new ObjectId(id1)), update);
         clusterCollection.deleteOne(new Document("_id", new ObjectId(id2)));
         Document mergedCluster = clusterCollection.find(new Document("_id", new ObjectId(id1))).first();
