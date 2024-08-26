@@ -2,8 +2,8 @@ import Timestamp from '../ui/Timestamp';
 import SubmenuTrigger from '../ui/SubmenuTrigger';
 import TruncatedText from '../components/TruncatedText';
 import { NavLink } from 'react-router-dom';
-
-export const DASHBOARD_COLUMN_DEFS = (onClck) => [
+import trash from '../assets/trash.svg';
+export const DASHBOARD_COLUMN_DEFS = (onClick) => [
     {
         key: 1,
         title: 'Date & Time',
@@ -55,7 +55,7 @@ export const DASHBOARD_COLUMN_DEFS = (onClck) => [
         width: '5%',
         render: (_, record) =>
             <div className="flex items-center justify-end gap-11">
-                <NavLink aria-label="Edit" onClick={() => onClck(record)}>
+                <NavLink aria-label="Edit" onClick={() => onClick(record)}>
                     <i className="icon icon-pen-to-square-regular text-lg leading-none"/>
                 </NavLink>
                 {/* <SubmenuTrigger/> */}
@@ -63,18 +63,30 @@ export const DASHBOARD_COLUMN_DEFS = (onClck) => [
     }
 ];
 
-export const CLUSTER_COLUMN_DEFS = [
-    {
-        key: 1,
-        title: 'Date & Time',
-        dataIndex: 'time',
-        width: '10%',
-        render: time => <Timestamp date={time}/>,
-    },
+export const CLUSTER_COLUMN_DEFS = (onClick) => [
     {
         key: 2,
         title: 'Title',
         dataIndex: 'text',
         render: text => <TruncatedText className="font-heading font-bold" lines={3} text={text} />
     },
+    {
+        key: 1,
+        title: 'Date & Time',
+        dataIndex: 'lastUpdated',
+        width: '10%',
+        render: lastUpdated => <Timestamp date={lastUpdated}/>,
+    },
+    {
+        key: 6,
+        title: '',
+        dataIndex: 'actions',
+        width: '5%',
+        render: (_, record) =>
+            <div className="flex items-center justify-end gap-11" onClick={() => onClick(record)}>
+                <NavLink aria-label="Edit">
+                    <img src={trash} alt="" />
+                </NavLink>
+            </div>
+    }
 ];

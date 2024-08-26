@@ -12,11 +12,9 @@ const StyledTable = styled(Table)`
   .ant-table-thead .ant-table-cell {
     padding: 33px 0 28px !important;
     background: var(--widget);
-
-    &:last-child {
-      text-align: right;
-    }
   }
+
+  
 
   .ant-table-row:last-child .ant-table-cell {
     border-bottom: 0;

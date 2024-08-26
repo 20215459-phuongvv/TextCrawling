@@ -5,51 +5,242 @@ import Empty from '../../components/Empty'
 import usePagination from '../../hooks/usePagination'
 import Pagination from '../../ui/Pagination'
 import axios from 'axios'
+import { toast } from 'react-toastify'
 
-const ClusterTable = ({ data , isNoise }) => {
-  const {
-    num_clusters = 0, 
-    num_clustered_documents = 0, 
-    num_noise_documents = 0, 
-    clusters = [], 
-    noise_documents = []
-  } = data
+const TYPE = {
+  EVENT: 'event',
+  DOCUMENT: 'document',
+  CLUSTER: 'cluster'
+}
+
+const ClusterTable = () => {
   const [filterData, setFilterData] = useState([]);
-  const pagination = usePagination(isNoise ? num_noise_documents : num_clustered_documents);
-  console.log(pagination);
-  
-  const flatData = (array) => {
-    return array.flatMap(arr => arr.documents);
+  const [isDisabled, setIsDisabled] = useState(true);
+  const [selected, setSelected] = useState([]);
+
+  const handleMerge = async () => {
+    if(selected.length !== 2) return
+
+    console.log(selected)
+    const params = "id1=" + selected.map(item => item.id).join('&id2=')
+    console.log(params);
+    
+    const res = await axios.post(`/api/v1/clusters/merge-clusters?${params}`)
+    console.log(res.data)
+    if(res.data) {
+      toast.success("CLUSTER MERGED SUCCESSFULLY")
+      fetchCluster({
+        page: pagination.currentPage
+      })
+    }
   }
 
-  const itemsPerPage = 10;
-  const begin = (pagination.currentPage) * itemsPerPage;
-  const end = begin + itemsPerPage;
+  const pagination = usePagination(filterData?.num_clusters);
+  
+  const fetchCluster = async ({ page = 0 }) => {
+    const res = await axios.get(`/api/v1/clusters?page=${page}`)
+    setFilterData({
+      num_clusters: res.data.total,
+      clusters: res.data.clusterEntityList.map((cluster, k) => {
+        return {
+          ...cluster,
+          key: `${cluster.id}-${TYPE.CLUSTER}-${k}`,
+          children: [
+            ...cluster.events.map((event, index) => {
+              return {
+                ...event,
+                key: `${cluster.id}-${TYPE.EVENT}-${index}`,
+                text: <>
+                        <span className='text-red'>(EVENT) </span> {event.text}
+                      </>,
+                content: event.text,
+              }
+            }),
+            ...cluster.documents.map((document, index) => {
+              return {
+                ...document,
+                key: `${cluster.id}-${TYPE.DOCUMENT}-${index}`,
+                text: <>
+                        <span className='text-green'>
+                          (DOCUMENT) 
+                        </span> {document.text}
+                      </>,  
+                content: document.text,
+              }
+            })
+          ]
+        }
+      })
+    })
+  }
 
   useEffect(() => {
-    if (isNoise) {
-      setFilterData(noise_documents);
-    } else {
-      setFilterData(flatData(clusters));
-    }    
     
-  }, [isNoise, data])
+    fetchCluster({
+      page: pagination.currentPage
+    })
+    
+  }, [pagination.currentPage])
 
   useEffect(() => {
     pagination.goToPage(0);
-  }, [pagination.maxPage, isNoise])
+  }, [pagination.maxPage])
+
+  const handleDeleteCluster = async (record) => {
+    try {
+      const res = await axios.delete(`/api/v1/clusters/${record.id}`)
+
+      if(res.data) {
+        toast.success("CLUSTER DELETED SUCCESSFULLY")
+        const newClusters = filterData.clusters.filter(cluster => cluster.id !== record.id)
+        setFilterData({
+          ...filterData,
+          clusters: newClusters
+        })
+      }
+    } catch (error) {
+      toast.error(error.message)
+    }
+  }
+
+  const handleDeleteEvent = async (record, id) => {
+    const res = await axios.delete(`/api/v1/clusters/${id}/events`, {
+      data: [record.content]
+    })
+
+    if(res.data) {
+      toast.success("EVENT DELETED SUCCESSFULLY")
+      // Tìm cluster có id khớp với id được truyền vào
+      const cluster = filterData.clusters.find(cluster => cluster.id === id);
+    
+      // Nếu không tìm thấy cluster, hãy trả về
+      if (!cluster) return;
+    
+      // Tạo một mảng mới không chứa record được truyền vào
+      const newEvents = cluster.children.filter(child => child.key !== record.key);
+    
+      // Tạo một cluster mới với mảng children mới
+      const newCluster = {
+        ...cluster,
+        children: newEvents
+      };
+    
+      // Tạo một mảng mới clusters, thay thế cluster cũ bằng cluster mới
+      const newClusters = filterData.clusters.map(c => (c.id === id ? newCluster : c));
+    
+      // Cập nhật filterData với mảng clusters mới
+      setFilterData({
+        ...filterData,
+        clusters: newClusters
+      });
+
+    }
+  }
+
+  const handleDeleteDocument = async (record, id) => {
+
+    const res = await axios.delete(`/api/v1/clusters/${id}/documents`, {
+      data: [record.content]
+    })
+
+    if(res.data) {
+      toast.success("DOCUMENTS DELETED SUCCESSFULLY")
+      // Tìm cluster có id khớp với id được truyền vào
+      const cluster = filterData.clusters.find(cluster => cluster.id === id);
+    
+      // Nếu không tìm thấy cluster, hãy trả về
+      if (!cluster) return;
+    
+      // Tạo một mảng mới không chứa record được truyền vào
+      const newDocuments = cluster.children.filter(child => child.key !== record.key);
+    
+      // Tạo một cluster mới với mảng children mới
+      const newCluster = {
+        ...cluster,
+        children: newDocuments
+      };
+    
+      // Tạo một mảng mới clusters, thay thế cluster cũ bằng cluster mới
+      const newClusters = filterData.clusters.map(c => (c.id === id ? newCluster : c));
+    
+      // Cập nhật filterData với mảng clusters mới
+      setFilterData({
+        ...filterData,
+        clusters: newClusters
+      });
+
+    }
+  };
+
+  const handleDelete = async (record) => {
+    
+    const key = record.key
+    const id = key.split('-')[0]
+    const type = key.split('-')[1]
+    const index = key.split('-')[2]
+
+    console.log(id, type, index)
+
+    if(type === TYPE.EVENT) {
+      handleDeleteEvent(record, id)
+    }
+
+    if(type === TYPE.DOCUMENT) {
+      handleDeleteDocument(record, id)
+    }
+
+    if(type === TYPE.CLUSTER) {
+      handleDeleteCluster(record)
+    }
+
+
+    // fetchCluster({
+    //   page: pagination.currentPage
+    // })
+
+    
+
+  }
+
+  const handleOnSelect = (record, selected, selectedRows) => {
+    console.log(record, selected, selectedRows);
+    console.log(selectedRows.length)
+    if(selectedRows.length !== 2) {
+      setIsDisabled(true);
+    }else {
+      setIsDisabled(false);
+    }
+  }
+
+  const handleOnChange = (selectedRowKeys, selectedRows) => {
+    console.log(`selectedRowKeys: ${selectedRowKeys}`, 'selectedRows: ', selectedRows);
+    if(selectedRowKeys.length !== 2) {
+      setSelected([])
+    }else {
+      setSelected(selectedRows)
+    }
+  }
+
+  const rowSelection = {
+    onSelect: handleOnSelect,
+    onChange: handleOnChange,
+  };
 
   return (
     <>
+      <div className="w-full grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-[26px] lg:grid-cols-9 lg:items-end xl:grid-cols-12">
+        <button disabled={isDisabled} className='btn btn--secondary blue !h-[44px] xl:col-span-12' onClick={handleMerge}>Merge Cluster</button>
+      </div>
       <div>
         <StyledTable
-            columns={CLUSTER_COLUMN_DEFS}
+            columns={CLUSTER_COLUMN_DEFS(handleDelete)}
             pagination={false}
-            dataSource={filterData.slice(begin, end)}
+            dataSource={filterData?.clusters}
             locale={{
               emptyText: <Empty text="No items found"/>
             }}
-            rowKey={(record) => (record.text)}
+            // rowKey={(record) => (record.title)}
+            rowSelection={rowSelection}
         />
       </div>
       {
