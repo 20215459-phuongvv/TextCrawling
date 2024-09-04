@@ -1,31 +1,43 @@
 package com.example.moduleCrawlData.controller;
 
+import com.example.moduleCrawlData.service.CrawlService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
+
+import java.util.concurrent.CompletableFuture;
 
 @RestController
 public class CrawlController {
 
     @Autowired
-    private RestTemplate restTemplate;
+    private CrawlService crawlService;
 
     @GetMapping("/crawl-data")
     public ResponseEntity<String> crawlData() {
-        String api1Url = "https://vht-repo-v1-0.onrender.com/api/v1/all-apis";
-        String api2Url = "https://vhtcrawldata.onrender.com/start_crawl";
+        // Start the asynchronous API calls
+        crawlService.crawlApi1();
+        crawlService.crawlApi2();
 
-        // Call the first API
-        String response1 = restTemplate.getForObject(api1Url, String.class);
+        // Return the success response immediately
+        return ResponseEntity.ok("Success");
+    }
 
-        // Call the second API
-        String response2 = restTemplate.getForObject(api2Url, String.class);
+    @GetMapping("/crawl-status")
+    public ResponseEntity<String> checkStatus() {
+        try {
+            // Start the asynchronous status checks
+            CompletableFuture<String> status1 = crawlService.checkStatusApi1();
+            CompletableFuture<String> status2 = crawlService.checkStatusApi2();
 
-        // Combine the responses or process as needed
-        String combinedResponse = "API 1 Response: " + response1 + "\nAPI 2 Response: " + response2;
+            // Combine the results once both are completed
+            CompletableFuture.allOf(status1, status2).join();
 
-        return ResponseEntity.ok(combinedResponse);
+            String combinedStatus = status1.get() + "\n" + status2.get();
+            return ResponseEntity.ok(combinedStatus);
+        } catch (Exception e) {
+            return ResponseEntity.status(500).body("Error checking statuses: " + e.getMessage());
+        }
     }
 }
