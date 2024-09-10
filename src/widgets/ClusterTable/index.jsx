@@ -150,37 +150,37 @@ const ClusterTable = () => {
     const id = key.split('-')[0]
     console.log(record);
     
-    // const res = await axios.delete(`/api/v1/clusters/${id}/events`, {
-    //   data: [record.content]
-    // })
+    const res = await axios.delete(`/api/v1/clusters/${id}/events`, {
+      data: [record.content]
+    })
 
-    // if(res.data) {
-    //   toast.success("EVENT DELETED SUCCESSFULLY")
-    //   // Tìm cluster có id khớp với id được truyền vào
-    //   const cluster = filterData.clusters.find(cluster => cluster.id === id);
+    if(res.data) {
+      toast.success("EVENT DELETED SUCCESSFULLY")
+      // Tìm cluster có id khớp với id được truyền vào
+      const cluster = filterData.clusters.find(cluster => cluster.id === id);
     
-    //   // Nếu không tìm thấy cluster, hãy trả về
-    //   if (!cluster) return;
+      // Nếu không tìm thấy cluster, hãy trả về
+      if (!cluster) return;
     
-    //   // Tạo một mảng mới không chứa record được truyền vào
-    //   const newEvents = cluster.children.filter(child => child.key !== record.key);
+      // Tạo một mảng mới không chứa record được truyền vào
+      const newEvents = cluster.children.filter(child => child.key !== record.key);
     
-    //   // Tạo một cluster mới với mảng children mới
-    //   const newCluster = {
-    //     ...cluster,
-    //     children: newEvents
-    //   };
+      // Tạo một cluster mới với mảng children mới
+      const newCluster = {
+        ...cluster,
+        children: newEvents
+      };
     
-    //   // Tạo một mảng mới clusters, thay thế cluster cũ bằng cluster mới
-    //   const newClusters = filterData.clusters.map(c => (c.id === id ? newCluster : c));
+      // Tạo một mảng mới clusters, thay thế cluster cũ bằng cluster mới
+      const newClusters = filterData.clusters.map(c => (c.id === id ? newCluster : c));
     
-    //   // Cập nhật filterData với mảng clusters mới
-    //   setFilterData({
-    //     ...filterData,
-    //     clusters: newClusters
-    //   });
+      // Cập nhật filterData với mảng clusters mới
+      setFilterData({
+        ...filterData,
+        clusters: newClusters
+      });
 
-    // }
+    }
   }
 
   const handleDeleteDocument = async (record, id) => {
