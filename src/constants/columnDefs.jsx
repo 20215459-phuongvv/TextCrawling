@@ -73,9 +73,9 @@ export const CLUSTER_COLUMN_DEFS = (onEdit, onDelete) => [
     {
         key: 1,
         title: 'Date & Time',
-        dataIndex: 'lastUpdated',
+        dataIndex: 'time',
         width: '10%',
-        render: lastUpdated => <Timestamp date={lastUpdated}/>,
+        render: time => <Timestamp date={time}/>,
     },
     {
         key: 6,

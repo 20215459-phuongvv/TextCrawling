@@ -82,6 +82,7 @@ const ClusterTable = () => {
       clusters: res.data.clusterEntityList.map((cluster, k) => {
         return {
           ...cluster,
+          time: cluster.lastUpdated,
           key: `${cluster.id}-${TYPE.CLUSTER}-${k}`,
           children: [
             ...cluster.events.map((event, index) => {
@@ -301,9 +302,9 @@ const ClusterTable = () => {
             rowSelection={rowSelection}
         />
       </div>
-      {
+      {/* {
         pagination.maxPage > 0 && <Pagination pagination={pagination} />
-      }
+      } */}
 
       <DrawerStyler data={initData} open={open} onClose={() => setOpen(false)} cluster={false} />
     </>
