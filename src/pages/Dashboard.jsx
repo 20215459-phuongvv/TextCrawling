@@ -70,7 +70,7 @@ const Dashboard = () => {
         <PageHeader title="Dashboard"/>
         <div className="flex flex-col flex-1 gap-5 md:gap-[26px]">
           <div className="w-full grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-[26px] lg:grid-cols-9 lg:items-end xl:grid-cols-12">
-            <button className='btn btn--outline blue !h-[44px] xl:col-span-12' onClick={handleCrawl}>{!isDisabled ? 'START CRAWL' : 'STOP CRAWL'}</button>
+            <button className='btn btn--outline blue !h-[44px] xl:col-span-12' onClick={handleCrawl}>{!isDisabled ? 'REQUEST DATA' : 'STOP'}</button>
           </div>
           <div className="w-full grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-[26px] lg:grid-cols-9 lg:items-end xl:grid-cols-12">
             <CalendarSelector value={date} onChange={setDate} wrapperClass="lg:max-w-[275px] lg:col-span-3 xl:col-span-4" id="ordersPeriodSelector"/>
