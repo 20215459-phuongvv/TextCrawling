@@ -59,7 +59,6 @@ const Dashboard = () => {
 
   const handleCrawl = async () => {
     setIsDisabled(!isDisabled)
-    console.log("hi")
     // await axios.get('/api/v1/all-apis')
     
   }

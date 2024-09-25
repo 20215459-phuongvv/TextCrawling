@@ -22,21 +22,23 @@ const DashboardTable = ({ date, title, tag, isCrawlActive }) => {
     }
     // const res = await axios.get(`/api/v1/posts?from=${from}&to=${to}&title=${title}&tagList=${tag}&page=${pagination.currentPage}`);
     // setFilterData(res?.data)
-    fetch("./src/db/data.csv")
-      .then((response) => response.text())
-      .then((csvText) => {
-        Papa.parse(csvText, {
-          header: true,
-          dynamicTyping: true,
-          complete: (results) => {
-            console.log("Parsed results:", results.data);
-            setFilterData({
-              postEntityList: results.data,
-              total: results.data.length,
-            });
-          },
+    setTimeout(async () => {
+      fetch("./src/db/data.csv")
+        .then(response => response.text())
+        .then(csvText => {
+          Papa.parse(csvText, {
+            header: true,
+            dynamicTyping: true,
+            complete: (results) => {
+              console.log("Parsed results:", results.data);
+              setFilterData({
+                postEntityList: results.data,
+                total: results.data.length,
+              });
+            },
+          });
         });
-      });
+    }, 10000);
   };
 
   const handleClick = (record) => {
