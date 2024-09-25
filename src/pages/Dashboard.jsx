@@ -17,11 +17,12 @@ const Dashboard = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const { data:tags } = useAPI('/api/v1/posts/tags');
     
-  const [isDisabled, setIsDisabled] = useState(true);
+  const [isDisabled, setIsDisabled] = useState(false);
 
   const handleFetchStatusCrawl = async () => {
-    const res = await axios.get('/api/v1/crawl/state')
-    setIsDisabled(res.data)
+    // const res = await axios.get('/api/v1/crawl/state')
+    // setIsDisabled(res.data)
+    setIsDisabled(false)
   }
 
   useEffect(() => {    
@@ -58,7 +59,8 @@ const Dashboard = () => {
 
   const handleCrawl = async () => {
     setIsDisabled(!isDisabled)
-    await axios.get('/api/v1/all-apis')
+    console.log("hi")
+    // await axios.get('/api/v1/all-apis')
     
   }
 
@@ -78,7 +80,7 @@ const Dashboard = () => {
               Clear
             </button>
           </div>
-          <DashboardTable date={date} title={title} tag={tag} />
+          <DashboardTable date={date} title={title} tag={tag} isCrawlActive={isDisabled}/>
         </div>
 
     </>

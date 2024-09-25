@@ -36,7 +36,7 @@ const useAPI = (url, method) => {
     //   context.current.handleError(err);
     console.log(err);
     
-    toast.error(err?.message)
+    // toast.error(err?.message)
 
     }
   }, [url, method]);
